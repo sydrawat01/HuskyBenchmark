@@ -6,6 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 import static edu.neu.coe.huskyBenchmark.util.Utilities.round;
@@ -122,12 +123,26 @@ public class QuickSortBasicTest {
 
     @Test
     public void testSortWithInstrumenting5() throws Exception {
-        int n = 1000;
+        int n = 10000;
         final SortWithHelper<Integer> sorter = new QuickSortBasic<>(n, config);
         final Helper<Integer> helper = sorter.getHelper();
-        final Integer[] xs = helper.random(Integer.class, r -> r.nextInt(10000));
+        final Integer[] xs = helper.random(Integer.class, r -> r.nextInt(100000));
         final Integer[] sorted = sorter.sort(xs);
         assertTrue(helper.sorted(sorted));
+    }
+
+    @Test
+    public void testStringSort() {
+        String testString = "HBAXWPQVDCREZY";
+        char[] charArray = testString.toCharArray();
+        Character[] arr = new Character[charArray.length];
+        for (int i = 0; i < arr.length; i++) arr[i] = charArray[i];
+        GenericSort<Character> s = new QuickSortBasic<>(arr.length, config);
+        Character[] res = s.sort(arr);
+        char[] result = new char[res.length];
+        for (int i = 0; i < arr.length; i++) result[i] = res[i];
+        String resultString = new String(result);
+        assertEquals("ABCDEHPQRVWXYZ", resultString);
     }
 
     @Test
@@ -183,7 +198,7 @@ public class QuickSortBasicTest {
         // NOTE this depends on the cutoff value for quick sort.
         int levels = k - 2;
         final Config config = ConfigTest.setupConfig("true", "0", "1", "", "");
-        final BaseHelper<Integer> helper = (BaseHelper<Integer>) HelperFactory.create("quick sort dual pivot", N, config);
+        final BaseHelper<Integer> helper = (BaseHelper<Integer>) HelperFactory.create("QuickSort basic", N, config);
         System.out.println(helper);
         Sort<Integer> s = new QuickSortBasic<Integer>((ComparisonSortHelper<Integer>) helper);
         s.init(N);
@@ -210,12 +225,12 @@ public class QuickSortBasicTest {
 
     @Test
     public void testSortDetailedRandom() throws Exception {
-        int k = 10;
+        int k = 16;
         int N = (int) Math.pow(2, k);
         // NOTE this depends on the cutoff value for quick sort.
         int levels = k - 2;
         final Config config = ConfigTest.setupConfig("true", "", "1", "", "");
-        final BaseHelper<Integer> helper = (BaseHelper<Integer>) HelperFactory.create("quick sort dual pivot", N, config);
+        final BaseHelper<Integer> helper = (BaseHelper<Integer>) HelperFactory.create("QuickSort basic", N, config);
         System.out.println(helper);
         Sort<Integer> s = new QuickSortBasic<Integer>((ComparisonSortHelper<Integer>) helper);
         s.init(N);

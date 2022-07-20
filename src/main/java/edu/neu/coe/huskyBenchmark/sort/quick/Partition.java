@@ -21,8 +21,8 @@ public class Partition<X extends Comparable<X>> {
     public String toString() {
         return "Partition{" +
                 "xs: " + xs.length + " elements" +
-                ", from=" + from +
-                ", to=" + to +
+                ", lo=" + from +
+                ", hi=" + to +
                 '}';
     }
 

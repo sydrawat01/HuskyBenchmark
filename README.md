@@ -1,4 +1,4 @@
-# :dog2: Husky Benchmarking [![CircleCI](https://dl.circleci.com/status-badge/img/gh/sydrawat01/HuskyBenchmark/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/sydrawat01/HuskyBenchmark/tree/master)
+# :dog2: Husky Benchmarking [![CircleCI](https://dl.circleci.com/status-badge/img/gh/sydrawat01/HuskyBenchmark/tree/master.svg?style=svg&circle-token=b25bd4dd83bc6dc4636ccbf10d4b37e9a7da0d3b)](https://dl.circleci.com/status-badge/redirect/gh/sydrawat01/HuskyBenchmark/tree/master)
 
 ## Quick Sort: Analysis
 

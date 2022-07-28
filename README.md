@@ -26,9 +26,9 @@ To what extent can you predict the execution time based solely on the number of 
 
 - [x] Bubble Sort
 - [x] Insertion Sort
-- [ ] Selection Sort
-- [ ] Quick Sort (Basic)
-- [ ] Shell Sort
+- [x] Selection Sort
+- [x] Quick Sort (Basic)
+- [x] Shell Sort
 
 ## :busts_in_silhouette: Authors
 

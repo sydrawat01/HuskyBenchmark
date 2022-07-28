@@ -16,7 +16,7 @@ public class ShellSortBenchMark {
 
     private void getStats(int n) throws IOException {
         final Config config = Config.load(getClass());
-        ComparisonSortHelper<Integer> helper = HelperFactory.create("SelectionSort", n, config);
+        ComparisonSortHelper<Integer> helper = HelperFactory.create("ShellSort", n, config);
         helper.init(n);
 
         Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000));
@@ -63,5 +63,5 @@ public class ShellSortBenchMark {
     }
     private final int runs;
     private final int n;
-    final static LazyLogger logger = new LazyLogger(BubbleSortBenchmark.class);
+    final static LazyLogger logger = new LazyLogger(ShellSortBenchMark.class);
 }

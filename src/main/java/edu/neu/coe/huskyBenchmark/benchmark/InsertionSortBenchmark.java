@@ -64,5 +64,5 @@ public class InsertionSortBenchmark {
 
     private final int runs;
     private final int n;
-    final static LazyLogger logger = new LazyLogger(BubbleSortBenchmark.class);
+    final static LazyLogger logger = new LazyLogger(InsertionSortBenchmark.class);
 }

@@ -63,5 +63,5 @@ public class SelectionSortBenchmark {
     }
     private final int runs;
     private final int n;
-    final static LazyLogger logger = new LazyLogger(BubbleSortBenchmark.class);
+    final static LazyLogger logger = new LazyLogger(SelectionSortBenchmark.class);
 }

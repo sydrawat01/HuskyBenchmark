@@ -35,8 +35,8 @@ public class SelectionSortBenchmark {
     }
 
     private void runBenchmarks(int n, int runs, Integer[] xs) {
-        System.out.println("InsertionSort Benchmark: N=" + n);
-        String description = "Insertion Sort";
+        System.out.println("SelectionSort Benchmark: N=" + n);
+        String description = "Selection Sort";
 
         SelectionSort<Integer> selectionSort = new SelectionSort<>();
 
@@ -63,5 +63,5 @@ public class SelectionSortBenchmark {
     }
     private final int runs;
     private final int n;
-    final static LazyLogger logger = new LazyLogger(BubbleSortBenchmark.class);
+    final static LazyLogger logger = new LazyLogger(SelectionSortBenchmark.class);
 }

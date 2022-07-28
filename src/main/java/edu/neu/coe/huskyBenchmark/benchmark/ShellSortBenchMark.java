@@ -3,13 +3,13 @@ package edu.neu.coe.huskyBenchmark.benchmark;
 import edu.neu.coe.huskyBenchmark.sort.ComparisonSortHelper;
 import edu.neu.coe.huskyBenchmark.sort.HelperFactory;
 import edu.neu.coe.huskyBenchmark.sort.SortWithHelper;
-import edu.neu.coe.huskyBenchmark.sort.simple.SelectionSort;
+import edu.neu.coe.huskyBenchmark.sort.simple.ShellSort;
 import edu.neu.coe.huskyBenchmark.util.*;
 
 import java.io.IOException;
 
-public class SelectionSortBenchmark {
-    public SelectionSortBenchmark(int n, int runs) {
+public class ShellSortBenchMark {
+    public ShellSortBenchMark(int n, int runs) {
         this.n = n;
         this.runs = runs;
     }
@@ -25,7 +25,7 @@ public class SelectionSortBenchmark {
         runBenchmarks(n, runs, xs);
         // finish timing benchmarking
         helper.preProcess(xs);
-        SortWithHelper<Integer> sorter = new SelectionSort<Integer>(helper);
+        SortWithHelper<Integer> sorter = new ShellSort<Integer>(3,helper);
         sorter.preProcess(xs);
         Integer[] ys = sorter.sort(xs);
         sorter.postProcess(ys);
@@ -35,15 +35,15 @@ public class SelectionSortBenchmark {
     }
 
     private void runBenchmarks(int n, int runs, Integer[] xs) {
-        System.out.println("SelectionSort Benchmark: N=" + n);
-        String description = "Selection Sort";
+        System.out.println("ShellSort Benchmark: N=" + n);
+        String description = "Shell Sort";
 
-        SelectionSort<Integer> selectionSort = new SelectionSort<>();
+        ShellSort<Integer> shellSort = new ShellSort<>(3);
 
         final double timeRandom = new Benchmark<Integer[]>(
                 description + " (Random)",
                 null,
-                (x)->selectionSort.sort(xs.clone(),0, xs.length),
+                (x)->shellSort.sort(xs.clone(),0, xs.length),
                 null
         ).run(xs, runs);
         for (TimeLogger timeLogger : timeLoggers) timeLogger.log(timeRandom, n);
@@ -58,7 +58,7 @@ public class SelectionSortBenchmark {
         int runs = 100;
         for (int i=7; i<15; i++) {
             int n = (int) Math.pow(2, i);
-            new SelectionSortBenchmark(n, runs).getStats(n);
+            new ShellSortBenchMark(n, runs).getStats(n);
         }
     }
     private final int runs;

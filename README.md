@@ -7,6 +7,7 @@ Do you agree that the number of swaps in “standard” quicksort is ${1\over 6}
 Is this figure correct? If not, why not. How do you explain it.
 
 ## Shell Sort: Analysis
+
 1. When shell-sorting a sorted array, the number of comparisons is logarithmic. Do you agree? What is the base of the logs? Explain your observations.
 2. Can you develop an expression for the average number of comparisons for shell-sort(choose any one of the “common” gap sequences)? Recall that this is “unknown.”
 3. Can you develop an expression for the worst-case number of comparisons for the gap sequence you choose?
@@ -30,6 +31,7 @@ To what extent can you predict the execution time based solely on the number of 
 - [ ] Shell Sort
 
 ## :busts_in_silhouette: Authors
+
 [Siddharth Rawat](mailto:rawat.sid@northeastern.edu)
 
 [Sumeet Deshpande](mailto:deshpande.su@northeastern.edu)

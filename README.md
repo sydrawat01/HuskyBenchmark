@@ -1,4 +1,4 @@
-# :dog2: Husky Benchmarking
+# :dog2: Husky Benchmarking [![CircleCI](https://dl.circleci.com/status-badge/img/gh/sydrawat01/HuskyBenchmark/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/sydrawat01/HuskyBenchmark/tree/master)
 
 ## Quick Sort: Analysis
 

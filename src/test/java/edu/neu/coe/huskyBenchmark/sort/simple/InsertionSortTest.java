@@ -80,13 +80,13 @@ public class InsertionSortTest {
     @Test
     public void sort2() throws Exception {
         final Config config = ConfigTest.setupConfig("true", "0", "1", "", "");
-        int n = 15;
+        int n = 100;
         ComparisonSortHelper<Integer> helper = HelperFactory.create("InsertionSort", n, config);
         helper.init(n);
 
         final PrivateMethodInvoker privateMethodInvoker = new PrivateMethodInvoker(helper);
         final StatPack statPack = (StatPack) privateMethodInvoker.invokePrivate("getStatPack");
-        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(10));
+        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000));
         System.out.println(Arrays.toString(xs));
         SortWithHelper<Integer> sorter = new InsertionSort<Integer>(helper);
         sorter.preProcess(xs);
@@ -97,7 +97,7 @@ public class InsertionSortTest {
         // NOTE: these are supposed to match within about 12%.
         // Since we set a specific seed, this should always succeed.
         // If we use true random see and this test fails, just increase the delta a little.
-        assertEquals(1.0, 4.0 * compares / n / (n - 1), 0.8);
+        assertEquals(1.0, 4.0 * compares / n / (n - 1), 0.12);
         final int inversions = (int) statPack.getStatistics(Instrumenter.INVERSIONS).mean();
         final int fixes = (int) statPack.getStatistics(Instrumenter.FIXES).mean();
         System.out.println(statPack);

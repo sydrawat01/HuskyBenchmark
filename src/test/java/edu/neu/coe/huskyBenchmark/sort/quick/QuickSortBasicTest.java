@@ -194,64 +194,37 @@ public class QuickSortBasicTest {
 
     @Test
     public void testRandom() {
-        int N = 5;
+        int N = 10000;
         Shuffle<Integer> sh = new Shuffle<>(N);
         Integer[] xs = sh.supply();
         final Config config = ConfigTest.setupConfig("true", "0", "1", "1", "");
         ComparisonSortHelper<Integer> helper = HelperFactory.create("QuickSort basic", N, true, config);
         helper.init(N);
-
         final PrivateMethodInvoker privateMethodInvoker = new PrivateMethodInvoker(helper);
         final StatPack statPack = (StatPack) privateMethodInvoker.invokePrivate("getStatPack");
-//        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(10));
-        System.out.println(Arrays.toString(xs));
         SortWithHelper<Integer> sorter = new QuickSortBasic<>(helper);
         sorter.preProcess(xs);
         Integer[] ys = sorter.sort(xs);
         sorter.postProcess(ys);
         assertTrue(helper.sorted(ys));
-        final int compares = (int) statPack.getStatistics(Instrumenter.COMPARES).mean();
-        final int swaps = (int) statPack.getStatistics(Instrumenter.SWAPS).mean();
         System.out.println(statPack);
-        System.out.println(compares*1.0/swaps);
-    }
-
-    @Test
-    public void testSortDetailed() throws Exception {
-        int k = 7;
-        int N = 5;
-        // NOTE this depends on the cutoff value for quick sort.
-        int levels = k - 2;
-        final Config config = ConfigTest.setupConfig("true", "0", "1", "", "");
-        final BaseHelper<Integer> helper = (BaseHelper<Integer>) HelperFactory.create("QuickSort basic", N, config);
-        System.out.println(helper);
-        Sort<Integer> s = new QuickSortBasic<Integer>((ComparisonSortHelper<Integer>) helper);
-        s.init(N);
-        final Integer[] xs = helper.random(Integer.class, r -> r.nextInt(10000));
-//        assertEquals(Integer.valueOf(1360), xs[0]);
-        helper.preProcess(xs);
-        Integer[] ys = s.sort(xs);
-        helper.postProcess(ys);
-        final PrivateMethodInvoker privateMethodTester = new PrivateMethodInvoker(helper);
-        final StatPack statPack = (StatPack) privateMethodTester.invokePrivate("getStatPack");
-        System.out.println(statPack);
-        final int compares = (int) statPack.getStatistics(Instrumenter.COMPARES).mean();
-        final int swaps = (int) statPack.getStatistics(Instrumenter.SWAPS).mean();
-        System.out.println("ratio of compares to swaps: " + compares*1.0/swaps);
+        int compares = (int) statPack.getStatistics(Instrumenter.COMPARES).mean();
+        int swaps = (int) statPack.getStatistics(Instrumenter.SWAPS).mean();
+        double ratio = swaps*1.0/compares;
+        System.out.println(ratio);
+        assertEquals(0.166, ratio, 0.03);
     }
 
     @Test
     public void testSortDetailedRandom() throws Exception {
-        int k = 14;
+        int k = 7;
         int N = (int) Math.pow(2, k);
-        // NOTE this depends on the cutoff value for quick sort.
-        int levels = k - 2;
         final Config config = ConfigTest.setupConfig("true", "", "1", "1", "");
         final BaseHelper<Integer> helper = (BaseHelper<Integer>) HelperFactory.create("QuickSort basic", N, config);
         System.out.println(helper);
         Sort<Integer> s = new QuickSortBasic<Integer>((ComparisonSortHelper<Integer>) helper);
         s.init(N);
-        final Integer[] xs = helper.random(Integer.class, r -> r.nextInt(10000));
+        final Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000));
         helper.preProcess(xs);
         Integer[] ys = s.sort(xs);
         assertTrue(helper.sorted(ys));
@@ -260,47 +233,13 @@ public class QuickSortBasicTest {
         final StatPack statPack = (StatPack) privateMethodTester.invokePrivate("getStatPack");
         System.out.println(statPack);
         final int compares = (int) statPack.getStatistics(Instrumenter.COMPARES).mean();
-        final int inversions = (int) statPack.getStatistics(Instrumenter.INVERSIONS).mean();
-        final int fixes = (int) statPack.getStatistics(Instrumenter.FIXES).mean();
         final int swaps = (int) statPack.getStatistics(Instrumenter.SWAPS).mean();
-        final int copies = (int) statPack.getStatistics(Instrumenter.COPIES).mean();
-        final int worstCompares = round(2.0 * (N+1) * Math.log(N));
-        final int bestCompares = round(N * k);
-        System.out.println("bestCompares: " + bestCompares + ", compares: " + compares + ", worstCompares: " + worstCompares);
-//        assertTrue(compares <= worstCompares);
-        System.out.println("ratio of compares to swaps: " + worstCompares*1.0/swaps);
-    }
-
-    @Test
-    public void runBenchmarks() {
-        int sum = 0;
-        for( int N=7; N<=16; N++) {
-//            int N = (int) Math.pow(2, i);
-            final Config config = ConfigTest.setupConfig("true", "", "1", "1", "");
-            final BaseHelper<Integer> helper = (BaseHelper<Integer>) HelperFactory.create("QuickSort basic", N, config);
-//            System.out.println(helper);
-            Sort<Integer> s = new QuickSortBasic<Integer>((ComparisonSortHelper<Integer>) helper);
-            s.init(N);
-            final Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000000));
-            helper.preProcess(xs);
-            Integer[] ys = s.sort(xs);
-            assertTrue(helper.sorted(ys));
-            helper.postProcess(ys);
-            final PrivateMethodInvoker privateMethodTester = new PrivateMethodInvoker(helper);
-            final StatPack statPack = (StatPack) privateMethodTester.invokePrivate("getStatPack");
-            final int compares = (int) statPack.getStatistics(Instrumenter.COMPARES).mean();
-            final int inversions = (int) statPack.getStatistics(Instrumenter.INVERSIONS).mean();
-            final int fixes = (int) statPack.getStatistics(Instrumenter.FIXES).mean();
-            final int swaps = (int) statPack.getStatistics(Instrumenter.SWAPS).mean();
-            final int copies = (int) statPack.getStatistics(Instrumenter.COPIES).mean();
-            final int worstCompares = round(2.0 * (N+1) * Math.log(N));
-//            final int bestCompares = round(N * i);
-            System.out.println("avgCompares: " + compares + ", swaps: " + swaps);
-            assertTrue(compares <= worstCompares);
-            System.out.println("ratio of compares to swaps: " + worstCompares*1.0/swaps);
-            sum += worstCompares*1.0/swaps;
-        }
-        System.out.println("avg: " + sum/10.0);
+        double ratio = swaps*1.0/compares;
+        System.out.println(ratio);
+        // NOTE: these are supposed to match within about 10%.
+        // Since we set a specific seed, this should always succeed.
+        // If we use true random see and this test fails, just increase the delta a little.
+        assertEquals(0.166, ratio, 0.1);
     }
 
     final static LazyLogger logger = new LazyLogger(QuickSortBasic.class);

@@ -20,7 +20,7 @@ public class QuickSortBenchmark {
         ComparisonSortHelper<Integer> helper = HelperFactory.create("QuickSort basic", n, config);
         helper.init(n);
 
-        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000));
+        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(10000000));
 
         // run timing benchmarking
         runBenchmarks(n, runs, xs, config);
@@ -32,7 +32,11 @@ public class QuickSortBenchmark {
         sorter.postProcess(ys);
         StatPack statPack = helper.getInstrumenter().getStatPack();
         int hits = (int) statPack.getStatistics(Instrumenter.HITS).mean();
-        System.out.println("Hits: " + hits);
+        double compares =  statPack.getStatistics(Instrumenter.COMPARES).mean();
+        double swaps =  statPack.getStatistics(Instrumenter.SWAPS).mean();
+        System.out.println("Hits: " + hits + ", Compares: " + compares + ", Swaps: " + swaps);
+        double ratio = Math.round((swaps/compares) * 1000.0) / 1000.0;
+        System.out.println("Swaps/Compares: " + ratio);
     }
 
     private void runBenchmarks(int n, int runs, Integer[] xs, final Config config) {
@@ -55,8 +59,8 @@ public class QuickSortBenchmark {
     };
 
     public static void main(String[] args) throws IOException {
-        int runs = 100;
-        for (int i=7; i<15; i++) {
+        int runs = 1000;
+        for (int i=7; i<19; i++) {
             int n = (int) Math.pow(2, i);
             new QuickSortBenchmark(n, runs).getStats(n);
         }

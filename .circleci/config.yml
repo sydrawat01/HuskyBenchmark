@@ -1,14 +1,30 @@
-# Java Maven CircleCI 2.0 configuration file
+# Java Maven CircleCI 2.1 configuration file
 #
-# Check https://circleci.com/docs/2.0/language-java/ for more details
+# Check https://circleci.com/docs/2.1/language-java/ for more details
 #
 version: 2.1
-workflows:
-  send-notification:
-    jobs:
-      - notify:
-          context: slack-secrets
 jobs:
+  notify:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - slack/notify:
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "plain_text",
+                      "text": "*This is a text notification*",
+                      "emoji": true
+                    }
+                  ]
+                }
+              ]
+            }
+          event: always
   build:
     docker:
       # specify the version you desire here
@@ -44,3 +60,8 @@ jobs:
 
       # run tests!
       - run: mvn clean test
+workflows:
+  send-notification:
+    jobs:
+      - notify:
+          context: slack-secrets

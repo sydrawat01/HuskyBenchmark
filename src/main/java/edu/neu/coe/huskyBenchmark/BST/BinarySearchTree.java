@@ -170,8 +170,8 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
      */
     public void traverse(Node x) {
         if (x==null) return;
-        traverse(x.left);
         System.out.print(x.key + " ");
+        traverse(x.left);
         traverse(x.right);
     }
     public void showTrunks(Trunk p) {
@@ -205,7 +205,7 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
         printTree(root.right, trunk, true);
 
         if (prev == null) {
-            trunk.str = "———";
+            trunk.str = " ";
         } else if (isLeft) {
             trunk.str = ".———";
             prev_str = "   |";
@@ -247,6 +247,30 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
     }
 
     public BinarySearchTree() {}
+    private void show(Node node, StringBuffer sb, int indent) {
+        if (node == null)
+            return;
+        for (int i = 0; i < indent; i++) sb.append("  ");
+        sb.append(node.key);
+        sb.append(": ");
+        sb.append(node.value);
+        sb.append("\n");
+        if (node.left != null) {
+            for (int i = 0; i <= indent; i++) sb.append("  ");
+            sb.append("smaller: ");
+            show(node.left, sb, indent + 1);
+        }
+        if (node.right != null) {
+            for (int i = 0; i <= indent; i++) sb.append("  ");
+            sb.append("larger: ");
+            show(node.right, sb, indent + 1);
+        }
+    }
+    public String toString() {
+        StringBuffer sb = new StringBuffer();
+        show(root, sb, 0);
+        return sb.toString();
+    }
 
     public BinarySearchTree(Map<Key, Value> map) {
         this();
@@ -272,4 +296,15 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
     Node root= null;
     private final ComparableSortHelper<Key> helper = new ComparableSortHelper<>("Binary Search Tree");
 
+    public static void main(String []args){
+        BinarySearchTree<String, Integer> st = new BinarySearchTree<>();
+        st.put(Integer.toString(50), 1);
+        st.put(Integer.toString(30), 1);
+        st.put(Integer.toString(70), 1);
+//        System.out.println(st.size());
+//        System.out.println(st.depth());
+       // st.printTree();
+//        System.out.println(st);
+        st.traverse(st.getRoot());
+    }
 }

@@ -20,9 +20,16 @@ public interface BSTDetail<Key extends Comparable<Key>, Value> extends BST<Key, 
     void putAll(Map<Key, Value> map);
 
     /**
+     * Method to return the size of the tree
      * @return the size of this BST.
      */
     int size();
+
+    /**
+     * Method to return the depth of the tree
+     * @return the depth of this BST.
+     */
+    int depth();
 
     /**
      * Method to visit all keys based on the inorder form of traverse.

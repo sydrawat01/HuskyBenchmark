@@ -15,6 +15,21 @@ import static org.junit.Assert.*;
 
 @SuppressWarnings("ALL")
 public class BSTTest {
+
+    @Test
+    public void testDepth() {
+        BSTDetail<String, Integer> bst = new BinarySearchTree<>();
+        bst.put("S", 19);
+        bst.put("E", 5);
+        bst.put("X", 24);
+        bst.put("A", 1);
+        bst.put("R", 18);
+        bst.put("C", 3);
+        bst.put("H",8);
+        bst.put("M", 13);
+        assertEquals(5,bst.depth());
+    }
+
     @Test
     public void testSetRoot1() throws Exception {
         BST<String, Integer> bst = new BinarySearchTree<>();

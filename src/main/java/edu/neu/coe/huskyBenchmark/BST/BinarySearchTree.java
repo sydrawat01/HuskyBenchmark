@@ -90,8 +90,8 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
     private Node getNode(Node node, Key key) {
         if (node == null) return null;
         int cf = key.compareTo(node.key);
-        if (cf < 0) return getNode(node.smaller, key);
-        else if (cf > 0) return getNode(node.larger, key);
+        if (cf < 0) return getNode(node.left, key);
+        else if (cf > 0) return getNode(node.right, key);
         else return node;
     }
 
@@ -113,18 +113,18 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
             node.value = value;
             return result;
         } else if (cf < 0) {
-            // if key is less than node's key, we recursively invoke put in the smaller subtree
-            NodeValue result = put(node.smaller, key, value);
-            if (node.smaller == null)
-                node.smaller = result.node;
+            // if key is less than node's key, we recursively invoke put in the left subtree
+            NodeValue result = put(node.left, key, value);
+            if (node.left == null)
+                node.left = result.node;
             if (result.value == null)
                 result.node.count++;
             return result;
         } else {
-            // if key is greater than node's key, we recursively invoke put in the larger subtree
-            NodeValue result = put(node.larger, key, value);
-            if (node.larger == null)
-                node.larger = result.node;
+            // if key is greater than node's key, we recursively invoke put in the right subtree
+            NodeValue result = put(node.right, key, value);
+            if (node.right == null)
+                node.right = result.node;
             if (result.value == null)
                 result.node.count++;
             return result;
@@ -136,19 +136,19 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
         // FIXME by replacing the following code
         if (x==null) return null;
         if (key.compareTo(x.key) < 0)
-            x.smaller = delete(x.smaller, key);
+            x.left = delete(x.left, key);
         else if (key.compareTo(x.key) > 0)
-            x.larger = delete(x.larger, key);
+            x.right = delete(x.right, key);
         else {
-            if (x.larger == null) return x.smaller;
-            if (x.smaller == null) return x.larger;
+            if (x.right == null) return x.left;
+            if (x.left == null) return x.right;
 
             Node t = x;
-            x = min(t.larger);
-            x.larger = deleteMin(t.larger);
-            x.smaller = t.smaller;
+            x = min(t.right);
+            x.right = deleteMin(t.right);
+            x.left = t.left;
         }
-        x.count = 1 + size(x.smaller) + size(x.larger);
+        x.count = 1 + size(x.left) + size(x.right);
         return x;
         // END
     }
@@ -160,14 +160,14 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
      */
     private Node min(Node x) {
         if (x==null) throw new RuntimeException("min not implemented for null");
-        else if (x.smaller==null) return x;
-        else return min(x.smaller);
+        else if (x.left==null) return x;
+        else return min(x.left);
     }
 
     private Node deleteMin(Node x) {
-        if (x.smaller == null) return x.larger;
-        x.smaller = deleteMin(x.smaller);
-        x.count = 1 + size(x.smaller) + size(x.larger);
+        if (x.left == null) return x.right;
+        x.left = deleteMin(x.left);
+        x.count = 1 + size(x.left) + size(x.right);
         return x;
     }
 
@@ -185,9 +185,9 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
     private void doTraverse(int q, Node node, BiFunction<Key, Value, Void> f) {
         if (node == null) return;
         if (q < 0) f.apply(node.key, node.value);
-        doTraverse(q, node.smaller, f);
+        doTraverse(q, node.left, f);
         if (q == 0) f.apply(node.key, node.value);
-        doTraverse(q, node.larger, f);
+        doTraverse(q, node.right, f);
         if (q > 0) f.apply(node.key, node.value);
     }
 
@@ -223,27 +223,27 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
         }
 
         Node min() {
-            return smaller != null ? smaller.min() : this;
+            return left != null ? left.min() : this;
         }
 
         int depth() {
-            int depthS = smaller != null ? smaller.depth() : 0;
-            int depthL = larger != null ? larger.depth() : 0;
+            int depthS = left != null ? left.depth() : 0;
+            int depthL = right != null ? right.depth() : 0;
             return 1 + Math.max(depthL, depthS);
         }
 
         final Key key;
         Value value;
         final int depth;
-        Node smaller = null;
-        Node larger = null;
+        Node left = null;
+        Node right = null;
         int count = 0;
 
         @Override
         public String toString() {
             StringBuilder sb = new StringBuilder("Node: " + key + ":" + value);
-            if (smaller != null) sb.append(", smaller: ").append(smaller.key);
-            if (larger != null) sb.append(", larger: ").append(larger.key);
+            if (left != null) sb.append(", left: ").append(left.key);
+            if (right != null) sb.append(", right: ").append(right.key);
             return sb.toString();
         }
 
@@ -272,15 +272,15 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
         sb.append(": ");
         sb.append(node.value);
         sb.append("\n");
-        if (node.smaller != null) {
+        if (node.left != null) {
             for (int i = 0; i <= indent; i++) sb.append("  ");
-            sb.append("smaller: ");
-            show(node.smaller, sb, indent + 1);
+            sb.append("left: ");
+            show(node.left, sb, indent + 1);
         }
-        if (node.larger != null) {
+        if (node.right != null) {
             for (int i = 0; i <= indent; i++) sb.append("  ");
-            sb.append("larger: ");
-            show(node.larger, sb, indent + 1);
+            sb.append("right: ");
+            show(node.right, sb, indent + 1);
         }
     }
 
@@ -293,8 +293,8 @@ public class BinarySearchTree <Key extends Comparable<Key>, Value> implements BS
     private int depth(Node node, Key key) throws DepthException {
         if (node == null) throw new DepthException();
         int cf = key.compareTo(node.key);
-        if (cf < 0) return 1 + depth(node.smaller, key);
-        else if (cf > 0) return 1 + depth(node.larger, key);
+        if (cf < 0) return 1 + depth(node.left, key);
+        else if (cf > 0) return 1 + depth(node.right, key);
         else return 0;
     }
 

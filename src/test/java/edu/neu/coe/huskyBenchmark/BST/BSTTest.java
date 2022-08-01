@@ -7,9 +7,7 @@ import edu.neu.coe.huskyBenchmark.util.PrivateMethodInvoker;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -28,6 +26,9 @@ public class BSTTest {
         bst.put("H",8);
         bst.put("M", 13);
         assertEquals(5,bst.depth());
+        bst.delete("M");
+        assertEquals(4,bst.depth());
+        System.out.println(bst.toString());
     }
 
     @Test
@@ -48,8 +49,8 @@ public class BSTTest {
         BinarySearchTree.Node nodeX = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "X", 42, 0);
         BinarySearchTree.Node nodeY = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "Y", 52, 0);
         BinarySearchTree.Node nodeZ = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "Z", 99, 0);
-        nodeY.smaller = nodeX;
-        nodeY.larger = nodeZ;
+        nodeY.left = nodeX;
+        nodeY.right = nodeZ;
         tester.invokePrivate("setRoot", nodeY);
         System.out.println(bst);
     }
@@ -72,8 +73,8 @@ public class BSTTest {
         bst.put("Y", 99);
         BinarySearchTree.Node root = (BinarySearchTree.Node) tester.invokePrivate("getRoot");
         assertEquals("X", root.key);
-        assertEquals("Y", root.larger.key);
-        assertNull(root.smaller);
+        assertEquals("Y", root.right.key);
+        assertNull(root.left);
         assertEquals(2, bst.size());
     }
 
@@ -88,8 +89,8 @@ public class BSTTest {
         bst.put("Z", 37);
         BinarySearchTree.Node root = (BinarySearchTree.Node) tester.invokePrivate("getRoot");
         assertEquals("Y", root.key);
-        assertEquals("X", root.smaller.key);
-        assertEquals("Z", root.larger.key);
+        assertEquals("X", root.left.key);
+        assertEquals("Z", root.right.key);
         assertEquals(3, bst.size());
     }
 
@@ -100,12 +101,12 @@ public class BSTTest {
         bst.put("Y", 42);
         BinarySearchTree.Node root = (BinarySearchTree.Node) tester.invokePrivate("getRoot");
         assertEquals("Y", root.key);
-        assertNull(root.smaller);
-        assertNull(root.larger);
+        assertNull(root.left);
+        assertNull(root.right);
         bst.put("X", 99);
-        assertEquals("X", root.smaller.key);
+        assertEquals("X", root.left.key);
         bst.put("Z", 37);
-        assertEquals("Z", root.larger.key);
+        assertEquals("Z", root.right.key);
         System.out.println(bst.toString());
         assertEquals(3, bst.size());
     }
@@ -173,8 +174,8 @@ public class BSTTest {
         tester.invokePrivate("setRoot", node);
         bst.put("Y", 57);
         bst.delete("Y");
-        assertNull(bst.root.smaller);
-        assertNull(bst.root.larger);
+        assertNull(bst.root.left);
+        assertNull(bst.root.right);
         assertEquals(1, bst.size());
     }
 
@@ -187,8 +188,8 @@ public class BSTTest {
         tester.invokePrivate("setRoot", node);
         bst.put("W", 57);
         bst.delete("W");
-        assertNull(bst.root.smaller);
-        assertNull(bst.root.larger);
+        assertNull(bst.root.left);
+        assertNull(bst.root.right);
         assertEquals(1, bst.size());
     }
 
@@ -227,8 +228,8 @@ public class BSTTest {
         BinarySearchTree.Node nodeX = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "X", 42, 0);
         BinarySearchTree.Node nodeY = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "Y", 52, 0);
         BinarySearchTree.Node nodeZ = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "Z", 99, 0);
-        nodeY.smaller = nodeX;
-        nodeY.larger = nodeZ;
+        nodeY.left = nodeX;
+        nodeY.right = nodeZ;
         tester.invokePrivate("setRoot", nodeY);
         assertEquals(1, bst.depth("X"));
         assertEquals(0, bst.depth("Y"));
@@ -255,8 +256,8 @@ public class BSTTest {
         BinarySearchTree.Node nodeX = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "X", 42, 0);
         BinarySearchTree.Node nodeY = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "Y", 52, 0);
         BinarySearchTree.Node nodeZ = (BinarySearchTree.Node) tester.invokePrivateExplicit("makeNode", classes, "Z", 99, 0);
-        nodeY.smaller = nodeX;
-        nodeY.larger = nodeZ;
+        nodeY.left = nodeX;
+        nodeY.right = nodeZ;
         tester.invokePrivate("setRoot", nodeY);
         assertEquals(2, bst.depth());
     }

@@ -69,6 +69,45 @@ public class BSTTest {
         System.out.println(bst.toString());
     }
 
+
+    ArrayList<Node> constructTrees(int start, int end)
+    {
+        ArrayList<Node> list=new ArrayList<>();
+		/* if start > end then subtree will be empty so returning NULL
+			in the list */
+        if (start > end)
+        {
+            list.add(null);
+            return list;
+        }
+
+		/* iterating through all values from start to end for constructing\
+			left and right subtree recursively */
+        for (int i = start; i <= end; i++)
+        {
+            /* constructing left subtree */
+            ArrayList<Node> leftSubtree = constructTrees(start, i - 1);
+
+            /* constructing right subtree */
+            ArrayList<Node> rightSubtree = constructTrees(i + 1, end);
+
+			/* now looping through all left and right subtrees and connecting
+				them to ith root below */
+            for (int j = 0; j < leftSubtree.size(); j++)
+            {
+                Node left = leftSubtree.get(j);
+                for (int k = 0; k < rightSubtree.size(); k++)
+                {
+                    Node right = rightSubtree.get(k);
+                    Node node = new Node(i);	 // making value i as root
+                    node.left = left;			 // connect left subtree
+                    node.right = right;		 // connect right subtree
+                    list.add(node);			 // add this tree to list
+                }
+            }
+        }
+        return list;
+    }
     @Test
     public void testDepthandSize() throws Exception {
         BSTDetail<String, Integer> bst = new BinarySearchTree<>();
@@ -321,9 +360,72 @@ public class BSTTest {
     @Test
     public void testDepth2() throws Exception {
         BinarySearchTree<String, Integer> bst = new BinarySearchTree<>();
-        bst.put("Hello", 3);
-        bst.put("Goodbye", 5);
-        bst.put("Ciao", 8);
-        assertEquals(3, bst.depth());
+        bst.put("S", 22);
+        bst.put("X", 13);
+        bst.put("E", 3);
+        bst.put("A", 3);
+        bst.put("R", 34);
+        bst.put("H", 3);
+        bst.put("M", 356);
+        bst.put("C", 3);
+        System.out.println(bst.depth());
+        assertEquals(5, bst.depth());
     }
+
+
+    @Test
+    public void testDepthForNvalues() throws Exception {
+        BinarySearchTree<Integer, Integer> bst = new BinarySearchTree<>();
+        ArrayList<Node> totalTreesFrom1toN = constructTrees(1, 3);
+        for (int i = 0; i < totalTreesFrom1toN.size(); i++)
+        {
+
+            //bst.preorder(totalTreesFrom1toN.get(i));
+           // System.out.println();
+
+
+        }
+    }
+
+
+    @Test
+    public void testDepthafterdelete() throws Exception {
+        double dp = 0;
+        for (int n = 3; n < 100; n++) {
+            //int n=5000;
+            int m = 2;
+            int x = 1;
+
+
+            while (x < n) {
+                BinarySearchTree<String, Integer> bst = new BinarySearchTree<>();
+                Random random = new Random(10L);
+                List<String> list = new ArrayList<>();
+                for (int i = 0; i < n; i++) {
+                    String a = Integer.toString(random.nextInt(n * 2));
+                    bst.put(a, i);
+                    list.add(a);
+                    //System.out.println(a);
+                }
+                //System.out.println(bst.depth());
+
+                for (int i = 0; i < n - x; i++) {
+
+                    bst.delete(list.get(i));
+
+
+                }
+                dp = dp + (bst.depth() / Math.sqrt(Double.valueOf(n - x)));
+                System.out.println("DP::" + dp);
+                x++;
+
+
+            }
+           // System.out.println("DP::" + dp / n);
+            // System.out.println("After:"+bst.depth());
+            //assertEquals(30, bst.depth());
+        }
+        System.out.println("DP::" + dp /100);
+    }
+
 }

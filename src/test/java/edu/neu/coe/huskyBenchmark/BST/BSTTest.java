@@ -15,6 +15,44 @@ import static org.junit.Assert.*;
 public class BSTTest {
 
     @Test
+    public void testSkewedStringTree() {
+        BSTDetail<String, Integer> bst = new BinarySearchTree<>();
+        bst.put("A",1);
+        bst.put("B", 2);
+        bst.put("C", 3);
+        bst.put("D", 4);
+        bst.put("E", 5);
+        bst.put("F", 6);
+        bst.put("G", 7);
+        assertEquals(7, bst.depth());
+        System.out.println(bst.toString());
+    }
+
+    @Test
+    public void testSkewedIntegerTree() {
+        BSTDetail<Integer, String> bst = new BinarySearchTree<>();
+        bst.put(1, "A");
+        bst.put(2, "B");
+        bst.put(3, "C");
+        bst.put(4, "D");
+        bst.put(5, "E");
+        bst.put(6, "F");
+        bst.put(7, "G");
+        assertEquals(7, bst.depth());
+        System.out.println(bst.toString());
+    }
+
+    @Test
+    public void testSkewed() {
+        BSTDetail<Integer, String> bst = new BinarySearchTree<>();
+        for (int i=1; i<=100; i++) {
+            bst.put(i, Integer.toString(i));
+        }
+        System.out.println(bst.toString());
+        assertEquals(100, bst.depth());
+    }
+
+    @Test
     public void testDepth() {
         BSTDetail<String, Integer> bst = new BinarySearchTree<>();
         bst.put("S", 19);
@@ -28,6 +66,24 @@ public class BSTTest {
         assertEquals(5,bst.depth());
         bst.delete("M");
         assertEquals(4,bst.depth());
+        System.out.println(bst.toString());
+    }
+
+    @Test
+    public void testDepthandSize() throws Exception {
+        BSTDetail<String, Integer> bst = new BinarySearchTree<>();
+        assertEquals(0,bst.size());
+        bst.put("15",15);
+        bst.put("10",10);
+        bst.put("20",20);
+        bst.put("08",8);
+        bst.put("12",12);
+        bst.put("18",18);
+        bst.put("16",16);
+        bst.put("30",30);
+
+        assertEquals(4, bst.depth());
+        assertEquals(8, bst.size());
         System.out.println(bst.toString());
     }
 

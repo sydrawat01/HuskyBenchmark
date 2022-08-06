@@ -1,6 +1,6 @@
 package edu.neu.coe.huskyBenchmark.BST;
 
-import java.util.Set;
+import java.util.Map;
 
 /**
  * Interface to define the behavior of a Binary Search Tree.
@@ -23,14 +23,8 @@ public interface BST<Key extends Comparable<Key>, Value> {
      *
      * @param key the key to be inserted/updated.
      * @param value the value to be retrieved by future calls of get(key).
-     * @return the original value, if any, else null.
      */
-    Value put(Key key, Value value);
-
-    /**
-     * @return The set of all keys.
-     */
-    Set<Key> keySet();
+    void put(Key key, Value value);
 
     /**
      * Delete the given key.
@@ -39,4 +33,22 @@ public interface BST<Key extends Comparable<Key>, Value> {
      * @param key the key to be deleted.
      */
     void delete(Key key);
+
+    /**
+     * Method to return the size of the tree
+     * @return the size of this BST.
+     */
+    int size();
+
+    /**
+     * Method to return the depth of the tree
+     * @return the depth of this BST.
+     */
+    int height();
+
+    /**
+     * Method to put all map values into the BST
+     * @param map a HashMap to store the key, value pairs of the BST
+     */
+    void putAll(Map<Key, Value> map);
 }

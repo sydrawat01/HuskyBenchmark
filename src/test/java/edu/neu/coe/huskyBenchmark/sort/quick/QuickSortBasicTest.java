@@ -1,16 +1,13 @@
 package edu.neu.coe.huskyBenchmark.sort.quick;
 
 import edu.neu.coe.huskyBenchmark.sort.*;
-import edu.neu.coe.huskyBenchmark.sort.simple.InsertionSort;
 import edu.neu.coe.huskyBenchmark.util.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 
-import static edu.neu.coe.huskyBenchmark.util.Utilities.round;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

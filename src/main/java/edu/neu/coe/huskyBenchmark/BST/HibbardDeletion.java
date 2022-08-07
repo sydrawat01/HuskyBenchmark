@@ -34,7 +34,7 @@ public class HibbardDeletion {
                 for (int k = 0; k < count; k++) {
                     // random deletions from the BST
                     int b = r.nextInt(list.size());
-                    bst.delete(list.get(b));
+                    bst.delete(list.get(b), true);
                     list.remove(b);
                     height += bst.height();
                 }

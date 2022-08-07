@@ -66,4 +66,13 @@ public final class Utilities {
     public static double lg(final double x) {
         return Math.log(x) / Math.log(2);
     }
+
+    /**
+     * Return the square root of x to 3 decimal places
+     * @param x the number whose square root we require
+     * @return sqRoot(x)
+     */
+    public static double sqRoot(final double x) {
+        return Double.parseDouble(formatDecimal3Places(Math.sqrt(x)));
+    }
 }

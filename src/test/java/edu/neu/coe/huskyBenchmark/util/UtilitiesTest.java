@@ -4,10 +4,12 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import static edu.neu.coe.huskyBenchmark.util.Utilities.*;
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
+import static org.hamcrest.core.IsEqual.equalTo;
+import static org.hamcrest.core.IsNot.not;
 
 public class UtilitiesTest {
     @Test
@@ -48,16 +50,16 @@ public class UtilitiesTest {
 
     @Test
     public void testFillRandomArray() {
-        // TODO fill this in later
+        Random r = new Random();
+        Integer[] xs = fillRandomArray(Integer.class, r, 10, x->r.nextInt(100));
+        Integer[] ys = fillRandomArray(Integer.class, r, 10, x->r.nextInt(100));
+        assertThat(xs, not(equalTo(ys)));
     }
 
     @Test
-    public void testIsSorted() {
-        // TODO fill this in later
-    }
-
-    @Test
-    public void testCheckSorted() {
-        // TODO fill this in later
+    public void testSquareRoot() {
+        assertEquals(10.0, sqRoot(100), 0);
+        assertEquals(1.732, sqRoot(3.0), 0);
+        assertEquals(1.414, sqRoot(2.0), 0);
     }
 }

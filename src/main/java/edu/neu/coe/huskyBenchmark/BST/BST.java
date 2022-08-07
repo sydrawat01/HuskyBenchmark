@@ -31,8 +31,9 @@ public interface BST<Key extends Comparable<Key>, Value> {
      * CONSIDER returning the original value.
      *
      * @param key the key to be deleted.
+     * @param hibbard boolean to delete by "leftist" or "rightist" strategy
      */
-    void delete(Key key);
+    void delete(Key key, boolean hibbard);
 
     /**
      * Method to return the size of the tree

@@ -36,6 +36,62 @@ public class BSTTest {
     }
 
     @Test
+    public void testDeleteRightist() {
+        BinarySearchTree<String, Integer> bst = new BinarySearchTree<>();
+        bst.put("S", 19);
+        bst.put("E", 5);
+        bst.put("X", 24);
+        bst.put("A", 1);
+        bst.put("R", 18);
+        bst.put("C", 3);
+        bst.put("H", 8);
+        bst.put("M", 13);
+        bst.delete("E", true);
+        assertEquals(3, bst.height());
+        assertEquals(7, bst.size());
+        assertTrue(bst.traverse(bst.getRoot()).equals("A C H M R S X "));
+    }
+
+    @Test
+    public void testDeleteLeftist() {
+        BinarySearchTree<String, Integer> bst = new BinarySearchTree<>();
+        bst.put("S", 19);
+        bst.put("E", 5);
+        bst.put("X", 24);
+        bst.put("A", 1);
+        bst.put("R", 18);
+        bst.put("C", 3);
+        bst.put("H", 8);
+        bst.put("M", 13);
+        bst.delete("E", false);
+        assertEquals(4, bst.height());
+        assertEquals(7, bst.size());
+        assertTrue(bst.traverse(bst.getRoot()).equals("A C H M R S X "));
+    }
+
+    @Test
+    public void testDeleteRandom() {
+        BinarySearchTree<String, Integer> bst = new BinarySearchTree<>();
+        bst.put("S", 19);
+        bst.put("E", 5);
+        bst.put("X", 24);
+        bst.put("A", 1);
+        bst.put("R", 18);
+        bst.put("C", 3);
+        bst.put("H", 8);
+        bst.put("M", 13);
+        Random r = new Random();
+        boolean hibbard = r.nextInt(2) == 0 ? true : false;
+        System.out.println("Hibbard deletion: " + hibbard);
+        bst.delete("E", hibbard);
+        if (hibbard) {
+            assertEquals(3, bst.height());
+        } else {
+            assertEquals(4, bst.height());
+        }
+    }
+
+    @Test
     public void testSkewed() {
         BST<Integer, String> bst = new BinarySearchTree<>();
         for (int i = 1; i <= 100; i++) {
@@ -57,9 +113,9 @@ public class BSTTest {
         bst.put("M", 13);
         assertEquals(8, bst.size());
         assertEquals(4, bst.height());
-        bst.delete("M");
-        bst.delete("E");
-        bst.delete("C");
+        bst.delete("M", true);
+        bst.delete("E", true);
+        bst.delete("C", true);
         assertEquals(5, bst.size());
         assertEquals(2, bst.height());
     }

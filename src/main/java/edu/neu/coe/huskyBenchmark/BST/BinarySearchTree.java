@@ -54,25 +54,32 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> implements BST
      ================================================
      */
 
-    public void delete(Key key) {
-        root = delete(root, key);
+    public void delete(Key key, boolean hibbard) {
+        root = delete(root, key, hibbard);
     }
 
-    private Node delete(Node x, Key key) {
-        //FIXME: Hibbard delete implementation
+    private Node delete(Node x, Key key, boolean hibbard) {
         if (x == null) return null;
         if (key.compareTo(x.key) < 0)
-            x.left = delete(x.left, key);
+            x.left = delete(x.left, key, hibbard);
         else if (key.compareTo(x.key) > 0)
-            x.right = delete(x.right, key);
+            x.right = delete(x.right, key, hibbard);
         else {
             if (x.right == null) return x.left;
             if (x.left == null) return x.right;
 
             Node t = x;
-            x = min(t.right);
-            x.right = deleteMin(t.right);
-            x.left = t.left;
+            if (hibbard) {
+            //Hibbard deletion: "Rightist" strategy
+                x = min(t.right);
+                x.right = deleteMin(t.right);
+                x.left = t.left;
+            } else {
+                // "Leftist" strategy
+                x = max(t.left);
+                x.left = deleteMax(t.left);
+                x.right = t.right;
+            }
         }
         x.size = 1 + size(x.left) + size(x.right);
         return x;

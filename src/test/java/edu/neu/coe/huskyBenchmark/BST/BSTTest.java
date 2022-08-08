@@ -195,4 +195,18 @@ public class BSTTest {
         for (int i = 0; i < 100; i++) bst.put(Integer.toString(random.nextInt(200)), i);
         assertEquals(79, bst.size());
     }
+    @Test
+    public void testdeletebySize(){
+        BinarySearchTree<String, Integer> bst = new BinarySearchTree<>();
+        bst.put("S", 19);
+        bst.put("E", 5);
+        bst.put("X", 24);
+        bst.put("A", 1);
+        bst.put("R", 18);
+        bst.put("C", 3);
+        bst.put("B",10);
+        bst.put("H", 8);
+        bst.deleteBySize("E");
+        assertEquals(3, bst.height());
+    }
 }

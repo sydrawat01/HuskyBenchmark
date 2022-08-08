@@ -247,8 +247,8 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> implements BST
      */
     public String traverse(Node x) {
         if (x == null) return "";
-        inorder += x.key + " ";
         traverse(x.left);
+        inorder += x.key + " ";
         traverse(x.right);
         return inorder;
     }

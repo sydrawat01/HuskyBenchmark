@@ -187,9 +187,12 @@ public final class InstrumentedComparisonSortHelper<X extends Comparable<X>> ext
     @Override
     public int getCutoff() {
         // NOTE that a cutoff value of 0 or less will result in an infinite recursion for any recursive method that uses it.
-//        return (cutoff >= 1) ? cutoff : super.getCutoff();
-        return cutoff;
+
+        return (cutoff >= 1) ? cutoff : super.getCutoff();
+
+        //return cutoff;
     }
+
 
     @Override
     public String toString() {

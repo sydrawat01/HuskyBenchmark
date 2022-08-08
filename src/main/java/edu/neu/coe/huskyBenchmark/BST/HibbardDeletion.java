@@ -19,11 +19,9 @@ public class HibbardDeletion {
     /**
      * Function to calculate the average height of the BST
      * after N/2 random deletions, where N is the height of the tree
-     * @param hibbard the boolean to perform "leftist" or "rightist" deletion
-     *                on the BST
      * @return list of type double containing the average height of the BSTs
      */
-    private List<Double> calcHeight(boolean hibbard) {
+    private List<Double> calcHeight() {
         List<Double> result = new ArrayList<>();
         while (N < 1600) {
             double x = 0;
@@ -42,7 +40,7 @@ public class HibbardDeletion {
                 for (int k = 0; k < count; k++) {
                     // random deletions from the BST
                     int b = r.nextInt(list.size());
-                    bst.delete(list.get(b), hibbard);
+                    bst.delete(list.get(b), "Hibbard");
                     list.remove(b);
                     height += bst.height();
                 }
@@ -55,7 +53,7 @@ public class HibbardDeletion {
 
     public static void main(String[] args) throws IOException {
         HibbardDeletion ob = new HibbardDeletion(1,1,0);
-        List<Double> actual = ob.calcHeight(true);
+        List<Double> actual = ob.calcHeight();
         // Actual values of BST height
         List<Double> expected = new ArrayList<>();
         // Expected values of BST height

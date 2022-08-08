@@ -41,7 +41,7 @@ public class RandomDeletion {
             for (int k = 0; k < count; k++) {
                 // random deletions from the BST
                 int b = r.nextInt(list.size());
-                bst.delete(list.get(b), r.nextInt(2) == 0);
+                bst.delete(list.get(b), Integer.toString(r.nextInt(2)));
                 list.remove(b);
                 height += bst.height();
             }

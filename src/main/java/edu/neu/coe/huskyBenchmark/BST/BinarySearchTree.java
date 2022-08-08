@@ -54,60 +54,53 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> implements BST
      ================================================
      */
 
-    public void delete(Key key, boolean hibbard) {
-        root = delete(root, key, hibbard);
+    public void delete(Key key, String delType) {
+        root = delete(root, key, delType);
     }
 
-    public void deleteBySize(Key key){
-        root = deleteBySize(root,key);
-    }
-
-    private Node deleteBySize(Node x,Key key){
-         if (x == null) return null;
-        if (key.compareTo(x.key) < 0)
-            x.left = deleteBySize(x.left, key);
-        else if (key.compareTo(x.key) > 0)
-            x.right = deleteBySize(x.right, key);
-        else {
-            if (x.right == null) return x.left;
-            if (x.left == null) return x.right;
-            Node t = x;
-            //Deleting from Higher Size
-            if ( size(x.left)<size(x.right)) {
-                x = min(t.right);
-                x.right = deleteMin(t.right);
-                x.left = t.left;
-            } else {
-                x = max(t.left);
-                x.left = deleteMax(t.left);
-                x.right = t.right;
-            }
-        }
-        x.size = 1 + size(x.left) + size(x.right);
+    private Node successor(Node t, Node x) {
+        //Hibbard deletion: "Rightist" strategy
+        x = min(t.right);
+        x.right = deleteMin(t.right);
+        x.left = t.left;
         return x;
     }
 
-    private Node delete(Node x, Key key, boolean hibbard) {
+    private Node predecessor(Node t, Node x) {
+        // "Leftist" strategy
+        x = max(t.left);
+        x.left = deleteMax(t.left);
+        x.right = t.right;
+        return x;
+    }
+
+    private Node delete(Node x, Key key, String delType) {
         if (x == null) return null;
         if (key.compareTo(x.key) < 0)
-            x.left = delete(x.left, key, hibbard);
+            x.left = delete(x.left, key, delType);
         else if (key.compareTo(x.key) > 0)
-            x.right = delete(x.right, key, hibbard);
+            x.right = delete(x.right, key, delType);
         else {
             if (x.right == null) return x.left;
             if (x.left == null) return x.right;
 
             Node t = x;
-            if (hibbard) {
-            //Hibbard deletion: "Rightist" strategy
-                x = min(t.right);
-                x.right = deleteMin(t.right);
-                x.left = t.left;
-            } else {
-                // "Leftist" strategy
-                x = max(t.left);
-                x.left = deleteMax(t.left);
-                x.right = t.right;
+            switch (delType) {
+                case "0":
+                case "Hibbard":
+                    x = successor(t, x);
+                    break;
+                case "1":
+                case "Leftist":
+                    x = predecessor(t, x);
+                    break;
+                case "SizedDeletion":
+                    if (size(x.left) < size(x.right)) {
+                        x = successor(t, x);
+                    } else {
+                        x = predecessor(t, x);
+                    }
+                    break;
             }
         }
         x.size = 1 + size(x.left) + size(x.right);

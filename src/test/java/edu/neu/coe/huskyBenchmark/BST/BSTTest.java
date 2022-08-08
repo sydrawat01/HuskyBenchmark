@@ -46,7 +46,7 @@ public class BSTTest {
         bst.put("C", 3);
         bst.put("H", 8);
         bst.put("M", 13);
-        bst.delete("E", true);
+        bst.delete("E", "Hibbard");
         assertEquals(3, bst.height());
         assertEquals(7, bst.size());
         assertTrue(bst.traverse(bst.getRoot()).equals("A C H M R S X "));
@@ -63,7 +63,7 @@ public class BSTTest {
         bst.put("C", 3);
         bst.put("H", 8);
         bst.put("M", 13);
-        bst.delete("E", false);
+        bst.delete("E", "Leftist");
         assertEquals(4, bst.height());
         assertEquals(7, bst.size());
         assertTrue(bst.traverse(bst.getRoot()).equals("A C H M R S X "));
@@ -80,11 +80,9 @@ public class BSTTest {
         bst.put("C", 3);
         bst.put("H", 8);
         bst.put("M", 13);
-        Random r = new Random();
-        boolean hibbard = r.nextInt(2) == 0;
-        System.out.println("Hibbard deletion: " + hibbard);
-        bst.delete("E", hibbard);
-        if (hibbard) {
+        String random = Integer.toString(new Random().nextInt(2));
+        bst.delete("E", random);
+        if (random.equals("0")) {
             assertEquals(3, bst.height());
         } else {
             assertEquals(4, bst.height());
@@ -113,9 +111,9 @@ public class BSTTest {
         bst.put("M", 13);
         assertEquals(8, bst.size());
         assertEquals(4, bst.height());
-        bst.delete("M", true);
-        bst.delete("E", true);
-        bst.delete("C", true);
+        bst.delete("M", "Hibbard");
+        bst.delete("E", "Hibbard");
+        bst.delete("C", "Hibbard");
         assertEquals(5, bst.size());
         assertEquals(2, bst.height());
     }
@@ -183,9 +181,14 @@ public class BSTTest {
 
     @Test
     public void testSize1() {
-        BST<String, Integer> bst = new BinarySearchTree<>();
-        for (int i = 0; i < 100; i++) bst.put(Integer.toString(i), i);
+        BST<Integer, Integer> bst = new BinarySearchTree<>();
+        for (int i = 0; i < 100; i++) bst.put(i, i);
         assertEquals(100, bst.size());
+        for (int i=10;i<20; i++) {
+            bst.delete(i, "Hibbard");
+        }
+        assertEquals(90, bst.size());
+        System.out.println(bst.height());
     }
 
     @Test
@@ -206,7 +209,7 @@ public class BSTTest {
         bst.put("C", 3);
         bst.put("B",10);
         bst.put("H", 8);
-        bst.deleteBySize("E");
+        bst.delete("E", "SizedDeletion");
         assertEquals(3, bst.height());
     }
 }

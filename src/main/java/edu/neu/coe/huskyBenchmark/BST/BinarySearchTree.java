@@ -2,6 +2,7 @@ package edu.neu.coe.huskyBenchmark.BST;
 
 import java.util.*;
 
+@SuppressWarnings("ALL")
 public class BinarySearchTree<Key extends Comparable<Key>, Value> implements BST<Key, Value> {
 
     /*================================================

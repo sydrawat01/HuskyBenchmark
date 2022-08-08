@@ -31,7 +31,7 @@ public interface BST<Key extends Comparable<Key>, Value> {
      * CONSIDER returning the original value.
      *
      * @param key the key to be deleted.
-     * @param hibbard boolean to delete by "leftist" or "rightist" strategy
+     * @param delType the type of deletion to perform
      */
     void delete(Key key, String delType);
 

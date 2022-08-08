@@ -35,7 +35,7 @@ public class SizedDeletion {
             for (int k = 0; k < count; k++) {
                 // random deletions from the BST By Size
                 int b = r.nextInt(list.size());
-                bst.delete(list.get(b), "SizedDeletion");
+                bst.delete(list.get(b), Utilities.BYSIZE);
                 list.remove(b);
                 height += bst.height();
             }

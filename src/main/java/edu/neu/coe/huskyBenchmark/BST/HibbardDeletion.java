@@ -27,7 +27,7 @@ public class HibbardDeletion {
             double x = 0;
             N = 20*incr;
             count = N/2;
-                BinarySearchTree<Integer, Integer> bst = new BinarySearchTree<>();
+                BST<Integer, Integer> bst = new BinarySearchTree<>();
                 List<Integer> list = new ArrayList<>();
                 Random r = new Random();
                 double height = 0;
@@ -40,7 +40,7 @@ public class HibbardDeletion {
                 for (int k = 0; k < count; k++) {
                     // random deletions from the BST
                     int b = r.nextInt(list.size());
-                    bst.delete(list.get(b), "Hibbard");
+                    bst.delete(list.get(b), Utilities.HIBBARD);
                     list.remove(b);
                     height += bst.height();
                 }

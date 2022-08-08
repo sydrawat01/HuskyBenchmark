@@ -1,5 +1,6 @@
 package edu.neu.coe.huskyBenchmark.BST;
 
+import edu.neu.coe.huskyBenchmark.util.Utilities;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -46,7 +47,7 @@ public class BSTTest {
         bst.put("C", 3);
         bst.put("H", 8);
         bst.put("M", 13);
-        bst.delete("E", "Hibbard");
+        bst.delete("E", Utilities.HIBBARD);
         assertEquals(3, bst.height());
         assertEquals(7, bst.size());
         assertTrue(bst.traverse(bst.getRoot()).equals("A C H M R S X "));
@@ -63,7 +64,7 @@ public class BSTTest {
         bst.put("C", 3);
         bst.put("H", 8);
         bst.put("M", 13);
-        bst.delete("E", "Leftist");
+        bst.delete("E", Utilities.LEFTIST);
         assertEquals(4, bst.height());
         assertEquals(7, bst.size());
         assertTrue(bst.traverse(bst.getRoot()).equals("A C H M R S X "));
@@ -111,9 +112,9 @@ public class BSTTest {
         bst.put("M", 13);
         assertEquals(8, bst.size());
         assertEquals(4, bst.height());
-        bst.delete("M", "Hibbard");
-        bst.delete("E", "Hibbard");
-        bst.delete("C", "Hibbard");
+        bst.delete("M", Utilities.HIBBARD);
+        bst.delete("E", Utilities.HIBBARD);
+        bst.delete("C", Utilities.HIBBARD);
         assertEquals(5, bst.size());
         assertEquals(2, bst.height());
     }
@@ -185,7 +186,7 @@ public class BSTTest {
         for (int i = 0; i < 100; i++) bst.put(i, i);
         assertEquals(100, bst.size());
         for (int i=10;i<20; i++) {
-            bst.delete(i, "Hibbard");
+            bst.delete(i, Utilities.HIBBARD);
         }
         assertEquals(90, bst.size());
         System.out.println(bst.height());
@@ -209,7 +210,7 @@ public class BSTTest {
         bst.put("C", 3);
         bst.put("B",10);
         bst.put("H", 8);
-        bst.delete("E", "SizedDeletion");
+        bst.delete("E", Utilities.BYSIZE);
         assertEquals(3, bst.height());
     }
 }

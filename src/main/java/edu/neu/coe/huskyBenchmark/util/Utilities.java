@@ -6,6 +6,7 @@ import java.util.Collection;
 import java.util.Random;
 import java.util.function.Function;
 
+@SuppressWarnings("ALL")
 public final class Utilities {
     /**
      * There is really no better way that I could find to do this with library/language methods.
@@ -75,4 +76,11 @@ public final class Utilities {
     public static double sqRoot(final double x) {
         return Double.parseDouble(formatDecimal3Places(Math.sqrt(x)));
     }
+
+    /**
+     * Constants for BST deletion strategies
+     */
+    public static final String HIBBARD = "Hibbard";
+    public static final String LEFTIST = "Leftist";
+    public static final String BYSIZE = "SizedDeletion";
 }

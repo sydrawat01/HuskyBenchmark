@@ -166,6 +166,10 @@ public interface ComparisonSortHelper<X> extends Helper<X> {
         return 7;
     }
 
+    default int cutoff() {
+        return 0;
+    }
+
     /**
      * If instrumenting, increment the number of copies by n.
      *

@@ -2,15 +2,16 @@ package edu.neu.coe.huskyBenchmark.BST;
 
 import edu.neu.coe.huskyBenchmark.util.Utilities;
 
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 @SuppressWarnings("ALL")
-public class HibbardDeletion {
+public class RandomDeletion {
 
-    public HibbardDeletion(int N, int incr, int count) {
+    public RandomDeletion(int N, int incr, int count) {
         this.N = N;
         this.incr = incr;
         this.count = count;
@@ -19,34 +20,32 @@ public class HibbardDeletion {
     /**
      * Function to calculate the average height of the BST
      * after N/2 random deletions, where N is the height of the tree
-     * @param hibbard the boolean to perform "leftist" or "rightist" deletion
-     *                on the BST
      * @return list of type double containing the average height of the BSTs
      */
-    private List<Double> calcHeight(boolean hibbard) {
+    private List<Double> calcHeight() {
         List<Double> result = new ArrayList<>();
         while (N < 1600) {
             double x = 0;
             N = 20*incr;
             count = N/2;
-                BinarySearchTree<Integer, Integer> bst = new BinarySearchTree<>();
-                List<Integer> list = new ArrayList<>();
-                Random r = new Random();
-                double height = 0;
-                for (int i = 0; i < N; i++) {
-                    int a = r.nextInt(100000000);
-                    bst.put(a, a);
-                    list.add(a);
-                }
-                height = bst.height();
-                for (int k = 0; k < count; k++) {
-                    // random deletions from the BST
-                    int b = r.nextInt(list.size());
-                    bst.delete(list.get(b), hibbard);
-                    list.remove(b);
-                    height += bst.height();
-                }
-                x += height / (count + 1);
+            BinarySearchTree<Integer, Integer> bst = new BinarySearchTree<>();
+            List<Integer> list = new ArrayList<>();
+            Random r = new Random();
+            double height = 0;
+            for (int i = 0; i < N; i++) {
+                int a = r.nextInt(100000000);
+                bst.put(a, a);
+                list.add(a);
+            }
+            height = bst.height();
+            for (int k = 0; k < count; k++) {
+                // random deletions from the BST
+                int b = r.nextInt(list.size());
+                bst.delete(list.get(b), r.nextInt(2) == 0);
+                list.remove(b);
+                height += bst.height();
+            }
+            x += height / (count + 1);
             result.add(Double.parseDouble(Utilities.formatDecimal3Places(x)));
             incr++;
         }
@@ -54,8 +53,9 @@ public class HibbardDeletion {
     }
 
     public static void main(String[] args) throws IOException {
-        HibbardDeletion ob = new HibbardDeletion(1,1,0);
-        List<Double> actual = ob.calcHeight(true);
+        RandomDeletion ob = new RandomDeletion(1,1,0);
+        Random r = new Random();
+        List<Double> actual = ob.calcHeight();
         // Actual values of BST height
         List<Double> expected = new ArrayList<>();
         // Expected values of BST height
@@ -65,7 +65,7 @@ public class HibbardDeletion {
             x +=10;
         }
         try {
-            FileWriter fw = new FileWriter("./data/result.csv");
+            FileWriter fw = new FileWriter("./data/resultRandomDeletion.csv");
             fw.append("Actual");
             fw.append(",");
             fw.append("Expected");

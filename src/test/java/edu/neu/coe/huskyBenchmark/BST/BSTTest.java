@@ -81,7 +81,7 @@ public class BSTTest {
         bst.put("H", 8);
         bst.put("M", 13);
         Random r = new Random();
-        boolean hibbard = r.nextInt(2) == 0 ? true : false;
+        boolean hibbard = r.nextInt(2) == 0;
         System.out.println("Hibbard deletion: " + hibbard);
         bst.delete("E", hibbard);
         if (hibbard) {

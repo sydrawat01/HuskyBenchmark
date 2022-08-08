@@ -58,6 +58,35 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> implements BST
         root = delete(root, key, hibbard);
     }
 
+    public void deleteBySize(Key key){
+        root = deleteBySize(root,key);
+    }
+
+    private Node deleteBySize(Node x,Key key){
+         if (x == null) return null;
+        if (key.compareTo(x.key) < 0)
+            x.left = deleteBySize(x.left, key);
+        else if (key.compareTo(x.key) > 0)
+            x.right = deleteBySize(x.right, key);
+        else {
+            if (x.right == null) return x.left;
+            if (x.left == null) return x.right;
+            Node t = x;
+            //Deleting from Higher Size
+            if ( size(x.left)<size(x.right)) {
+                x = min(t.right);
+                x.right = deleteMin(t.right);
+                x.left = t.left;
+            } else {
+                x = max(t.left);
+                x.left = deleteMax(t.left);
+                x.right = t.right;
+            }
+        }
+        x.size = 1 + size(x.left) + size(x.right);
+        return x;
+    }
+
     private Node delete(Node x, Key key, boolean hibbard) {
         if (x == null) return null;
         if (key.compareTo(x.key) < 0)

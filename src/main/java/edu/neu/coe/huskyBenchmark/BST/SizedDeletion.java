@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+@SuppressWarnings("ALL")
 public class SizedDeletion {
 
     public SizedDeletion(int N, int incr, int count) {

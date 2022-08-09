@@ -11,54 +11,44 @@ import java.io.IOException;
 import java.util.Arrays;
 
 public class ShellSortBenchMark {
-    public ShellSortBenchMark(int n, int runs) {
-        this.n = n;
+
+    public ShellSortBenchMark(int N, int runs) {
+        this.N = N;
         this.runs = runs;
     }
 
-
-        private void getStats(int n,int h,int value) throws IOException {
+    private void getStats(int h, String sortType) throws IOException {
         final Config config = Config.load(getClass());
-        ComparisonSortHelper<Integer> helper = HelperFactory.create("ShellSort", n, config);
-        helper.init(n);
-        String desc="";
+        ComparisonSortHelper<Integer> helper = HelperFactory.create("ShellSort", N, config);
+        helper.init(N);
 
         Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000000));
 
-        switch (value)
-            {
-                case 1:
-                    Arrays.sort(xs,0,xs.length);
-                    desc="Sorted";
-                    break;
-                case 2:
-                    Arrays.sort(xs, Collections.reverseOrder());
-                    desc="Reversed";
-                    break;
-                 default :
-                     desc="Random";
-                    break;
-
+        switch (sortType) {
+            case "Sorted" -> {
+                Arrays.sort(xs, 0, xs.length);
             }
-        // run timing benchmarking
-        runBenchmarks(n, runs, xs);
-        // finish timing benchmarking
+            case "Reversed" -> {
+                Arrays.sort(xs, Collections.reverseOrder());
+            }
+            default -> runBenchmarks(N, runs, xs);
+        }
+
         helper.preProcess(xs);
-        SortWithHelper<Integer> sorter = new ShellSort<Integer>(h,helper);
+        SortWithHelper<Integer> sorter = new ShellSort<>(h,helper);
         sorter.preProcess(xs);
         Integer[] ys = sorter.sort(xs);
         sorter.postProcess(ys);
         StatPack statPack = helper.getInstrumenter().getStatPack();
         int hits = (int) statPack.getStatistics(Instrumenter.HITS).mean();
         int compares = (int) statPack.getStatistics(Instrumenter.COMPARES).mean();
-        System.out.println("Hits for "+desc+" "+ n +" Array Size and Gap is "+h+":"+hits);
-        System.out.println("Compares for "+desc+" "+ n +" Array Size and Gap is "+h+":"+compares);
-
-
+        logger.info("Hits for (" + sortType + "), N = " + N + ", h =  " + h + ": " + hits);
+        logger.info("Compares for (" + sortType + "), N = " + N + ", h = " + h + ": " + compares);
     }
 
-    private void runBenchmarks(int n, int runs, Integer[] xs) {
-        System.out.println("ShellSort Benchmark: N=" + n);
+    private void runBenchmarks(int N, int runs, Integer[] xs) {
+        System.out.println("============================================================");
+        System.out.println("ShellSort Benchmark: N=" + N);
         String description = "Shell Sort";
 
         ShellSort<Integer> shellSort = new ShellSort<>(3);
@@ -69,34 +59,49 @@ public class ShellSortBenchMark {
                 (x)->shellSort.sort(xs.clone(),0, xs.length),
                 null
         ).run(xs, runs);
-        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(timeRandom, n);
+        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(timeRandom, N);
     }
 
     private final static TimeLogger[] timeLoggers = {
-            new TimeLogger("Raw time per run (mSec): ", (time, n) -> time)
+            new TimeLogger("Raw time per run (mSec): ", (time, N) -> time)
     };
-
-
+    
     public static void main(String[] args) throws IOException {
-        int runs = 1000;
-        for (int i=7; i<15; i++) {
-            int n = (int) Math.pow(2, i);
-            new ShellSortBenchMark(n, runs).getStats(n,3,3);
-        }
+        int runs = 1000, N = 5000;
 
-        int n=5000;
-        while(n<=30000)
-        {
+        // Shell sort for reverse sorted array
+        while(N<=30000) {
             int h=1;
             while(h<=3280) {
-                new ShellSortBenchMark(n, runs).getStats(n, h, 3);
+                new ShellSortBenchMark(N, runs).getStats(h, "Reversed");
                 h = 3 * h + 1;
             }
-            n = n + 5000;
+            N += 5000;
         }
 
+        // Shell sort for sorted array
+        N=5000;
+        while(N<=30000) {
+            int h=1;
+            while(h<=3280) {
+                new ShellSortBenchMark(N, runs).getStats(h, "Sorted");
+                h = 3 * h + 1;
+            }
+            N += 5000;
+        }
+
+        // Shell sort for randomly sorted array
+        N=5000;
+        while(N<=30000) {
+            int h=1;
+            while(h<=3280) {
+                new ShellSortBenchMark(N, runs).getStats(h, "Random");
+                h = 3 * h + 1;
+            }
+            N += 5000;
+        }
     }
     private final int runs;
-    private final int n;
+    private final int N;
     final static LazyLogger logger = new LazyLogger(ShellSortBenchMark.class);
 }

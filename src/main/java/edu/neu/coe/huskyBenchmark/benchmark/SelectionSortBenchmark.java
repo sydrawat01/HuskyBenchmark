@@ -9,33 +9,34 @@ import edu.neu.coe.huskyBenchmark.util.*;
 import java.io.IOException;
 
 public class SelectionSortBenchmark {
-    public SelectionSortBenchmark(int n, int runs) {
-        this.n = n;
+    public SelectionSortBenchmark(int N, int runs) {
+        this.N = N;
         this.runs = runs;
     }
 
-    private void getStats(int n) throws IOException {
+    private void getStats() throws IOException {
         final Config config = Config.load(getClass());
-        ComparisonSortHelper<Integer> helper = HelperFactory.create("SelectionSort", n, config);
-        helper.init(n);
+        ComparisonSortHelper<Integer> helper = HelperFactory.create("SelectionSort", N, config);
+        helper.init(N);
 
-        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000));
+        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000000000));
 
         // run timing benchmarking
-        runBenchmarks(n, runs, xs);
-        // finish timing benchmarking
+        runBenchmarks(N, runs, xs);
+
         helper.preProcess(xs);
-        SortWithHelper<Integer> sorter = new SelectionSort<Integer>(helper);
+        SortWithHelper<Integer> sorter = new SelectionSort<>(helper);
         sorter.preProcess(xs);
         Integer[] ys = sorter.sort(xs);
         sorter.postProcess(ys);
         StatPack statPack = helper.getInstrumenter().getStatPack();
         int hits = (int) statPack.getStatistics(Instrumenter.HITS).mean();
-        System.out.println("Hits: " + hits);
+        logger.info("Total Hits: " + hits);
     }
 
-    private void runBenchmarks(int n, int runs, Integer[] xs) {
-        System.out.println("SelectionSort Benchmark: N=" + n);
+    private void runBenchmarks(int N, int runs, Integer[] xs) {
+        System.out.println("============================================================");
+        System.out.println("SelectionSort Benchmark: N=" + N);
         String description = "Selection Sort";
 
         SelectionSort<Integer> selectionSort = new SelectionSort<>();
@@ -46,22 +47,22 @@ public class SelectionSortBenchmark {
                 (x)->selectionSort.sort(xs.clone(),0, xs.length),
                 null
         ).run(xs, runs);
-        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(timeRandom, n);
+        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(timeRandom, N);
     }
 
     private final static TimeLogger[] timeLoggers = {
-            new TimeLogger("Raw time per run (mSec): ", (time, n) -> time)
+            new TimeLogger("Raw time per run (mSec): ", (time, N) -> time)
     };
 
 
     public static void main(String[] args) throws IOException {
         int runs = 100;
         for (int i=7; i<15; i++) {
-            int n = (int) Math.pow(2, i);
-            new SelectionSortBenchmark(n, runs).getStats(n);
+            int N = (int) Utilities.power2(i);
+            new SelectionSortBenchmark(N, runs).getStats();
         }
     }
     private final int runs;
-    private final int n;
+    private final int N;
     final static LazyLogger logger = new LazyLogger(SelectionSortBenchmark.class);
 }

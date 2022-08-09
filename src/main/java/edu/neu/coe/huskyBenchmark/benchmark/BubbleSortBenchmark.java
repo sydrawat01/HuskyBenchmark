@@ -10,52 +10,59 @@ import java.io.IOException;
 
 public class BubbleSortBenchmark {
 
-    public BubbleSortBenchmark(int N, int runs) {
-        this.N = N;
+    public BubbleSortBenchmark(int n, int runs) {
+        this.n = n;
         this.runs = runs;
     }
 
-    private void runBenchmarking() throws IOException {
+    private void getStats(int n) throws IOException {
         final Config config = Config.load(getClass());
+        ComparisonSortHelper<Integer> helper = HelperFactory.create("BubbleSort", n, config);
+        helper.init(n);
 
-        System.out.println("============================================================");
-        System.out.println("BubbleSort Benchmark: N=" + N);
-        String description = "Bubble Sort";
+        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000));
 
-        ComparisonSortHelper<Integer> helper = HelperFactory.create(description, N, config);
-        helper.init(N);
-
-        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(10000000));
+        // run timing benchmarking
+        runBenchmarks(n, runs, xs);
+        // finish timing benchmarking
         helper.preProcess(xs);
-        SortWithHelper<Integer> sorter = new BubbleSort<>(helper);
-
-        final double time = new Benchmark<>(
-                description + " (Random)",
-                (x)->sorter.preProcess(xs),
-                (x)->sorter.sortArray(xs),
-                sorter::postProcess
-        ).run(xs, runs);
-        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(time, N);
-
+        SortWithHelper<Integer> sorter = new BubbleSort<Integer>(helper);
+        sorter.preProcess(xs);
+        Integer[] ys = sorter.sort(xs);
+        sorter.postProcess(ys);
         StatPack statPack = helper.getInstrumenter().getStatPack();
         int hits = (int) statPack.getStatistics(Instrumenter.HITS).mean();
-        logger.info("Total Hits: " + hits);
+        System.out.println("Hits: " + hits);
+    }
 
+    private void runBenchmarks(int n, int runs, Integer[] xs) {
+        System.out.println("BubbleSort Benchmark: N=" + n);
+        String description = "Bubble Sort";
+
+        BubbleSort<Integer> bubbleSort = new BubbleSort<>();
+
+        final double timeRandom = new Benchmark<Integer[]>(
+                description + " (Random)",
+                null,
+                (x)->bubbleSort.sort(xs.clone(),0, xs.length),
+                null
+        ).run(xs, runs);
+        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(timeRandom, n);
     }
 
     private final static TimeLogger[] timeLoggers = {
-            new TimeLogger("Raw time per run (mSec): ", (time, N) -> time)
+            new TimeLogger("Raw time per run (mSec): ", (time, n) -> time)
     };
 
     public static void main(String[] args) throws IOException {
-        int runs = 1000;
+        int runs = 100;
         for (int i=7; i<15; i++) {
-            int N = (int) Math.pow(2, i);
-            new BubbleSortBenchmark(N, runs).runBenchmarking();
+            int n = (int) Math.pow(2, i);
+            new BubbleSortBenchmark(n, runs).getStats(n);
         }
     }
 
     private final int runs;
-    private final int N;
+    private final int n;
     final static LazyLogger logger = new LazyLogger(BubbleSortBenchmark.class);
 }

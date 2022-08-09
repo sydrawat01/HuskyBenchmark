@@ -9,51 +9,59 @@ import edu.neu.coe.huskyBenchmark.util.*;
 import java.io.IOException;
 
 public class ShellSortBenchMark {
-    public ShellSortBenchMark(int N, int runs) {
-        this.N = N;
+    public ShellSortBenchMark(int n, int runs) {
+        this.n = n;
         this.runs = runs;
     }
 
-    private void runBenchmarking() throws IOException {
+    private void getStats(int n) throws IOException {
         final Config config = Config.load(getClass());
-
-        System.out.println("============================================================");
-        System.out.println("ShellSort Benchmark: N=" + N);
-        String description = "Shell Sort";
-
-        ComparisonSortHelper<Integer> helper = HelperFactory.create(description, N, config);
-        helper.init(N);
+        ComparisonSortHelper<Integer> helper = HelperFactory.create("ShellSort", n, config);
+        helper.init(n);
 
         Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000));
+
+        // run timing benchmarking
+        runBenchmarks(n, runs, xs);
+        // finish timing benchmarking
         helper.preProcess(xs);
-        SortWithHelper<Integer> sorter = new ShellSort<>(3,helper);
-
-        final double time = new Benchmark<>(
-                description + " (Random)",
-                (x)->sorter.preProcess(xs),
-                (x)->sorter.sortArray(xs),
-                sorter::postProcess
-        ).run(xs, runs);
-        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(time, N);
-
+        SortWithHelper<Integer> sorter = new ShellSort<Integer>(3,helper);
+        sorter.preProcess(xs);
+        Integer[] ys = sorter.sort(xs);
+        sorter.postProcess(ys);
         StatPack statPack = helper.getInstrumenter().getStatPack();
         int hits = (int) statPack.getStatistics(Instrumenter.HITS).mean();
-        logger.info("Total Hits: " + hits);
+        System.out.println("Hits: " + hits);
+    }
+
+    private void runBenchmarks(int n, int runs, Integer[] xs) {
+        System.out.println("ShellSort Benchmark: N=" + n);
+        String description = "Shell Sort";
+
+        ShellSort<Integer> shellSort = new ShellSort<>(3);
+
+        final double timeRandom = new Benchmark<Integer[]>(
+                description + " (Random)",
+                null,
+                (x)->shellSort.sort(xs.clone(),0, xs.length),
+                null
+        ).run(xs, runs);
+        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(timeRandom, n);
     }
 
     private final static TimeLogger[] timeLoggers = {
-            new TimeLogger("Raw time per run (mSec): ", (time, N) -> time)
+            new TimeLogger("Raw time per run (mSec): ", (time, n) -> time)
     };
 
 
     public static void main(String[] args) throws IOException {
-        int runs = 1000;
-        for (int i=7; i<19; i++) {
-            int N = (int) Math.pow(2, i);
-            new ShellSortBenchMark(N, runs).runBenchmarking();
+        int runs = 100;
+        for (int i=7; i<15; i++) {
+            int n = (int) Math.pow(2, i);
+            new ShellSortBenchMark(n, runs).getStats(n);
         }
     }
     private final int runs;
-    private final int N;
+    private final int n;
     final static LazyLogger logger = new LazyLogger(ShellSortBenchMark.class);
 }

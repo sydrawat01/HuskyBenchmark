@@ -77,6 +77,10 @@ public final class Utilities {
         return Double.parseDouble(formatDecimal3Places(Math.sqrt(x)));
     }
 
+    public static double power2(final double x) {
+        return Double.parseDouble(formatDecimal3Places(Math.pow(2, x)));
+    }
+
     /**
      * Constants for BST deletion strategies
      */

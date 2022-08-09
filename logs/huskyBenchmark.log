@@ -508,3 +508,1823 @@
 2022-08-09 16:40:42 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
 2022-08-09 16:40:43 INFO  TimeLogger - Raw time per run (mSec):  .06
 2022-08-09 16:40:45 INFO  GenericBenchmark - Total Hits: 402159088
+2022-08-09 16:58:35 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 16:58:35 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 16:58:35 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 16:58:35 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 16:58:35 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 16:58:35 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 16:58:35 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 16:58:35 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 16:58:35 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 16:58:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:58:35 INFO  TimeLogger - Raw time per run (mSec):  .21
+2022-08-09 16:58:35 INFO  BubbleSortBenchmark - Total Hits: 23712
+2022-08-09 16:58:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:58:35 INFO  TimeLogger - Raw time per run (mSec):  .22
+2022-08-09 16:58:35 INFO  BubbleSortBenchmark - Total Hits: 99128
+2022-08-09 16:58:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:58:35 INFO  TimeLogger - Raw time per run (mSec):  .99
+2022-08-09 16:58:35 INFO  BubbleSortBenchmark - Total Hits: 388292
+2022-08-09 16:58:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:58:36 INFO  TimeLogger - Raw time per run (mSec):  4.15
+2022-08-09 16:58:36 INFO  BubbleSortBenchmark - Total Hits: 1563936
+2022-08-09 16:58:36 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:58:38 INFO  TimeLogger - Raw time per run (mSec):  15.37
+2022-08-09 16:58:38 INFO  BubbleSortBenchmark - Total Hits: 6275962
+2022-08-09 16:58:38 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:58:44 INFO  TimeLogger - Raw time per run (mSec):  62.35
+2022-08-09 16:58:44 INFO  BubbleSortBenchmark - Total Hits: 24920370
+2022-08-09 16:58:44 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:59:15 INFO  TimeLogger - Raw time per run (mSec):  274.15
+2022-08-09 16:59:16 INFO  BubbleSortBenchmark - Total Hits: 100790320
+2022-08-09 16:59:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:59:35 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 16:59:35 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 16:59:35 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 16:59:35 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 16:59:35 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 16:59:35 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 16:59:35 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 16:59:35 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 16:59:35 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 16:59:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:59:35 INFO  TimeLogger - Raw time per run (mSec):  .29
+2022-08-09 16:59:35 INFO  BubbleSortBenchmark - Total Hits: 24670
+2022-08-09 16:59:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:59:35 INFO  TimeLogger - Raw time per run (mSec):  .22
+2022-08-09 16:59:35 INFO  BubbleSortBenchmark - Total Hits: 95066
+2022-08-09 16:59:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:59:35 INFO  TimeLogger - Raw time per run (mSec):  1.20
+2022-08-09 16:59:35 INFO  BubbleSortBenchmark - Total Hits: 394340
+2022-08-09 16:59:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:59:36 INFO  TimeLogger - Raw time per run (mSec):  3.25
+2022-08-09 16:59:36 INFO  BubbleSortBenchmark - Total Hits: 1571552
+2022-08-09 16:59:36 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 16:59:37 INFO  TimeLogger - Raw time per run (mSec):  14.80
+2022-08-09 16:59:37 INFO  BubbleSortBenchmark - Total Hits: 6282134
+2022-08-09 16:59:37 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 17:02:38 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:02:38 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:02:38 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:02:38 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:02:38 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:02:38 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:02:38 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:02:38 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:02:38 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:02:38 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:02:38 INFO  TimeLogger - Raw time per run (mSec):  .23
+2022-08-09 17:02:38 INFO  InsertionSortBenchmark - Total Hits: 17630
+2022-08-09 17:02:38 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:02:38 INFO  TimeLogger - Raw time per run (mSec):  .14
+2022-08-09 17:02:38 INFO  InsertionSortBenchmark - Total Hits: 68668
+2022-08-09 17:02:38 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:02:38 INFO  TimeLogger - Raw time per run (mSec):  .49
+2022-08-09 17:02:38 INFO  InsertionSortBenchmark - Total Hits: 267238
+2022-08-09 17:02:38 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:02:38 INFO  TimeLogger - Raw time per run (mSec):  2.25
+2022-08-09 17:02:38 INFO  InsertionSortBenchmark - Total Hits: 1035226
+2022-08-09 17:02:38 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:02:39 INFO  TimeLogger - Raw time per run (mSec):  11.47
+2022-08-09 17:02:39 INFO  InsertionSortBenchmark - Total Hits: 4282704
+2022-08-09 17:02:39 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:02:42 INFO  TimeLogger - Raw time per run (mSec):  22.51
+2022-08-09 17:02:42 INFO  InsertionSortBenchmark - Total Hits: 16807778
+2022-08-09 17:02:42 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:02:53 INFO  TimeLogger - Raw time per run (mSec):  98.36
+2022-08-09 17:02:53 INFO  InsertionSortBenchmark - Total Hits: 67518190
+2022-08-09 17:02:53 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:03:39 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:03:39 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:03:39 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:03:39 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:03:39 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:03:39 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:03:39 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:03:39 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:03:39 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:03:39 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:03:39 INFO  TimeLogger - Raw time per run (mSec):  .24
+2022-08-09 17:03:39 INFO  InsertionSortBenchmark - Total Hits: 16290
+2022-08-09 17:03:39 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:03:39 INFO  TimeLogger - Raw time per run (mSec):  .13
+2022-08-09 17:03:39 INFO  InsertionSortBenchmark - Total Hits: 68860
+2022-08-09 17:03:39 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:03:39 INFO  TimeLogger - Raw time per run (mSec):  .82
+2022-08-09 17:03:39 INFO  InsertionSortBenchmark - Total Hits: 274000
+2022-08-09 17:03:39 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:03:39 INFO  TimeLogger - Raw time per run (mSec):  1.56
+2022-08-09 17:03:39 INFO  InsertionSortBenchmark - Total Hits: 1105158
+2022-08-09 17:03:39 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:03:40 INFO  TimeLogger - Raw time per run (mSec):  6.01
+2022-08-09 17:03:40 INFO  InsertionSortBenchmark - Total Hits: 4110156
+2022-08-09 17:03:40 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:03:42 INFO  TimeLogger - Raw time per run (mSec):  21.60
+2022-08-09 17:03:42 INFO  InsertionSortBenchmark - Total Hits: 16540364
+2022-08-09 17:03:42 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
+2022-08-09 17:11:43 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:11:43 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:11:43 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:11:43 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:11:43 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:11:43 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:11:43 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:11:43 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:11:43 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:11:43 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:43 INFO  TimeLogger - Raw time per run (mSec):  .19
+2022-08-09 17:11:43 INFO  QuickSortBenchmark - Hits: 764, Compares: 1008.000, Swaps: 191.000
+2022-08-09 17:11:43 INFO  QuickSortBenchmark - Swaps/Compares: 0.189
+2022-08-09 17:11:43 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:43 INFO  TimeLogger - Raw time per run (mSec):  .06
+2022-08-09 17:11:43 INFO  QuickSortBenchmark - Hits: 1824, Compares: 2535.000, Swaps: 456.000
+2022-08-09 17:11:43 INFO  QuickSortBenchmark - Swaps/Compares: 0.180
+2022-08-09 17:11:43 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:43 INFO  TimeLogger - Raw time per run (mSec):  .18
+2022-08-09 17:11:43 INFO  QuickSortBenchmark - Hits: 4064, Compares: 5855.000, Swaps: 1016.000
+2022-08-09 17:11:43 INFO  QuickSortBenchmark - Swaps/Compares: 0.174
+2022-08-09 17:11:43 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:44 INFO  TimeLogger - Raw time per run (mSec):  .27
+2022-08-09 17:11:44 INFO  QuickSortBenchmark - Hits: 9116, Compares: 13663.000, Swaps: 2279.000
+2022-08-09 17:11:44 INFO  QuickSortBenchmark - Swaps/Compares: 0.167
+2022-08-09 17:11:44 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:44 INFO  TimeLogger - Raw time per run (mSec):  .49
+2022-08-09 17:11:44 INFO  QuickSortBenchmark - Hits: 20320, Compares: 29174.000, Swaps: 5080.000
+2022-08-09 17:11:44 INFO  QuickSortBenchmark - Swaps/Compares: 0.174
+2022-08-09 17:11:44 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:45 INFO  TimeLogger - Raw time per run (mSec):  .74
+2022-08-09 17:11:45 INFO  QuickSortBenchmark - Hits: 44188, Compares: 60759.000, Swaps: 11047.000
+2022-08-09 17:11:45 INFO  QuickSortBenchmark - Swaps/Compares: 0.182
+2022-08-09 17:11:45 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:46 INFO  TimeLogger - Raw time per run (mSec):  1.48
+2022-08-09 17:11:46 INFO  QuickSortBenchmark - Hits: 95248, Compares: 142590.000, Swaps: 23812.000
+2022-08-09 17:11:46 INFO  QuickSortBenchmark - Swaps/Compares: 0.167
+2022-08-09 17:11:46 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:50 INFO  TimeLogger - Raw time per run (mSec):  3.27
+2022-08-09 17:11:50 INFO  QuickSortBenchmark - Hits: 205184, Compares: 306467.000, Swaps: 51296.000
+2022-08-09 17:11:50 INFO  QuickSortBenchmark - Swaps/Compares: 0.167
+2022-08-09 17:11:50 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:11:57 INFO  TimeLogger - Raw time per run (mSec):  6.89
+2022-08-09 17:11:57 INFO  QuickSortBenchmark - Hits: 446152, Compares: 610025.000, Swaps: 111538.000
+2022-08-09 17:11:57 INFO  QuickSortBenchmark - Swaps/Compares: 0.183
+2022-08-09 17:11:57 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:32 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:12:32 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:12:32 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:12:32 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:12:32 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:12:32 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:12:32 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:12:32 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:12:32 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:12:32 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:32 INFO  TimeLogger - Raw time per run (mSec):  .34
+2022-08-09 17:12:32 INFO  QuickSortBenchmark - Hits: 800, Compares: 1201.0, Swaps: 200.0
+2022-08-09 17:12:32 INFO  QuickSortBenchmark - Swaps/Compares: 0.167
+2022-08-09 17:12:32 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:33 INFO  TimeLogger - Raw time per run (mSec):  .58
+2022-08-09 17:12:33 INFO  QuickSortBenchmark - Hits: 1840, Compares: 2360.0, Swaps: 460.0
+2022-08-09 17:12:33 INFO  QuickSortBenchmark - Swaps/Compares: 0.195
+2022-08-09 17:12:33 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:33 INFO  TimeLogger - Raw time per run (mSec):  .14
+2022-08-09 17:12:33 INFO  QuickSortBenchmark - Hits: 4120, Compares: 5329.0, Swaps: 1030.0
+2022-08-09 17:12:33 INFO  QuickSortBenchmark - Swaps/Compares: 0.193
+2022-08-09 17:12:33 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:33 INFO  TimeLogger - Raw time per run (mSec):  .20
+2022-08-09 17:12:33 INFO  QuickSortBenchmark - Hits: 9120, Compares: 12771.0, Swaps: 2280.0
+2022-08-09 17:12:33 INFO  QuickSortBenchmark - Swaps/Compares: 0.179
+2022-08-09 17:12:33 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:34 INFO  TimeLogger - Raw time per run (mSec):  .33
+2022-08-09 17:12:34 INFO  QuickSortBenchmark - Hits: 20268, Compares: 29281.0, Swaps: 5067.0
+2022-08-09 17:12:34 INFO  QuickSortBenchmark - Swaps/Compares: 0.173
+2022-08-09 17:12:34 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:34 INFO  TimeLogger - Raw time per run (mSec):  .67
+2022-08-09 17:12:34 INFO  QuickSortBenchmark - Hits: 43952, Compares: 60734.0, Swaps: 10988.0
+2022-08-09 17:12:34 INFO  QuickSortBenchmark - Swaps/Compares: 0.181
+2022-08-09 17:12:34 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:36 INFO  TimeLogger - Raw time per run (mSec):  1.47
+2022-08-09 17:12:36 INFO  QuickSortBenchmark - Hits: 93980, Compares: 146014.0, Swaps: 23495.0
+2022-08-09 17:12:36 INFO  QuickSortBenchmark - Swaps/Compares: 0.161
+2022-08-09 17:12:36 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:12:39 INFO  TimeLogger - Raw time per run (mSec):  2.97
+2022-08-09 17:12:39 INFO  QuickSortBenchmark - Hits: 204712, Compares: 310888.0, Swaps: 51178.0
+2022-08-09 17:12:39 INFO  QuickSortBenchmark - Swaps/Compares: 0.165
+2022-08-09 17:12:39 INFO  Benchmark - Begin run: Quick Sort (Random) with 1,000 runs
+2022-08-09 17:14:40 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:14:40 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:14:40 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:14:40 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:14:40 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:14:40 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:14:40 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:14:40 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:14:40 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:14:40 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:14:40 INFO  TimeLogger - Raw time per run (mSec):  .18
+2022-08-09 17:14:40 INFO  SelectionSortBenchmark - Total Hits: 480
+2022-08-09 17:14:40 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:14:40 INFO  TimeLogger - Raw time per run (mSec):  .68
+2022-08-09 17:14:40 INFO  SelectionSortBenchmark - Total Hits: 1004
+2022-08-09 17:14:40 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:14:40 INFO  TimeLogger - Raw time per run (mSec):  .52
+2022-08-09 17:14:40 INFO  SelectionSortBenchmark - Total Hits: 2012
+2022-08-09 17:14:41 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:14:41 INFO  TimeLogger - Raw time per run (mSec):  1.51
+2022-08-09 17:14:41 INFO  SelectionSortBenchmark - Total Hits: 4064
+2022-08-09 17:14:41 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:14:42 INFO  TimeLogger - Raw time per run (mSec):  7.78
+2022-08-09 17:14:42 INFO  SelectionSortBenchmark - Total Hits: 8140
+2022-08-09 17:14:42 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:14:44 INFO  TimeLogger - Raw time per run (mSec):  18.86
+2022-08-09 17:14:44 INFO  SelectionSortBenchmark - Total Hits: 16352
+2022-08-09 17:14:44 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:14:52 INFO  TimeLogger - Raw time per run (mSec):  73.21
+2022-08-09 17:14:52 INFO  SelectionSortBenchmark - Total Hits: 32740
+2022-08-09 17:14:52 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:03 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:15:03 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:15:03 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:15:03 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:15:03 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:15:03 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:15:03 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:15:03 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:15:03 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:15:04 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:04 INFO  TimeLogger - Raw time per run (mSec):  .17
+2022-08-09 17:15:04 INFO  SelectionSortBenchmark - Total Hits: 496
+2022-08-09 17:15:04 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:04 INFO  TimeLogger - Raw time per run (mSec):  .62
+2022-08-09 17:15:04 INFO  SelectionSortBenchmark - Total Hits: 988
+2022-08-09 17:15:04 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:04 INFO  TimeLogger - Raw time per run (mSec):  1.11
+2022-08-09 17:15:04 INFO  SelectionSortBenchmark - Total Hits: 2028
+2022-08-09 17:15:04 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:04 INFO  TimeLogger - Raw time per run (mSec):  1.94
+2022-08-09 17:15:04 INFO  SelectionSortBenchmark - Total Hits: 4080
+2022-08-09 17:15:04 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:05 INFO  TimeLogger - Raw time per run (mSec):  6.28
+2022-08-09 17:15:05 INFO  SelectionSortBenchmark - Total Hits: 8152
+2022-08-09 17:15:05 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:07 INFO  TimeLogger - Raw time per run (mSec):  19.60
+2022-08-09 17:15:07 INFO  SelectionSortBenchmark - Total Hits: 16368
+2022-08-09 17:15:07 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:13 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:15:13 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:15:13 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:15:13 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:15:13 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:15:13 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:15:13 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:15:13 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:15:13 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:15:13 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:13 INFO  TimeLogger - Raw time per run (mSec):  .15
+2022-08-09 17:15:13 INFO  SelectionSortBenchmark - Total Hits: 496
+2022-08-09 17:15:13 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:13 INFO  TimeLogger - Raw time per run (mSec):  .87
+2022-08-09 17:15:13 INFO  SelectionSortBenchmark - Total Hits: 1004
+2022-08-09 17:15:13 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:13 INFO  TimeLogger - Raw time per run (mSec):  .47
+2022-08-09 17:15:13 INFO  SelectionSortBenchmark - Total Hits: 2036
+2022-08-09 17:15:13 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:13 INFO  TimeLogger - Raw time per run (mSec):  1.18
+2022-08-09 17:15:13 INFO  SelectionSortBenchmark - Total Hits: 4068
+2022-08-09 17:15:13 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:14 INFO  TimeLogger - Raw time per run (mSec):  6.35
+2022-08-09 17:15:14 INFO  SelectionSortBenchmark - Total Hits: 8148
+2022-08-09 17:15:14 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:16 INFO  TimeLogger - Raw time per run (mSec):  13.98
+2022-08-09 17:15:16 INFO  SelectionSortBenchmark - Total Hits: 16372
+2022-08-09 17:15:16 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:20 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:15:20 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:15:20 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:15:20 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:15:20 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:15:20 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:15:20 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:15:20 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:15:20 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:15:20 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:20 INFO  TimeLogger - Raw time per run (mSec):  .17
+2022-08-09 17:15:20 INFO  SelectionSortBenchmark - Total Hits: 488
+2022-08-09 17:15:20 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:20 INFO  TimeLogger - Raw time per run (mSec):  .52
+2022-08-09 17:15:20 INFO  SelectionSortBenchmark - Total Hits: 996
+2022-08-09 17:15:20 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:20 INFO  TimeLogger - Raw time per run (mSec):  .38
+2022-08-09 17:15:20 INFO  SelectionSortBenchmark - Total Hits: 2024
+2022-08-09 17:15:20 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:20 INFO  TimeLogger - Raw time per run (mSec):  1.75
+2022-08-09 17:15:20 INFO  SelectionSortBenchmark - Total Hits: 4072
+2022-08-09 17:15:20 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:21 INFO  TimeLogger - Raw time per run (mSec):  5.69
+2022-08-09 17:15:21 INFO  SelectionSortBenchmark - Total Hits: 8156
+2022-08-09 17:15:21 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:26 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:15:26 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:15:26 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:15:26 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:15:26 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:15:26 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:15:26 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:15:26 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:15:26 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:15:26 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:26 INFO  TimeLogger - Raw time per run (mSec):  .16
+2022-08-09 17:15:26 INFO  SelectionSortBenchmark - Total Hits: 500
+2022-08-09 17:15:26 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:26 INFO  TimeLogger - Raw time per run (mSec):  .69
+2022-08-09 17:15:26 INFO  SelectionSortBenchmark - Total Hits: 1004
+2022-08-09 17:15:26 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:26 INFO  TimeLogger - Raw time per run (mSec):  .50
+2022-08-09 17:15:26 INFO  SelectionSortBenchmark - Total Hits: 2004
+2022-08-09 17:15:26 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:26 INFO  TimeLogger - Raw time per run (mSec):  2.17
+2022-08-09 17:15:26 INFO  SelectionSortBenchmark - Total Hits: 4080
+2022-08-09 17:15:26 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:27 INFO  TimeLogger - Raw time per run (mSec):  7.02
+2022-08-09 17:15:27 INFO  SelectionSortBenchmark - Total Hits: 8156
+2022-08-09 17:15:27 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:32 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:15:32 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:15:32 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:15:32 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:15:32 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:15:32 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:15:32 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:15:32 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:15:32 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:15:32 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:32 INFO  TimeLogger - Raw time per run (mSec):  .54
+2022-08-09 17:15:32 INFO  SelectionSortBenchmark - Total Hits: 492
+2022-08-09 17:15:32 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:32 INFO  TimeLogger - Raw time per run (mSec):  .16
+2022-08-09 17:15:32 INFO  SelectionSortBenchmark - Total Hits: 1008
+2022-08-09 17:15:32 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:33 INFO  TimeLogger - Raw time per run (mSec):  .59
+2022-08-09 17:15:33 INFO  SelectionSortBenchmark - Total Hits: 1996
+2022-08-09 17:15:33 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:33 INFO  TimeLogger - Raw time per run (mSec):  1.08
+2022-08-09 17:15:33 INFO  SelectionSortBenchmark - Total Hits: 4064
+2022-08-09 17:15:33 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:33 INFO  TimeLogger - Raw time per run (mSec):  5.03
+2022-08-09 17:15:33 INFO  SelectionSortBenchmark - Total Hits: 8168
+2022-08-09 17:15:33 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:38 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:15:38 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:15:38 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:15:38 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:15:38 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:15:38 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:15:38 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:15:38 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:15:38 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:15:38 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:38 INFO  TimeLogger - Raw time per run (mSec):  .19
+2022-08-09 17:15:38 INFO  SelectionSortBenchmark - Total Hits: 504
+2022-08-09 17:15:38 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:38 INFO  TimeLogger - Raw time per run (mSec):  .84
+2022-08-09 17:15:38 INFO  SelectionSortBenchmark - Total Hits: 996
+2022-08-09 17:15:38 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:38 INFO  TimeLogger - Raw time per run (mSec):  .60
+2022-08-09 17:15:38 INFO  SelectionSortBenchmark - Total Hits: 2016
+2022-08-09 17:15:38 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:38 INFO  TimeLogger - Raw time per run (mSec):  1.62
+2022-08-09 17:15:38 INFO  SelectionSortBenchmark - Total Hits: 4072
+2022-08-09 17:15:38 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:39 INFO  TimeLogger - Raw time per run (mSec):  8.17
+2022-08-09 17:15:39 INFO  SelectionSortBenchmark - Total Hits: 8164
+2022-08-09 17:15:39 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:49 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:15:49 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:15:49 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:15:49 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:15:49 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:15:49 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:15:49 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:15:49 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:15:49 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:15:50 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:50 INFO  TimeLogger - Raw time per run (mSec):  .66
+2022-08-09 17:15:50 INFO  SelectionSortBenchmark - Total Hits: 500
+2022-08-09 17:15:50 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:50 INFO  TimeLogger - Raw time per run (mSec):  .11
+2022-08-09 17:15:50 INFO  SelectionSortBenchmark - Total Hits: 1008
+2022-08-09 17:15:50 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:50 INFO  TimeLogger - Raw time per run (mSec):  1.03
+2022-08-09 17:15:50 INFO  SelectionSortBenchmark - Total Hits: 2032
+2022-08-09 17:15:50 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:50 INFO  TimeLogger - Raw time per run (mSec):  1.68
+2022-08-09 17:15:50 INFO  SelectionSortBenchmark - Total Hits: 4052
+2022-08-09 17:15:50 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:51 INFO  TimeLogger - Raw time per run (mSec):  6.30
+2022-08-09 17:15:51 INFO  SelectionSortBenchmark - Total Hits: 8164
+2022-08-09 17:15:51 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:53 INFO  TimeLogger - Raw time per run (mSec):  16.98
+2022-08-09 17:15:53 INFO  SelectionSortBenchmark - Total Hits: 16348
+2022-08-09 17:15:53 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:56 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:15:56 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:15:56 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:15:56 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:15:56 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:15:56 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:15:56 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:15:56 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:15:56 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:15:56 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:56 INFO  TimeLogger - Raw time per run (mSec):  .20
+2022-08-09 17:15:56 INFO  SelectionSortBenchmark - Total Hits: 504
+2022-08-09 17:15:56 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:56 INFO  TimeLogger - Raw time per run (mSec):  .67
+2022-08-09 17:15:56 INFO  SelectionSortBenchmark - Total Hits: 1004
+2022-08-09 17:15:56 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:56 INFO  TimeLogger - Raw time per run (mSec):  .75
+2022-08-09 17:15:56 INFO  SelectionSortBenchmark - Total Hits: 2024
+2022-08-09 17:15:56 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:56 INFO  TimeLogger - Raw time per run (mSec):  1.61
+2022-08-09 17:15:56 INFO  SelectionSortBenchmark - Total Hits: 4068
+2022-08-09 17:15:56 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:15:57 INFO  TimeLogger - Raw time per run (mSec):  7.26
+2022-08-09 17:15:57 INFO  SelectionSortBenchmark - Total Hits: 8160
+2022-08-09 17:15:57 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:03 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:40:03 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:40:03 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:40:03 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:40:03 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:40:03 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:40:03 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:40:03 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:40:03 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:40:03 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:03 INFO  TimeLogger - Raw time per run (mSec):  .22
+2022-08-09 17:40:03 INFO  SelectionSortBenchmark - Total Hits: 500
+2022-08-09 17:40:03 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:03 INFO  TimeLogger - Raw time per run (mSec):  .49
+2022-08-09 17:40:03 INFO  SelectionSortBenchmark - Total Hits: 1000
+2022-08-09 17:40:03 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:04 INFO  TimeLogger - Raw time per run (mSec):  .47
+2022-08-09 17:40:04 INFO  SelectionSortBenchmark - Total Hits: 2028
+2022-08-09 17:40:04 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:04 INFO  TimeLogger - Raw time per run (mSec):  1.76
+2022-08-09 17:40:04 INFO  SelectionSortBenchmark - Total Hits: 4064
+2022-08-09 17:40:04 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:05 INFO  TimeLogger - Raw time per run (mSec):  8.33
+2022-08-09 17:40:05 INFO  SelectionSortBenchmark - Total Hits: 8144
+2022-08-09 17:40:05 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:07 INFO  TimeLogger - Raw time per run (mSec):  18.91
+2022-08-09 17:40:07 INFO  SelectionSortBenchmark - Total Hits: 16372
+2022-08-09 17:40:07 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:17 INFO  TimeLogger - Raw time per run (mSec):  92.31
+2022-08-09 17:40:17 INFO  SelectionSortBenchmark - Total Hits: 32748
+2022-08-09 17:40:17 INFO  Benchmark - Begin run: Selection Sort (Random) with 100 runs
+2022-08-09 17:40:52 INFO  TimeLogger - Raw time per run (mSec):  316.78
+2022-08-09 17:40:52 INFO  SelectionSortBenchmark - Total Hits: 65488
+2022-08-09 17:47:59 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:47:59 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:47:59 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:47:59 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:47:59 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:47:59 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:47:59 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:47:59 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:47:59 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:47:59 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:47:59 INFO  TimeLogger - Raw time per run (mSec):  .04
+2022-08-09 17:47:59 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:47:59 INFO  TimeLogger - Raw time per run (mSec):  .09
+2022-08-09 17:47:59 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:47:59 INFO  TimeLogger - Raw time per run (mSec):  .09
+2022-08-09 17:47:59 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:47:59 INFO  TimeLogger - Raw time per run (mSec):  .20
+2022-08-09 17:47:59 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:00 INFO  TimeLogger - Raw time per run (mSec):  .64
+2022-08-09 17:48:00 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:01 INFO  TimeLogger - Raw time per run (mSec):  .80
+2022-08-09 17:48:01 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:03 INFO  TimeLogger - Raw time per run (mSec):  1.67
+2022-08-09 17:48:03 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:06 INFO  TimeLogger - Raw time per run (mSec):  3.64
+2022-08-09 17:48:29 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:48:29 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:48:29 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:48:29 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:48:29 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:48:29 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:48:29 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:48:29 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:48:29 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:48:29 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:29 INFO  TimeLogger - Raw time per run (mSec):  .51
+2022-08-09 17:48:30 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:30 INFO  TimeLogger - Raw time per run (mSec):  .29
+2022-08-09 17:48:30 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:30 INFO  TimeLogger - Raw time per run (mSec):  .28
+2022-08-09 17:48:30 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:31 INFO  TimeLogger - Raw time per run (mSec):  .27
+2022-08-09 17:48:31 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:31 INFO  TimeLogger - Raw time per run (mSec):  .32
+2022-08-09 17:48:31 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:31 INFO  TimeLogger - Raw time per run (mSec):  .27
+2022-08-09 17:48:31 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:32 INFO  TimeLogger - Raw time per run (mSec):  .27
+2022-08-09 17:48:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:32 INFO  TimeLogger - Raw time per run (mSec):  .29
+2022-08-09 17:48:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:32 INFO  TimeLogger - Raw time per run (mSec):  .64
+2022-08-09 17:48:33 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:34 INFO  TimeLogger - Raw time per run (mSec):  .60
+2022-08-09 17:48:34 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:34 INFO  TimeLogger - Raw time per run (mSec):  .59
+2022-08-09 17:48:34 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:35 INFO  TimeLogger - Raw time per run (mSec):  .64
+2022-08-09 17:48:35 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:36 INFO  TimeLogger - Raw time per run (mSec):  .58
+2022-08-09 17:48:36 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:36 INFO  TimeLogger - Raw time per run (mSec):  .63
+2022-08-09 17:48:36 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:37 INFO  TimeLogger - Raw time per run (mSec):  .62
+2022-08-09 17:48:37 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:38 INFO  TimeLogger - Raw time per run (mSec):  .83
+2022-08-09 17:48:38 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:39 INFO  TimeLogger - Raw time per run (mSec):  1.15
+2022-08-09 17:48:40 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:41 INFO  TimeLogger - Raw time per run (mSec):  .88
+2022-08-09 17:48:41 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:42 INFO  TimeLogger - Raw time per run (mSec):  .84
+2022-08-09 17:48:42 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:43 INFO  TimeLogger - Raw time per run (mSec):  .88
+2022-08-09 17:48:43 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:44 INFO  TimeLogger - Raw time per run (mSec):  .90
+2022-08-09 17:48:44 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:45 INFO  TimeLogger - Raw time per run (mSec):  .91
+2022-08-09 17:48:45 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:46 INFO  TimeLogger - Raw time per run (mSec):  .83
+2022-08-09 17:48:46 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:47 INFO  TimeLogger - Raw time per run (mSec):  .95
+2022-08-09 17:48:47 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:48 INFO  TimeLogger - Raw time per run (mSec):  1.34
+2022-08-09 17:48:50 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:52 INFO  TimeLogger - Raw time per run (mSec):  1.29
+2022-08-09 17:48:52 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:54 INFO  TimeLogger - Raw time per run (mSec):  1.42
+2022-08-09 17:48:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:55 INFO  TimeLogger - Raw time per run (mSec):  1.40
+2022-08-09 17:48:55 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:57 INFO  TimeLogger - Raw time per run (mSec):  1.25
+2022-08-09 17:48:57 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:48:58 INFO  TimeLogger - Raw time per run (mSec):  1.44
+2022-08-09 17:48:58 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:49:00 INFO  TimeLogger - Raw time per run (mSec):  1.68
+2022-08-09 17:49:00 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:41 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:51:41 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:51:41 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:51:41 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:51:41 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:51:41 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:51:41 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:51:41 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:51:41 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:51:41 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:41 INFO  TimeLogger - Raw time per run (mSec):  .37
+2022-08-09 17:51:41 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 1: 74984968
+2022-08-09 17:51:41 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 1: 12497500
+2022-08-09 17:51:41 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:42 INFO  TimeLogger - Raw time per run (mSec):  .34
+2022-08-09 17:51:42 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 4: 18789914
+2022-08-09 17:51:42 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 4: 3134983
+2022-08-09 17:51:42 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:42 INFO  TimeLogger - Raw time per run (mSec):  .56
+2022-08-09 17:51:42 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 13: 5820302
+2022-08-09 17:51:42 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 13: 976709
+2022-08-09 17:51:42 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:43 INFO  TimeLogger - Raw time per run (mSec):  .33
+2022-08-09 17:51:43 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 40: 1988862
+2022-08-09 17:51:43 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 40: 341443
+2022-08-09 17:51:43 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:43 INFO  TimeLogger - Raw time per run (mSec):  .36
+2022-08-09 17:51:43 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 121: 746706
+2022-08-09 17:51:43 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 121: 137721
+2022-08-09 17:51:43 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:43 INFO  TimeLogger - Raw time per run (mSec):  .32
+2022-08-09 17:51:43 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 364: 336480
+2022-08-09 17:51:43 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 364: 72496
+2022-08-09 17:51:43 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:44 INFO  TimeLogger - Raw time per run (mSec):  .32
+2022-08-09 17:51:44 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 1093: 206230
+2022-08-09 17:51:44 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 1093: 53705
+2022-08-09 17:51:44 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:44 INFO  TimeLogger - Raw time per run (mSec):  .30
+2022-08-09 17:51:44 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 3280: 179758
+2022-08-09 17:51:44 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 3280: 51479
+2022-08-09 17:51:44 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:45 INFO  TimeLogger - Raw time per run (mSec):  .77
+2022-08-09 17:51:45 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 1: 299969852
+2022-08-09 17:51:45 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 1: 49995000
+2022-08-09 17:51:45 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:46 INFO  TimeLogger - Raw time per run (mSec):  .84
+2022-08-09 17:51:46 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 4: 75079758
+2022-08-09 17:51:46 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 4: 12519957
+2022-08-09 17:51:46 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:47 INFO  TimeLogger - Raw time per run (mSec):  .75
+2022-08-09 17:51:47 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 13: 23160610
+2022-08-09 17:51:47 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 13: 3873429
+2022-08-09 17:51:47 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:48 INFO  TimeLogger - Raw time per run (mSec):  .84
+2022-08-09 17:51:48 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 40: 7727730
+2022-08-09 17:51:48 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 40: 1307921
+2022-08-09 17:51:48 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:49 INFO  TimeLogger - Raw time per run (mSec):  .99
+2022-08-09 17:51:49 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 121: 2725568
+2022-08-09 17:51:49 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 121: 480840
+2022-08-09 17:51:49 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:50 INFO  TimeLogger - Raw time per run (mSec):  .97
+2022-08-09 17:51:50 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 364: 1050258
+2022-08-09 17:51:50 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 364: 208207
+2022-08-09 17:51:50 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:51 INFO  TimeLogger - Raw time per run (mSec):  1.11
+2022-08-09 17:51:51 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 1093: 619520
+2022-08-09 17:51:51 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 1093: 142576
+2022-08-09 17:51:51 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:52 INFO  TimeLogger - Raw time per run (mSec):  .83
+2022-08-09 17:51:52 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 3280: 467632
+2022-08-09 17:51:52 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 3280: 121948
+2022-08-09 17:51:52 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:53 INFO  TimeLogger - Raw time per run (mSec):  1.28
+2022-08-09 17:51:55 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 1: 674954456
+2022-08-09 17:51:55 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 1: 112492500
+2022-08-09 17:51:55 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:56 INFO  TimeLogger - Raw time per run (mSec):  1.02
+2022-08-09 17:51:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 4: 168869536
+2022-08-09 17:51:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 4: 28154920
+2022-08-09 17:51:56 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:57 INFO  TimeLogger - Raw time per run (mSec):  1.13
+2022-08-09 17:51:57 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 13: 52076222
+2022-08-09 17:51:57 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 13: 8699361
+2022-08-09 17:51:57 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:51:58 INFO  TimeLogger - Raw time per run (mSec):  1.15
+2022-08-09 17:51:59 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 40: 17216376
+2022-08-09 17:51:59 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 40: 2899362
+2022-08-09 17:51:59 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:52:00 INFO  TimeLogger - Raw time per run (mSec):  1.09
+2022-08-09 17:52:00 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 121: 5956296
+2022-08-09 17:52:00 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 121: 1032604
+2022-08-09 17:52:00 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:52:01 INFO  TimeLogger - Raw time per run (mSec):  1.07
+2022-08-09 17:52:01 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 364: 2232326
+2022-08-09 17:52:01 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 364: 421831
+2022-08-09 17:52:01 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:52:02 INFO  TimeLogger - Raw time per run (mSec):  1.02
+2022-08-09 17:52:02 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 1093: 1030204
+2022-08-09 17:52:02 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 1093: 230950
+2022-08-09 17:52:02 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:52:03 INFO  TimeLogger - Raw time per run (mSec):  1.12
+2022-08-09 17:52:03 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 3280: 691864
+2022-08-09 17:52:03 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 3280: 183312
+2022-08-09 17:52:03 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:52:05 INFO  TimeLogger - Raw time per run (mSec):  1.77
+2022-08-09 17:52:07 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 1: 1199939208
+2022-08-09 17:52:07 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 1: 199989998
+2022-08-09 17:52:07 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:52:08 INFO  TimeLogger - Raw time per run (mSec):  1.53
+2022-08-09 17:52:09 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 4: 300159062
+2022-08-09 17:52:09 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 4: 50039841
+2022-08-09 17:52:09 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:52:10 INFO  TimeLogger - Raw time per run (mSec):  1.50
+2022-08-09 17:52:11 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 13: 92456386
+2022-08-09 17:52:11 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 13: 15436059
+2022-08-09 17:52:11 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:52:12 INFO  TimeLogger - Raw time per run (mSec):  1.51
+2022-08-09 17:52:12 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 40: 30455082
+2022-08-09 17:52:12 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 40: 5115813
+2022-08-09 17:52:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:53:59 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:53:59 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:53:59 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:53:59 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:53:59 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:53:59 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:53:59 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:53:59 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:53:59 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:53:59 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:54:00 INFO  TimeLogger - Raw time per run (mSec):  1.30
+2022-08-09 17:54:01 INFO  ShellSortBenchMark - Hits for Reverse 5000 Array Size and Gap is 1: 36594134
+2022-08-09 17:54:01 INFO  ShellSortBenchMark - Compares for Reverse 5000 Array Size and Gap is 1: 6102345
+2022-08-09 17:54:01 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:54:02 INFO  TimeLogger - Raw time per run (mSec):  1.02
+2022-08-09 17:54:02 INFO  ShellSortBenchMark - Hits for Reverse 5000 Array Size and Gap is 4: 10016346
+2022-08-09 17:54:02 INFO  ShellSortBenchMark - Compares for Reverse 5000 Array Size and Gap is 4: 1676035
+2022-08-09 17:54:02 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:54:03 INFO  TimeLogger - Raw time per run (mSec):  1.11
+2022-08-09 17:54:03 INFO  ShellSortBenchMark - Hits for Reverse 5000 Array Size and Gap is 13: 3331716
+2022-08-09 17:54:03 INFO  ShellSortBenchMark - Compares for Reverse 5000 Array Size and Gap is 13: 565230
+2022-08-09 17:54:03 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:54:04 INFO  TimeLogger - Raw time per run (mSec):  1.04
+2022-08-09 17:54:04 INFO  ShellSortBenchMark - Hits for Reverse 5000 Array Size and Gap is 40: 1329270
+2022-08-09 17:54:04 INFO  ShellSortBenchMark - Compares for Reverse 5000 Array Size and Gap is 40: 234689
+2022-08-09 17:54:04 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:54:05 INFO  TimeLogger - Raw time per run (mSec):  1.12
+2022-08-09 17:54:05 INFO  ShellSortBenchMark - Hits for Reverse 5000 Array Size and Gap is 121: 716330
+2022-08-09 17:54:05 INFO  ShellSortBenchMark - Compares for Reverse 5000 Array Size and Gap is 121: 135605
+2022-08-09 17:54:05 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:54:32 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:54:32 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:54:32 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:54:32 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:54:32 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:54:32 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:54:32 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:54:32 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:54:32 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 1: 74984952
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 1: 12497500
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 4: 18789956
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 4: 3134990
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 13: 5820362
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 13: 976719
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 40: 1988844
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 40: 341440
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 121: 746706
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 121: 137721
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 364: 336480
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 364: 72496
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 1093: 206260
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 1093: 53710
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 3280: 179770
+2022-08-09 17:54:33 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 3280: 51481
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 1: 299969782
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 1: 49994999
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 4: 75079746
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 4: 12519955
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 13: 23160574
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 13: 3873423
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 40: 7727628
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 40: 1307904
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 121: 2725580
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 121: 480842
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 364: 1050210
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 364: 208199
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 1093: 619550
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 1093: 142581
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 3280: 467710
+2022-08-09 17:54:34 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 3280: 121961
+2022-08-09 17:54:35 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 1: 674954476
+2022-08-09 17:54:35 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 1: 112492498
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 4: 168869464
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 4: 28154908
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 13: 52076204
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 13: 8699358
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 40: 17216484
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 40: 2899380
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 121: 5956392
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 121: 1032620
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 364: 2232332
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 364: 421832
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 1093: 1030156
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 1093: 230942
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 3280: 691864
+2022-08-09 17:54:36 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 3280: 183312
+2022-08-09 17:54:38 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 1: 1199939214
+2022-08-09 17:54:38 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 1: 199989999
+2022-08-09 17:54:38 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 4: 300159104
+2022-08-09 17:54:38 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 4: 50039848
+2022-08-09 17:54:38 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 13: 92456254
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 13: 15436037
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 40: 30455082
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 40: 5115813
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 121: 10329864
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 121: 1774914
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 364: 3825054
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 364: 703857
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 1093: 1764414
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 1093: 373477
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 3280: 1122874
+2022-08-09 17:54:39 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 3280: 278117
+2022-08-09 17:54:42 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 1: 1874923740
+2022-08-09 17:54:42 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 1: 312487498
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 4: 468948552
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 4: 78174756
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 13: 144600558
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 13: 24133419
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 40: 47443674
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 40: 7957245
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 121: 15989354
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 121: 2731479
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 364: 5825690
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 364: 1054021
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 1093: 2535786
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 1093: 521747
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 3280: 1418814
+2022-08-09 17:54:43 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 3280: 350917
+2022-08-09 17:54:48 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 1: 2147483647
+2022-08-09 17:54:48 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 1: 449984994
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 4: 675237892
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 4: 112559646
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 13: 207970048
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 13: 34701668
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 40: 68182182
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 40: 11423663
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 121: 22956156
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 121: 3905922
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 364: 8119300
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 364: 1453052
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 1093: 3539862
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 1093: 709467
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 3280: 1925938
+2022-08-09 17:54:50 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 3280: 458927
+2022-08-09 18:00:11 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 18:00:11 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 18:00:11 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 18:00:11 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 18:00:11 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 18:00:11 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 18:00:11 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 18:00:11 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 18:00:11 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 1: 74984956
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 1: 12497500
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 4: 18789944
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 4: 3134988
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 13: 5820338
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 13: 976715
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 40: 1988862
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 40: 341443
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 121: 746700
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 121: 137720
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 364: 336486
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 364: 72497
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 1093: 206236
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 1093: 53706
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 3280: 179776
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 3280: 51482
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 1: 299969820
+2022-08-09 18:00:12 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 1: 49995000
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 4: 75079776
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 4: 12519960
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 13: 23160646
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 13: 3873435
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 40: 7727712
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 40: 1307918
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 121: 2725562
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 121: 480839
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 364: 1050180
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 364: 208194
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 1093: 619556
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 1093: 142582
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 3280: 467758
+2022-08-09 18:00:13 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 3280: 121969
+2022-08-09 18:00:14 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 1: 674954556
+2022-08-09 18:00:14 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 1: 112492500
+2022-08-09 18:00:14 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 4: 168869506
+2022-08-09 18:00:14 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 4: 28154915
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 13: 52076138
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 13: 8699347
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 40: 17216424
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 40: 2899370
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 121: 5956314
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 121: 1032607
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 364: 2232266
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 364: 421821
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 1093: 1030264
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 1093: 230960
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 3280: 691840
+2022-08-09 18:00:15 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 3280: 183308
+2022-08-09 18:00:17 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 1: 1199939148
+2022-08-09 18:00:17 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 1: 199989998
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 4: 300159146
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 4: 50039855
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 13: 92456188
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 13: 15436026
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 40: 30455088
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 40: 5115814
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 121: 10329864
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 121: 1774914
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 364: 3825066
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 364: 703859
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 1093: 1764484
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 1093: 373488
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 3280: 1122766
+2022-08-09 18:00:18 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 3280: 278099
+2022-08-09 18:00:21 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 1: 1874923722
+2022-08-09 18:00:21 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 1: 312487499
+2022-08-09 18:00:22 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 4: 468948588
+2022-08-09 18:00:22 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 4: 78174762
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 13: 144600630
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 13: 24133431
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 40: 47443740
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 40: 7957256
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 121: 15989284
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 121: 2731468
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 364: 5825942
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 364: 1054063
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 1093: 2535912
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 1093: 521768
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 3280: 1418652
+2022-08-09 18:00:23 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 3280: 350890
+2022-08-09 18:00:28 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 1: 2147483647
+2022-08-09 18:00:28 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 1: 449984998
+2022-08-09 18:00:29 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 4: 675238114
+2022-08-09 18:00:29 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 4: 112559683
+2022-08-09 18:00:29 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 13: 207970114
+2022-08-09 18:00:29 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 13: 34701679
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 40: 68182020
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 40: 11423636
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 121: 22956180
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 121: 3905926
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 364: 8119132
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 364: 1453024
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 1093: 3539838
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 1093: 709463
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 3280: 1926262
+2022-08-09 18:00:30 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 3280: 458981
+2022-08-09 18:00:53 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 18:00:53 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 18:00:53 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 18:00:53 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 18:00:53 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 18:00:53 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 18:00:53 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 18:00:53 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 18:00:53 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 1: 74984960
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 1: 12497500
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 4: 18789938
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 4: 3134987
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 13: 5820332
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 13: 976714
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 40: 1988850
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 40: 341441
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 121: 746718
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 121: 137723
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 364: 336492
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 364: 72498
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 1093: 206236
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 1093: 53706
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 5000 Array Size and Gap is 3280: 179764
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 5000 Array Size and Gap is 3280: 51480
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 1: 299969812
+2022-08-09 18:00:54 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 1: 49995000
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 4: 75079740
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 4: 12519954
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 13: 23160592
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 13: 3873426
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 40: 7727646
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 40: 1307907
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 121: 2725580
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 121: 480842
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 364: 1050210
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 364: 208199
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 1093: 619616
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 1093: 142592
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Hits for Reversed 10000 Array Size and Gap is 3280: 467668
+2022-08-09 18:00:55 INFO  ShellSortBenchMark - Compares for Reversed 10000 Array Size and Gap is 3280: 121954
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 1: 674954578
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 1: 112492499
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 4: 168869518
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 4: 28154917
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 13: 52076138
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 13: 8699347
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 40: 17216490
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 40: 2899381
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 121: 5956362
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 121: 1032615
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 364: 2232296
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 364: 421826
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 1093: 1030234
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 1093: 230955
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Hits for Reversed 15000 Array Size and Gap is 3280: 691840
+2022-08-09 18:00:56 INFO  ShellSortBenchMark - Compares for Reversed 15000 Array Size and Gap is 3280: 183308
+2022-08-09 18:00:58 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 1: 1199939278
+2022-08-09 18:00:58 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 1: 199989999
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 4: 300159092
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 4: 50039846
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 13: 92456290
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 13: 15436043
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 40: 30455088
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 40: 5115814
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 121: 10329768
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 121: 1774898
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 364: 3825048
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 364: 703856
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 1093: 1764394
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 1093: 373473
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Hits for Reversed 20000 Array Size and Gap is 3280: 1122934
+2022-08-09 18:00:59 INFO  ShellSortBenchMark - Compares for Reversed 20000 Array Size and Gap is 3280: 278127
+2022-08-09 18:01:03 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 1: 1874923724
+2022-08-09 18:01:03 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 1: 312487494
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 4: 468948486
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 4: 78174745
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 13: 144600588
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 13: 24133424
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 40: 47443770
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 40: 7957261
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 121: 15989252
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 121: 2731462
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 364: 5825942
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 364: 1054063
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 1093: 2536014
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 1093: 521785
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Hits for Reversed 25000 Array Size and Gap is 3280: 1418862
+2022-08-09 18:01:04 INFO  ShellSortBenchMark - Compares for Reversed 25000 Array Size and Gap is 3280: 350925
+2022-08-09 18:01:09 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 1: 2147483647
+2022-08-09 18:01:09 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 1: 449984992
+2022-08-09 18:01:11 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 4: 675237922
+2022-08-09 18:01:11 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 4: 112559651
+2022-08-09 18:01:11 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 13: 207970156
+2022-08-09 18:01:11 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 13: 34701686
+2022-08-09 18:01:11 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 40: 68182002
+2022-08-09 18:01:11 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 40: 11423633
+2022-08-09 18:01:11 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 121: 22956078
+2022-08-09 18:01:11 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 121: 3905909
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 364: 8119222
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 364: 1453039
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 1093: 3539658
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 1093: 709433
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Reversed 30000 Array Size and Gap is 3280: 1926214
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Reversed 30000 Array Size and Gap is 3280: 458973
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 5000 Array Size and Gap is 1: 9998
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 5000 Array Size and Gap is 1: 4999
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 5000 Array Size and Gap is 4: 19990
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 5000 Array Size and Gap is 4: 9995
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 5000 Array Size and Gap is 13: 29964
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 5000 Array Size and Gap is 13: 14982
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 5000 Array Size and Gap is 40: 39884
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 5000 Array Size and Gap is 40: 19942
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 5000 Array Size and Gap is 121: 49642
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 5000 Array Size and Gap is 121: 24821
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 5000 Array Size and Gap is 364: 58914
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 5000 Array Size and Gap is 364: 29457
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 5000 Array Size and Gap is 1093: 66728
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 5000 Array Size and Gap is 1093: 33364
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 5000 Array Size and Gap is 3280: 70168
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 5000 Array Size and Gap is 3280: 35084
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 10000 Array Size and Gap is 1: 19998
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 10000 Array Size and Gap is 1: 9999
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 10000 Array Size and Gap is 4: 39990
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 10000 Array Size and Gap is 4: 19995
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 10000 Array Size and Gap is 13: 59964
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 10000 Array Size and Gap is 13: 29982
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 10000 Array Size and Gap is 40: 79884
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 10000 Array Size and Gap is 40: 39942
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 10000 Array Size and Gap is 121: 99642
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 10000 Array Size and Gap is 121: 49821
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 10000 Array Size and Gap is 364: 118914
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 10000 Array Size and Gap is 364: 59457
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 10000 Array Size and Gap is 1093: 136728
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 10000 Array Size and Gap is 1093: 68364
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 10000 Array Size and Gap is 3280: 150168
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 10000 Array Size and Gap is 3280: 75084
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 15000 Array Size and Gap is 1: 29998
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 15000 Array Size and Gap is 1: 14999
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 15000 Array Size and Gap is 4: 59990
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 15000 Array Size and Gap is 4: 29995
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 15000 Array Size and Gap is 13: 89964
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 15000 Array Size and Gap is 13: 44982
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 15000 Array Size and Gap is 40: 119884
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 15000 Array Size and Gap is 40: 59942
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 15000 Array Size and Gap is 121: 149642
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 15000 Array Size and Gap is 121: 74821
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 15000 Array Size and Gap is 364: 178914
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 15000 Array Size and Gap is 364: 89457
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 15000 Array Size and Gap is 1093: 206728
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 15000 Array Size and Gap is 1093: 103364
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 15000 Array Size and Gap is 3280: 230168
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 15000 Array Size and Gap is 3280: 115084
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 20000 Array Size and Gap is 1: 39998
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 20000 Array Size and Gap is 1: 19999
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 20000 Array Size and Gap is 4: 79990
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 20000 Array Size and Gap is 4: 39995
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 20000 Array Size and Gap is 13: 119964
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 20000 Array Size and Gap is 13: 59982
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 20000 Array Size and Gap is 40: 159884
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 20000 Array Size and Gap is 40: 79942
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 20000 Array Size and Gap is 121: 199642
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 20000 Array Size and Gap is 121: 99821
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 20000 Array Size and Gap is 364: 238914
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 20000 Array Size and Gap is 364: 119457
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 20000 Array Size and Gap is 1093: 276728
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 20000 Array Size and Gap is 1093: 138364
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 20000 Array Size and Gap is 3280: 310168
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 20000 Array Size and Gap is 3280: 155084
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 25000 Array Size and Gap is 1: 49998
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 25000 Array Size and Gap is 1: 24999
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 25000 Array Size and Gap is 4: 99990
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 25000 Array Size and Gap is 4: 49995
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 25000 Array Size and Gap is 13: 149964
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 25000 Array Size and Gap is 13: 74982
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 25000 Array Size and Gap is 40: 199884
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 25000 Array Size and Gap is 40: 99942
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 25000 Array Size and Gap is 121: 249642
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 25000 Array Size and Gap is 121: 124821
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 25000 Array Size and Gap is 364: 298914
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 25000 Array Size and Gap is 364: 149457
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 25000 Array Size and Gap is 1093: 346728
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 25000 Array Size and Gap is 1093: 173364
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 25000 Array Size and Gap is 3280: 390168
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 25000 Array Size and Gap is 3280: 195084
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 30000 Array Size and Gap is 1: 59998
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 30000 Array Size and Gap is 1: 29999
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 30000 Array Size and Gap is 4: 119990
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 30000 Array Size and Gap is 4: 59995
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 30000 Array Size and Gap is 13: 179964
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 30000 Array Size and Gap is 13: 89982
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 30000 Array Size and Gap is 40: 239884
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 30000 Array Size and Gap is 40: 119942
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 30000 Array Size and Gap is 121: 299642
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 30000 Array Size and Gap is 121: 149821
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 30000 Array Size and Gap is 364: 358914
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 30000 Array Size and Gap is 364: 179457
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 30000 Array Size and Gap is 1093: 416728
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 30000 Array Size and Gap is 1093: 208364
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Hits for Sorted 30000 Array Size and Gap is 3280: 470168
+2022-08-09 18:01:12 INFO  ShellSortBenchMark - Compares for Sorted 30000 Array Size and Gap is 3280: 235084
+2022-08-09 18:01:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:13 INFO  TimeLogger - Raw time per run (mSec):  1.02
+2022-08-09 18:01:13 INFO  ShellSortBenchMark - Hits for Random 5000 Array Size and Gap is 1: 37378946
+2022-08-09 18:01:13 INFO  ShellSortBenchMark - Compares for Random 5000 Array Size and Gap is 1: 6233155
+2022-08-09 18:01:13 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:14 INFO  TimeLogger - Raw time per run (mSec):  1.02
+2022-08-09 18:01:14 INFO  ShellSortBenchMark - Hits for Random 5000 Array Size and Gap is 4: 10038170
+2022-08-09 18:01:14 INFO  ShellSortBenchMark - Compares for Random 5000 Array Size and Gap is 4: 1679677
+2022-08-09 18:01:14 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:16 INFO  TimeLogger - Raw time per run (mSec):  1.05
+2022-08-09 18:01:16 INFO  ShellSortBenchMark - Hits for Random 5000 Array Size and Gap is 13: 3345952
+2022-08-09 18:01:16 INFO  ShellSortBenchMark - Compares for Random 5000 Array Size and Gap is 13: 567600
+2022-08-09 18:01:16 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:17 INFO  TimeLogger - Raw time per run (mSec):  1.01
+2022-08-09 18:01:17 INFO  ShellSortBenchMark - Hits for Random 5000 Array Size and Gap is 40: 1318280
+2022-08-09 18:01:17 INFO  ShellSortBenchMark - Compares for Random 5000 Array Size and Gap is 40: 232872
+2022-08-09 18:01:17 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:18 INFO  TimeLogger - Raw time per run (mSec):  1.02
+2022-08-09 18:01:18 INFO  ShellSortBenchMark - Hits for Random 5000 Array Size and Gap is 121: 709208
+2022-08-09 18:01:18 INFO  ShellSortBenchMark - Compares for Random 5000 Array Size and Gap is 121: 134458
+2022-08-09 18:01:18 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:19 INFO  TimeLogger - Raw time per run (mSec):  1.04
+2022-08-09 18:01:19 INFO  ShellSortBenchMark - Hits for Random 5000 Array Size and Gap is 364: 517686
+2022-08-09 18:01:19 INFO  ShellSortBenchMark - Compares for Random 5000 Array Size and Gap is 364: 105279
+2022-08-09 18:01:19 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:20 INFO  TimeLogger - Raw time per run (mSec):  .99
+2022-08-09 18:01:20 INFO  ShellSortBenchMark - Hits for Random 5000 Array Size and Gap is 1093: 462586
+2022-08-09 18:01:20 INFO  ShellSortBenchMark - Compares for Random 5000 Array Size and Gap is 1093: 98135
+2022-08-09 18:01:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:21 INFO  TimeLogger - Raw time per run (mSec):  1.07
+2022-08-09 18:01:21 INFO  ShellSortBenchMark - Hits for Random 5000 Array Size and Gap is 3280: 458890
+2022-08-09 18:01:21 INFO  ShellSortBenchMark - Compares for Random 5000 Array Size and Gap is 3280: 98425
+2022-08-09 18:01:21 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:23 INFO  TimeLogger - Raw time per run (mSec):  2.50
+2022-08-09 18:01:24 INFO  ShellSortBenchMark - Hits for Random 10000 Array Size and Gap is 1: 149723506
+2022-08-09 18:01:24 INFO  ShellSortBenchMark - Compares for Random 10000 Array Size and Gap is 1: 24960577
+2022-08-09 18:01:24 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:26 INFO  TimeLogger - Raw time per run (mSec):  2.45
+2022-08-09 18:01:26 INFO  ShellSortBenchMark - Hits for Random 10000 Array Size and Gap is 4: 38677010
+2022-08-09 18:01:26 INFO  ShellSortBenchMark - Compares for Random 10000 Array Size and Gap is 4: 6459471
+2022-08-09 18:01:26 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:29 INFO  TimeLogger - Raw time per run (mSec):  2.41
+2022-08-09 18:01:29 INFO  ShellSortBenchMark - Hits for Random 10000 Array Size and Gap is 13: 12839820
+2022-08-09 18:01:29 INFO  ShellSortBenchMark - Compares for Random 10000 Array Size and Gap is 13: 2159910
+2022-08-09 18:01:29 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:31 INFO  TimeLogger - Raw time per run (mSec):  2.39
+2022-08-09 18:01:31 INFO  ShellSortBenchMark - Hits for Random 10000 Array Size and Gap is 40: 4763654
+2022-08-09 18:01:31 INFO  ShellSortBenchMark - Compares for Random 10000 Array Size and Gap is 40: 820427
+2022-08-09 18:01:31 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:33 INFO  TimeLogger - Raw time per run (mSec):  2.38
+2022-08-09 18:01:33 INFO  ShellSortBenchMark - Hits for Random 10000 Array Size and Gap is 121: 2216684
+2022-08-09 18:01:33 INFO  ShellSortBenchMark - Compares for Random 10000 Array Size and Gap is 121: 402280
+2022-08-09 18:01:33 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:36 INFO  TimeLogger - Raw time per run (mSec):  2.86
+2022-08-09 18:01:36 INFO  ShellSortBenchMark - Hits for Random 10000 Array Size and Gap is 364: 1452714
+2022-08-09 18:01:36 INFO  ShellSortBenchMark - Compares for Random 10000 Array Size and Gap is 364: 280929
+2022-08-09 18:01:36 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:40 INFO  TimeLogger - Raw time per run (mSec):  3.18
+2022-08-09 18:01:40 INFO  ShellSortBenchMark - Hits for Random 10000 Array Size and Gap is 1093: 1211084
+2022-08-09 18:01:40 INFO  ShellSortBenchMark - Compares for Random 10000 Array Size and Gap is 1093: 245738
+2022-08-09 18:01:40 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:42 INFO  TimeLogger - Raw time per run (mSec):  2.68
+2022-08-09 18:01:42 INFO  ShellSortBenchMark - Hits for Random 10000 Array Size and Gap is 3280: 1139578
+2022-08-09 18:01:42 INFO  ShellSortBenchMark - Compares for Random 10000 Array Size and Gap is 3280: 237123
+2022-08-09 18:01:42 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:46 INFO  TimeLogger - Raw time per run (mSec):  4.11
+2022-08-09 18:01:47 INFO  ShellSortBenchMark - Hits for Random 15000 Array Size and Gap is 1: 334927576
+2022-08-09 18:01:47 INFO  ShellSortBenchMark - Compares for Random 15000 Array Size and Gap is 1: 55831254
+2022-08-09 18:01:47 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:52 INFO  TimeLogger - Raw time per run (mSec):  4.95
+2022-08-09 18:01:52 INFO  ShellSortBenchMark - Hits for Random 15000 Array Size and Gap is 4: 88985610
+2022-08-09 18:01:52 INFO  ShellSortBenchMark - Compares for Random 15000 Array Size and Gap is 4: 14850911
+2022-08-09 18:01:52 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:01:57 INFO  TimeLogger - Raw time per run (mSec):  5.06
+2022-08-09 18:01:57 INFO  ShellSortBenchMark - Hits for Random 15000 Array Size and Gap is 13: 28078142
+2022-08-09 18:01:57 INFO  ShellSortBenchMark - Compares for Random 15000 Array Size and Gap is 13: 4709621
+2022-08-09 18:01:57 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:02 INFO  TimeLogger - Raw time per run (mSec):  4.56
+2022-08-09 18:02:02 INFO  ShellSortBenchMark - Hits for Random 15000 Array Size and Gap is 40: 10119548
+2022-08-09 18:02:02 INFO  ShellSortBenchMark - Compares for Random 15000 Array Size and Gap is 40: 1726400
+2022-08-09 18:02:02 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:06 INFO  TimeLogger - Raw time per run (mSec):  4.22
+2022-08-09 18:02:06 INFO  ShellSortBenchMark - Hits for Random 15000 Array Size and Gap is 121: 4342746
+2022-08-09 18:02:06 INFO  ShellSortBenchMark - Compares for Random 15000 Array Size and Gap is 121: 773293
+2022-08-09 18:02:06 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:11 INFO  TimeLogger - Raw time per run (mSec):  4.41
+2022-08-09 18:02:11 INFO  ShellSortBenchMark - Hits for Random 15000 Array Size and Gap is 364: 2582592
+2022-08-09 18:02:11 INFO  ShellSortBenchMark - Compares for Random 15000 Array Size and Gap is 364: 489168
+2022-08-09 18:02:11 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:15 INFO  TimeLogger - Raw time per run (mSec):  4.43
+2022-08-09 18:02:15 INFO  ShellSortBenchMark - Hits for Random 15000 Array Size and Gap is 1093: 2052374
+2022-08-09 18:02:15 INFO  ShellSortBenchMark - Compares for Random 15000 Array Size and Gap is 1093: 408997
+2022-08-09 18:02:15 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:19 INFO  TimeLogger - Raw time per run (mSec):  4.05
+2022-08-09 18:02:19 INFO  ShellSortBenchMark - Hits for Random 15000 Array Size and Gap is 3280: 1790126
+2022-08-09 18:02:19 INFO  ShellSortBenchMark - Compares for Random 15000 Array Size and Gap is 3280: 371421
+2022-08-09 18:02:19 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:25 INFO  TimeLogger - Raw time per run (mSec):  5.59
+2022-08-09 18:02:26 INFO  ShellSortBenchMark - Hits for Random 20000 Array Size and Gap is 1: 597873764
+2022-08-09 18:02:26 INFO  ShellSortBenchMark - Compares for Random 20000 Array Size and Gap is 1: 99658956
+2022-08-09 18:02:26 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:32 INFO  TimeLogger - Raw time per run (mSec):  6.18
+2022-08-09 18:02:33 INFO  ShellSortBenchMark - Hits for Random 20000 Array Size and Gap is 4: 156628382
+2022-08-09 18:02:33 INFO  ShellSortBenchMark - Compares for Random 20000 Array Size and Gap is 4: 26131375
+2022-08-09 18:02:33 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:39 INFO  TimeLogger - Raw time per run (mSec):  6.14
+2022-08-09 18:02:39 INFO  ShellSortBenchMark - Hits for Random 20000 Array Size and Gap is 13: 50341998
+2022-08-09 18:02:39 INFO  ShellSortBenchMark - Compares for Random 20000 Array Size and Gap is 13: 8430251
+2022-08-09 18:02:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:46 INFO  TimeLogger - Raw time per run (mSec):  6.47
+2022-08-09 18:02:46 INFO  ShellSortBenchMark - Hits for Random 20000 Array Size and Gap is 40: 17546734
+2022-08-09 18:02:46 INFO  ShellSortBenchMark - Compares for Random 20000 Array Size and Gap is 40: 2977607
+2022-08-09 18:02:46 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:52 INFO  TimeLogger - Raw time per run (mSec):  6.25
+2022-08-09 18:02:52 INFO  ShellSortBenchMark - Hits for Random 20000 Array Size and Gap is 121: 7275098
+2022-08-09 18:02:52 INFO  ShellSortBenchMark - Compares for Random 20000 Array Size and Gap is 121: 1278659
+2022-08-09 18:02:52 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:02:58 INFO  TimeLogger - Raw time per run (mSec):  6.29
+2022-08-09 18:02:58 INFO  ShellSortBenchMark - Hits for Random 20000 Array Size and Gap is 364: 3852122
+2022-08-09 18:02:58 INFO  ShellSortBenchMark - Compares for Random 20000 Array Size and Gap is 364: 720645
+2022-08-09 18:02:58 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:03:05 INFO  TimeLogger - Raw time per run (mSec):  6.40
+2022-08-09 18:03:05 INFO  ShellSortBenchMark - Hits for Random 20000 Array Size and Gap is 1093: 3003890
+2022-08-09 18:03:05 INFO  ShellSortBenchMark - Compares for Random 20000 Array Size and Gap is 1093: 590675
+2022-08-09 18:03:05 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:03:11 INFO  TimeLogger - Raw time per run (mSec):  6.05
+2022-08-09 18:03:11 INFO  ShellSortBenchMark - Hits for Random 20000 Array Size and Gap is 3280: 2680200
+2022-08-09 18:03:11 INFO  ShellSortBenchMark - Compares for Random 20000 Array Size and Gap is 3280: 545850
+2022-08-09 18:03:11 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:03:19 INFO  TimeLogger - Raw time per run (mSec):  8.09
+2022-08-09 18:03:42 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 18:03:42 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 18:03:42 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 18:03:42 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 18:03:42 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 18:03:42 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 18:03:42 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 18:03:42 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 18:03:42 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1: 74984972
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1: 12497500
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  4: 18789938
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  4: 3134987
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  13: 5820344
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  13: 976716
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  40: 1988856
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  40: 341442
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  121: 746670
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  121: 137715
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  364: 336438
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  364: 72489
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1093: 206236
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1093: 53706
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  3280: 179770
+2022-08-09 18:03:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  3280: 51481
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1: 299969812
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1: 49995000
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  4: 75079770
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  4: 12519959
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  13: 23160646
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  13: 3873435
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  40: 7727688
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  40: 1307914
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  121: 2725562
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  121: 480839
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  364: 1050192
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  364: 208196
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1093: 619526
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1093: 142577
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  3280: 467692
+2022-08-09 18:03:43 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  3280: 121958
+2022-08-09 18:03:44 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1: 674954534
+2022-08-09 18:03:44 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1: 112492499
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  4: 168869464
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  4: 28154908
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  13: 52076138
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  13: 8699347
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  40: 17216502
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  40: 2899383
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  121: 5956344
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  121: 1032612
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  364: 2232284
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  364: 421824
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1093: 1030174
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1093: 230945
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  3280: 691864
+2022-08-09 18:03:45 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  3280: 183312
+2022-08-09 18:03:47 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1: 1199939142
+2022-08-09 18:03:47 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1: 199989999
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  4: 300158960
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  4: 50039824
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  13: 92456212
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  13: 15436030
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  40: 30455076
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  40: 5115812
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  121: 10329900
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  121: 1774920
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  364: 3825030
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  364: 703853
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1093: 1764460
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1093: 373484
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  3280: 1122832
+2022-08-09 18:03:48 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  3280: 278110
+2022-08-09 18:03:52 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  1: 1874923812
+2022-08-09 18:03:52 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  1: 312487498
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  4: 468948510
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  4: 78174749
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  13: 144600642
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  13: 24133433
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  40: 47443698
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  40: 7957249
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  121: 15989186
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  121: 2731451
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  364: 5825912
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  364: 1054058
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  1093: 2535846
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  1093: 521757
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  3280: 1418820
+2022-08-09 18:03:53 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  3280: 350918
+2022-08-09 18:03:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  1: 2147483647
+2022-08-09 18:03:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  1: 449984997
+2022-08-09 18:04:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  4: 675238096
+2022-08-09 18:04:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  4: 112559680
+2022-08-09 18:04:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  13: 207970066
+2022-08-09 18:04:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  13: 34701671
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  40: 68182224
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  40: 11423670
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  121: 22956150
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  121: 3905921
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  364: 8119210
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  364: 1453037
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  1093: 3539832
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  1093: 709462
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  3280: 1926094
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  3280: 458953
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  1: 9998
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  1: 4999
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  4: 19990
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  4: 9995
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  13: 29964
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  13: 14982
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  40: 39884
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  40: 19942
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  121: 49642
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  121: 24821
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  364: 58914
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  364: 29457
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  1093: 66728
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  1093: 33364
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  3280: 70168
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  3280: 35084
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  1: 19998
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  1: 9999
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  4: 39990
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  4: 19995
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  13: 59964
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  13: 29982
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  40: 79884
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  40: 39942
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  121: 99642
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  121: 49821
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  364: 118914
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  364: 59457
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  1093: 136728
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  1093: 68364
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  3280: 150168
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  3280: 75084
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  1: 29998
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  1: 14999
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  4: 59990
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  4: 29995
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  13: 89964
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  13: 44982
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  40: 119884
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  40: 59942
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  121: 149642
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  121: 74821
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  364: 178914
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  364: 89457
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  1093: 206728
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  1093: 103364
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  3280: 230168
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  3280: 115084
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  1: 39998
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  1: 19999
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  4: 79990
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  4: 39995
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  13: 119964
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  13: 59982
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  40: 159884
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  40: 79942
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  121: 199642
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  121: 99821
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  364: 238914
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  364: 119457
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  1093: 276728
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  1093: 138364
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  3280: 310168
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  3280: 155084
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  1: 49998
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  1: 24999
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  4: 99990
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  4: 49995
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  13: 149964
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  13: 74982
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  40: 199884
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  40: 99942
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  121: 249642
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  121: 124821
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  364: 298914
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  364: 149457
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  1093: 346728
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  1093: 173364
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  3280: 390168
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  3280: 195084
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  1: 59998
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  1: 29999
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  4: 119990
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  4: 59995
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  13: 179964
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  13: 89982
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  40: 239884
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  40: 119942
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  121: 299642
+2022-08-09 18:04:02 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  121: 149821
+2022-08-09 18:04:03 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  364: 358914
+2022-08-09 18:04:03 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  364: 179457
+2022-08-09 18:04:03 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  1093: 416728
+2022-08-09 18:04:03 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  1093: 208364
+2022-08-09 18:04:03 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  3280: 470168
+2022-08-09 18:04:03 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  3280: 235084
+2022-08-09 18:04:03 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:04:08 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 18:04:08 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 18:04:08 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 18:04:08 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 18:04:08 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 18:04:08 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 18:04:08 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 18:04:08 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 18:04:08 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1: 74984976
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1: 12497500
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  4: 18789938
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  4: 3134987
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  13: 5820350
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  13: 976717
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  40: 1988874
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  40: 341445
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  121: 746724
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  121: 137724
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  364: 336462
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  364: 72493
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1093: 206236
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1093: 53706
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  3280: 179806
+2022-08-09 18:04:09 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  3280: 51487
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1: 299969806
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1: 49994999
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  4: 75079742
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  4: 12519955
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  13: 23160556
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  13: 3873420
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  40: 7727688
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  40: 1307914
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  121: 2725532
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  121: 480834
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  364: 1050258
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  364: 208207
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1093: 619562
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1093: 142583
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  3280: 467746
+2022-08-09 18:04:10 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  3280: 121967
+2022-08-09 18:04:11 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1: 674954520
+2022-08-09 18:04:11 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1: 112492500
+2022-08-09 18:04:11 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  4: 168869452
+2022-08-09 18:04:11 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  4: 28154906
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  13: 52076108
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  13: 8699342
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  40: 17216442
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  40: 2899373
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  121: 5956308
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  121: 1032606
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  364: 2232248
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  364: 421818
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1093: 1030120
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1093: 230936
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  3280: 691984
+2022-08-09 18:04:12 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  3280: 183332
+2022-08-09 18:04:14 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1: 1199939162
+2022-08-09 18:04:14 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1: 199989997
+2022-08-09 18:04:14 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  4: 300159008
+2022-08-09 18:04:14 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  4: 50039832
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  13: 92456302
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  13: 15436045
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  40: 30455022
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  40: 5115803
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  121: 10329786
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  121: 1774901
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  364: 3824940
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  364: 703838
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1093: 1764442
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1093: 373481
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  3280: 1122844
+2022-08-09 18:04:15 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  3280: 278112
+2022-08-09 18:04:29 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 18:04:29 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 18:04:29 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 18:04:29 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 18:04:29 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 18:04:29 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 18:04:29 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 18:04:29 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 18:04:29 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 18:04:29 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1: 74984952
+2022-08-09 18:04:29 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1: 12497500
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  4: 18789950
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  4: 3134989
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  13: 5820344
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  13: 976716
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  40: 1988814
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  40: 341435
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  121: 746724
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  121: 137724
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  364: 336486
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  364: 72497
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1093: 206272
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1093: 53712
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  3280: 179818
+2022-08-09 18:04:30 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  3280: 51489
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1: 299969784
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1: 49995000
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  4: 75079734
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  4: 12519953
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  13: 23160568
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  13: 3873422
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  40: 7727712
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  40: 1307918
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  121: 2725592
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  121: 480844
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  364: 1050198
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  364: 208197
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1093: 619556
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1093: 142582
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  3280: 467734
+2022-08-09 18:04:31 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  3280: 121965
+2022-08-09 18:04:32 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1: 674954470
+2022-08-09 18:04:32 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1: 112492499
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  4: 168869566
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  4: 28154925
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  13: 52076138
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  13: 8699347
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  40: 17216448
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  40: 2899374
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  121: 5956320
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  121: 1032608
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  364: 2232314
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  364: 421829
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1093: 1030102
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1093: 230933
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  3280: 691882
+2022-08-09 18:04:33 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  3280: 183315
+2022-08-09 18:04:35 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1: 1199939168
+2022-08-09 18:04:35 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1: 199990000
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  4: 300159050
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  4: 50039839
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  13: 92456266
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  13: 15436039
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  40: 30455220
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  40: 5115836
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  121: 10329786
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  121: 1774901
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  364: 3825102
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  364: 703865
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1093: 1764508
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1093: 373492
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  3280: 1122928
+2022-08-09 18:04:36 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  3280: 278126
+2022-08-09 18:04:40 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  1: 1874923728
+2022-08-09 18:04:40 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  1: 312487498
+2022-08-09 18:04:41 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  4: 468948756
+2022-08-09 18:04:41 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  4: 78174790
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  13: 144600540
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  13: 24133416
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  40: 47443560
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  40: 7957226
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  121: 15989048
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  121: 2731428
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  364: 5825846
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  364: 1054047
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  1093: 2535906
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  1093: 521767
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  3280: 1418832
+2022-08-09 18:04:42 INFO  ShellSortBenchMark - Hits for (Reversed), N = 25000, h =  3280: 350920
+2022-08-09 18:04:47 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  1: 2147483647
+2022-08-09 18:04:47 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  1: 449984995
+2022-08-09 18:04:49 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  4: 675237808
+2022-08-09 18:04:49 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  4: 112559632
+2022-08-09 18:04:49 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  13: 207969946
+2022-08-09 18:04:49 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  13: 34701651
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  40: 68182122
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  40: 11423653
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  121: 22956162
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  121: 3905923
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  364: 8119294
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  364: 1453051
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  1093: 3539844
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  1093: 709464
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  3280: 1926214
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Reversed), N = 30000, h =  3280: 458973
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  1: 9998
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  1: 4999
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  4: 19990
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  4: 9995
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  13: 29964
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  13: 14982
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  40: 39884
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  40: 19942
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  121: 49642
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  121: 24821
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  364: 58914
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  364: 29457
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  1093: 66728
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  1093: 33364
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  3280: 70168
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 5000, h =  3280: 35084
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  1: 19998
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  1: 9999
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  4: 39990
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  4: 19995
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  13: 59964
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  13: 29982
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  40: 79884
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  40: 39942
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  121: 99642
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  121: 49821
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  364: 118914
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  364: 59457
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  1093: 136728
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  1093: 68364
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  3280: 150168
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 10000, h =  3280: 75084
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  1: 29998
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  1: 14999
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  4: 59990
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  4: 29995
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  13: 89964
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  13: 44982
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  40: 119884
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  40: 59942
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  121: 149642
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  121: 74821
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  364: 178914
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  364: 89457
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  1093: 206728
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  1093: 103364
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  3280: 230168
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 15000, h =  3280: 115084
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  1: 39998
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  1: 19999
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  4: 79990
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  4: 39995
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  13: 119964
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  13: 59982
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  40: 159884
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  40: 79942
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  121: 199642
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  121: 99821
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  364: 238914
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  364: 119457
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  1093: 276728
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  1093: 138364
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  3280: 310168
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 20000, h =  3280: 155084
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  1: 49998
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  1: 24999
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  4: 99990
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  4: 49995
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  13: 149964
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  13: 74982
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  40: 199884
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  40: 99942
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  121: 249642
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  121: 124821
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  364: 298914
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  364: 149457
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  1093: 346728
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  1093: 173364
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  3280: 390168
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 25000, h =  3280: 195084
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  1: 59998
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  1: 29999
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  4: 119990
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  4: 59995
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  13: 179964
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  13: 89982
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  40: 239884
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  40: 119942
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  121: 299642
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  121: 149821
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  364: 358914
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  364: 179457
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  1093: 416728
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  1093: 208364
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  3280: 470168
+2022-08-09 18:04:50 INFO  ShellSortBenchMark - Hits for (Sorted), N = 30000, h =  3280: 235084
+2022-08-09 18:04:50 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:04:52 INFO  TimeLogger - Raw time per run (mSec):  1.18
+2022-08-09 18:04:52 INFO  ShellSortBenchMark - Hits for (Random), N = 5000, h =  1: 37371272
+2022-08-09 18:04:52 INFO  ShellSortBenchMark - Hits for (Random), N = 5000, h =  1: 6231876
+2022-08-09 18:04:52 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 18:04:59 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 18:04:59 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 18:04:59 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 18:04:59 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 18:04:59 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 18:04:59 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 18:04:59 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 18:04:59 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 18:04:59 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1: 74984934
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Compares for (Reversed), N = 5000, h =  1: 12497499
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  4: 18789950
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Compares for (Reversed), N = 5000, h =  4: 3134989
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  13: 5820338
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Compares for (Reversed), N = 5000, h =  13: 976715
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  40: 1988862
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Compares for (Reversed), N = 5000, h =  40: 341443
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  121: 746700
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Compares for (Reversed), N = 5000, h =  121: 137720
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  364: 336462
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Compares for (Reversed), N = 5000, h =  364: 72493
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  1093: 206248
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Compares for (Reversed), N = 5000, h =  1093: 53708
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Hits for (Reversed), N = 5000, h =  3280: 179806
+2022-08-09 18:04:59 INFO  ShellSortBenchMark - Compares for (Reversed), N = 5000, h =  3280: 51487
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1: 299969810
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Compares for (Reversed), N = 10000, h =  1: 49994999
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  4: 75079770
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Compares for (Reversed), N = 10000, h =  4: 12519959
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  13: 23160628
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Compares for (Reversed), N = 10000, h =  13: 3873432
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  40: 7727700
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Compares for (Reversed), N = 10000, h =  40: 1307916
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  121: 2725574
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Compares for (Reversed), N = 10000, h =  121: 480841
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  364: 1050228
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Compares for (Reversed), N = 10000, h =  364: 208202
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  1093: 619586
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Compares for (Reversed), N = 10000, h =  1093: 142587
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Hits for (Reversed), N = 10000, h =  3280: 467704
+2022-08-09 18:05:01 INFO  ShellSortBenchMark - Compares for (Reversed), N = 10000, h =  3280: 121960
+2022-08-09 18:05:02 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1: 674954468
+2022-08-09 18:05:02 INFO  ShellSortBenchMark - Compares for (Reversed), N = 15000, h =  1: 112492500
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  4: 168869488
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Compares for (Reversed), N = 15000, h =  4: 28154912
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  13: 52076120
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Compares for (Reversed), N = 15000, h =  13: 8699344
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  40: 17216508
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Compares for (Reversed), N = 15000, h =  40: 2899384
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  121: 5956308
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Compares for (Reversed), N = 15000, h =  121: 1032606
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  364: 2232320
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Compares for (Reversed), N = 15000, h =  364: 421830
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  1093: 1030192
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Compares for (Reversed), N = 15000, h =  1093: 230948
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Hits for (Reversed), N = 15000, h =  3280: 691900
+2022-08-09 18:05:03 INFO  ShellSortBenchMark - Compares for (Reversed), N = 15000, h =  3280: 183318
+2022-08-09 18:05:05 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1: 1199939188
+2022-08-09 18:05:05 INFO  ShellSortBenchMark - Compares for (Reversed), N = 20000, h =  1: 199989998
+2022-08-09 18:05:06 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  4: 300158948
+2022-08-09 18:05:06 INFO  ShellSortBenchMark - Compares for (Reversed), N = 20000, h =  4: 50039822
+2022-08-09 18:05:06 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  13: 92456236
+2022-08-09 18:05:06 INFO  ShellSortBenchMark - Compares for (Reversed), N = 20000, h =  13: 15436034
+2022-08-09 18:05:06 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  40: 30455166
+2022-08-09 18:05:06 INFO  ShellSortBenchMark - Compares for (Reversed), N = 20000, h =  40: 5115827
+2022-08-09 18:05:06 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  121: 10329894
+2022-08-09 18:05:06 INFO  ShellSortBenchMark - Compares for (Reversed), N = 20000, h =  121: 1774919
+2022-08-09 18:05:07 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  364: 3825132
+2022-08-09 18:05:07 INFO  ShellSortBenchMark - Compares for (Reversed), N = 20000, h =  364: 703870
+2022-08-09 18:05:07 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  1093: 1764364
+2022-08-09 18:05:07 INFO  ShellSortBenchMark - Compares for (Reversed), N = 20000, h =  1093: 373468
+2022-08-09 18:05:07 INFO  ShellSortBenchMark - Hits for (Reversed), N = 20000, h =  3280: 1122808
+2022-08-09 18:05:07 INFO  ShellSortBenchMark - Compares for (Reversed), N = 20000, h =  3280: 278106

@@ -21,10 +21,10 @@ public class MergeSortBenchmark {
         ComparisonSortHelper<Integer> helper = HelperFactory.create("MergeSort", n, config);
         helper.init(n);
 
-        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000));
+        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(10000000));
 
         // run timing benchmarking
-        runBenchmarks(n, runs, xs);
+        runBenchmarks(n, runs, xs,helper);
         // finish timing benchmarking
         helper.preProcess(xs);
         SortWithHelper<Integer> sorter = new MergeSort<>(helper);
@@ -36,12 +36,10 @@ public class MergeSortBenchmark {
         System.out.println("Hits: " + hits);
     }
 
-    private void runBenchmarks(int n, int runs, Integer[] xs) throws IOException {
+    private void runBenchmarks(int n, int runs, Integer[] xs,ComparisonSortHelper<Integer> helper) throws IOException {
         System.out.println("MergeSort Benchmark: N=" + n);
         String description = "Merge Sort";
-        final Config config = Config.load(getClass());
-        ComparisonSortHelper<Integer> helper = HelperFactory.create("MergeSort", n, config);
-        helper.init(n);
+
 
         MergeSort<Integer> mergesort = new MergeSort<>(helper);
 

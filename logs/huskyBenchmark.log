@@ -1,0 +1,510 @@
+2022-08-09 14:42:35 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:42:35 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:42:35 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:42:35 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:42:35 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:42:35 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:42:35 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:42:35 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:42:35 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:42:35 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 14:42:35 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:42:43 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:42:43 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:42:43 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:42:43 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:42:43 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:42:43 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:42:43 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:42:43 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:42:43 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:42:43 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 14:42:43 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:42:47 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:42:47 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:42:47 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:42:47 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:42:47 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:42:47 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:42:47 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:42:47 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:42:47 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:42:47 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 14:42:47 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:42:51 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:42:51 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:42:51 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:42:51 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:42:51 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:42:51 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:42:51 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:42:51 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:42:51 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:42:51 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 14:42:51 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:43:08 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:43:08 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:43:08 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:43:08 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:43:08 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:43:08 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:43:08 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:43:08 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:43:08 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:43:08 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 14:43:08 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:43:12 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:43:12 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:43:12 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:43:12 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:43:12 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:43:12 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:43:12 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:43:12 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:43:12 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:43:12 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 14:43:12 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:43:14 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:43:14 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:43:14 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:43:14 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:43:14 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:43:14 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:43:14 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:43:14 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:43:14 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:43:14 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 14:43:14 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:43:21 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:43:21 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:43:21 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:43:21 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:43:21 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:43:21 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:43:21 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:43:21 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:43:21 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:43:21 INFO  Benchmark - Begin run: Bubble Sort (Random) with 100 runs
+2022-08-09 14:43:21 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:43:29 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:43:29 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:43:29 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:43:29 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:43:29 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:43:29 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:43:29 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:43:29 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:43:29 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:43:29 INFO  GenericBenchmark - Total Hits: 20
+2022-08-09 14:43:29 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:43:29 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:43:34 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:43:34 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:43:34 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:43:34 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:43:34 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:43:34 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:43:34 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:43:34 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:43:34 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:43:34 INFO  GenericBenchmark - Total Hits: 16
+2022-08-09 14:43:34 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:43:34 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:43:38 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:43:38 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:43:38 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:43:38 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:43:38 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:43:38 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:43:38 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:43:38 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:43:38 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:43:38 INFO  GenericBenchmark - Total Hits: 22
+2022-08-09 14:43:38 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:43:38 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:48:50 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:48:50 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:48:50 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:48:50 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:48:50 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:48:50 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:48:50 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:48:50 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:48:50 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:50 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:48:50 INFO  GenericBenchmark - Total Hits: 334
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:50 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:48:50 INFO  GenericBenchmark - Total Hits: 1428
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:50 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:48:50 INFO  GenericBenchmark - Total Hits: 6144
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:50 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:48:50 INFO  GenericBenchmark - Total Hits: 23542
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:50 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:48:50 INFO  GenericBenchmark - Total Hits: 100906
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:50 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 14:48:50 INFO  GenericBenchmark - Total Hits: 393586
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:50 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 14:48:50 INFO  GenericBenchmark - Total Hits: 1556548
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:50 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:48:50 INFO  GenericBenchmark - Total Hits: 6254136
+2022-08-09 14:48:50 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:51 INFO  TimeLogger - Raw time per run (mSec):  .02
+2022-08-09 14:48:51 INFO  GenericBenchmark - Total Hits: 25041634
+2022-08-09 14:48:51 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:51 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 14:48:51 INFO  GenericBenchmark - Total Hits: 100040160
+2022-08-09 14:48:53 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:48:54 INFO  TimeLogger - Raw time per run (mSec):  .05
+2022-08-09 14:48:54 INFO  GenericBenchmark - Total Hits: 402117224
+2022-08-09 14:49:16 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:49:16 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:49:16 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:49:16 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:49:16 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:49:16 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:49:16 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:49:16 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:49:16 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:16 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:49:16 INFO  GenericBenchmark - Total Hits: 358
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:16 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:49:16 INFO  GenericBenchmark - Total Hits: 1466
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:16 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:49:16 INFO  GenericBenchmark - Total Hits: 6248
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:16 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:49:16 INFO  GenericBenchmark - Total Hits: 23788
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:16 INFO  TimeLogger - Raw time per run (mSec):  .02
+2022-08-09 14:49:16 INFO  GenericBenchmark - Total Hits: 96454
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:16 INFO  TimeLogger - Raw time per run (mSec):  .05
+2022-08-09 14:49:16 INFO  GenericBenchmark - Total Hits: 389770
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:16 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:49:16 INFO  GenericBenchmark - Total Hits: 1585770
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:16 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:49:16 INFO  GenericBenchmark - Total Hits: 6319018
+2022-08-09 14:49:16 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:17 INFO  TimeLogger - Raw time per run (mSec):  .02
+2022-08-09 14:49:17 INFO  GenericBenchmark - Total Hits: 25222272
+2022-08-09 14:49:17 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:18 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 14:49:18 INFO  GenericBenchmark - Total Hits: 100580476
+2022-08-09 14:49:20 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:49:21 INFO  TimeLogger - Raw time per run (mSec):  .06
+2022-08-09 14:49:21 INFO  GenericBenchmark - Total Hits: 402884560
+2022-08-09 14:51:09 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:51:09 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:51:09 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:51:09 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:51:09 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:51:09 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:51:09 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:51:09 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:51:09 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 374
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 1516
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 5430
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 24892
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 97642
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 384438
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 1560096
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 6324518
+2022-08-09 14:51:09 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:09 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 14:51:09 INFO  GenericBenchmark - Total Hits: 25099750
+2022-08-09 14:51:10 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:11 INFO  TimeLogger - Raw time per run (mSec):  .16
+2022-08-09 14:51:11 INFO  GenericBenchmark - Total Hits: 100735824
+2022-08-09 14:51:12 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 14:51:13 INFO  TimeLogger - Raw time per run (mSec):  .06
+2022-08-09 14:51:13 INFO  GenericBenchmark - Total Hits: 403545804
+2022-08-09 14:55:53 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:55:53 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:55:53 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:55:53 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:55:53 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:55:53 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:55:53 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:55:53 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:55:53 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:55:53 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:53 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:55:53 INFO  GenericBenchmark - Total Hits: 216
+2022-08-09 14:55:53 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:53 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:55:53 INFO  GenericBenchmark - Total Hits: 536
+2022-08-09 14:55:53 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:53 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:55:53 INFO  GenericBenchmark - Total Hits: 1712
+2022-08-09 14:55:53 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:53 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 14:55:53 INFO  GenericBenchmark - Total Hits: 4290
+2022-08-09 14:55:53 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:53 INFO  TimeLogger - Raw time per run (mSec):  .05
+2022-08-09 14:55:53 INFO  GenericBenchmark - Total Hits: 10782
+2022-08-09 14:55:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:54 INFO  TimeLogger - Raw time per run (mSec):  .17
+2022-08-09 14:55:54 INFO  GenericBenchmark - Total Hits: 26906
+2022-08-09 14:55:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:54 INFO  TimeLogger - Raw time per run (mSec):  .20
+2022-08-09 14:55:54 INFO  GenericBenchmark - Total Hits: 70096
+2022-08-09 14:55:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:54 INFO  TimeLogger - Raw time per run (mSec):  .26
+2022-08-09 14:55:54 INFO  GenericBenchmark - Total Hits: 150904
+2022-08-09 14:55:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:55 INFO  TimeLogger - Raw time per run (mSec):  .29
+2022-08-09 14:55:55 INFO  GenericBenchmark - Total Hits: 384130
+2022-08-09 14:55:55 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:55 INFO  TimeLogger - Raw time per run (mSec):  .58
+2022-08-09 14:55:55 INFO  GenericBenchmark - Total Hits: 887190
+2022-08-09 14:55:55 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 14:55:56 INFO  TimeLogger - Raw time per run (mSec):  1.03
+2022-08-09 14:55:56 INFO  GenericBenchmark - Total Hits: 2078002
+2022-08-09 14:56:31 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:56:31 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:56:31 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:56:31 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:56:31 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:56:31 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:56:31 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:56:31 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:56:31 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:56:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:32 INFO  TimeLogger - Raw time per run (mSec):  .12
+2022-08-09 14:56:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:32 INFO  TimeLogger - Raw time per run (mSec):  .09
+2022-08-09 14:56:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:32 INFO  TimeLogger - Raw time per run (mSec):  .07
+2022-08-09 14:56:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:32 INFO  TimeLogger - Raw time per run (mSec):  .22
+2022-08-09 14:56:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:32 INFO  TimeLogger - Raw time per run (mSec):  .53
+2022-08-09 14:56:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:32 INFO  TimeLogger - Raw time per run (mSec):  1.42
+2022-08-09 14:56:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:32 INFO  TimeLogger - Raw time per run (mSec):  3.84
+2022-08-09 14:56:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:33 INFO  TimeLogger - Raw time per run (mSec):  5.23
+2022-08-09 14:56:39 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 14:56:39 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 14:56:39 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 14:56:39 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 14:56:39 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 14:56:39 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 14:56:39 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 14:56:39 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 14:56:39 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 14:56:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:39 INFO  TimeLogger - Raw time per run (mSec):  .10
+2022-08-09 14:56:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:39 INFO  TimeLogger - Raw time per run (mSec):  .08
+2022-08-09 14:56:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:39 INFO  TimeLogger - Raw time per run (mSec):  .08
+2022-08-09 14:56:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:39 INFO  TimeLogger - Raw time per run (mSec):  .20
+2022-08-09 14:56:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:39 INFO  TimeLogger - Raw time per run (mSec):  1.37
+2022-08-09 14:56:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:40 INFO  TimeLogger - Raw time per run (mSec):  1.44
+2022-08-09 14:56:40 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:40 INFO  TimeLogger - Raw time per run (mSec):  2.40
+2022-08-09 14:56:40 INFO  Benchmark - Begin run: Shell Sort (Random) with 100 runs
+2022-08-09 14:56:40 INFO  TimeLogger - Raw time per run (mSec):  4.80
+2022-08-09 16:22:54 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 16:22:54 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 16:22:54 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 16:22:54 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 16:22:54 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 16:22:54 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 16:22:54 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 16:22:54 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 16:22:54 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 16:22:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:54 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:22:54 INFO  GenericBenchmark - Total Hits: 200
+2022-08-09 16:22:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:54 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:22:54 INFO  GenericBenchmark - Total Hits: 630
+2022-08-09 16:22:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:54 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 16:22:54 INFO  GenericBenchmark - Total Hits: 1556
+2022-08-09 16:22:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:54 INFO  TimeLogger - Raw time per run (mSec):  .09
+2022-08-09 16:22:54 INFO  GenericBenchmark - Total Hits: 4880
+2022-08-09 16:22:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:54 INFO  TimeLogger - Raw time per run (mSec):  .17
+2022-08-09 16:22:54 INFO  GenericBenchmark - Total Hits: 11172
+2022-08-09 16:22:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:54 INFO  TimeLogger - Raw time per run (mSec):  .04
+2022-08-09 16:22:54 INFO  GenericBenchmark - Total Hits: 27450
+2022-08-09 16:22:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:54 INFO  TimeLogger - Raw time per run (mSec):  .06
+2022-08-09 16:22:54 INFO  GenericBenchmark - Total Hits: 62378
+2022-08-09 16:22:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:55 INFO  TimeLogger - Raw time per run (mSec):  .17
+2022-08-09 16:22:55 INFO  GenericBenchmark - Total Hits: 149048
+2022-08-09 16:22:55 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:55 INFO  TimeLogger - Raw time per run (mSec):  .32
+2022-08-09 16:22:55 INFO  GenericBenchmark - Total Hits: 366284
+2022-08-09 16:22:55 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:56 INFO  TimeLogger - Raw time per run (mSec):  .75
+2022-08-09 16:22:56 INFO  GenericBenchmark - Total Hits: 930082
+2022-08-09 16:22:56 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:22:56 INFO  TimeLogger - Raw time per run (mSec):  .73
+2022-08-09 16:22:56 INFO  GenericBenchmark - Total Hits: 2037154
+2022-08-09 16:40:12 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 16:40:12 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 16:40:12 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 16:40:12 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 16:40:12 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 16:40:12 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 16:40:12 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 16:40:12 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 16:40:12 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 236
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 648
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 1938
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 4386
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 10712
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .12
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 26208
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .14
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 68828
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .09
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 166166
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:12 INFO  TimeLogger - Raw time per run (mSec):  .29
+2022-08-09 16:40:12 INFO  GenericBenchmark - Total Hits: 369626
+2022-08-09 16:40:12 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:13 INFO  TimeLogger - Raw time per run (mSec):  .74
+2022-08-09 16:40:13 INFO  GenericBenchmark - Total Hits: 882272
+2022-08-09 16:40:13 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:14 INFO  TimeLogger - Raw time per run (mSec):  .77
+2022-08-09 16:40:14 INFO  GenericBenchmark - Total Hits: 2097738
+2022-08-09 16:40:20 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 16:40:20 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 16:40:20 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 16:40:20 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 16:40:20 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 16:40:20 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 16:40:20 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 16:40:20 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 16:40:20 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 226
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 716
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 1774
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 4390
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 10224
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 25792
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .06
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 66800
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .08
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 141314
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:20 INFO  TimeLogger - Raw time per run (mSec):  .11
+2022-08-09 16:40:20 INFO  GenericBenchmark - Total Hits: 369972
+2022-08-09 16:40:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:21 INFO  TimeLogger - Raw time per run (mSec):  .45
+2022-08-09 16:40:21 INFO  GenericBenchmark - Total Hits: 900478
+2022-08-09 16:40:21 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 16:40:21 INFO  TimeLogger - Raw time per run (mSec):  .65
+2022-08-09 16:40:21 INFO  GenericBenchmark - Total Hits: 1986646
+2022-08-09 16:40:41 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 16:40:41 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 16:40:41 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 16:40:41 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 16:40:41 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 16:40:41 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 16:40:41 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 16:40:41 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 16:40:41 DEBUG Config - Config.get(helper, cutoff) = 0
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 16:40:41 INFO  GenericBenchmark - Total Hits: 376
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:40:41 INFO  GenericBenchmark - Total Hits: 1448
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:40:41 INFO  GenericBenchmark - Total Hits: 6122
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .01
+2022-08-09 16:40:41 INFO  GenericBenchmark - Total Hits: 24300
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 16:40:41 INFO  GenericBenchmark - Total Hits: 96374
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:40:41 INFO  GenericBenchmark - Total Hits: 392478
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .00
+2022-08-09 16:40:41 INFO  GenericBenchmark - Total Hits: 1562506
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .02
+2022-08-09 16:40:41 INFO  GenericBenchmark - Total Hits: 6277748
+2022-08-09 16:40:41 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:41 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 16:40:42 INFO  GenericBenchmark - Total Hits: 25199960
+2022-08-09 16:40:42 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:42 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 16:40:42 INFO  GenericBenchmark - Total Hits: 100522626
+2022-08-09 16:40:42 INFO  Benchmark - Begin run: Bubble Sort (Random) with 1,000 runs
+2022-08-09 16:40:43 INFO  TimeLogger - Raw time per run (mSec):  .06
+2022-08-09 16:40:45 INFO  GenericBenchmark - Total Hits: 402159088

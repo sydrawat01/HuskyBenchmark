@@ -2,7 +2,7 @@
 *.class
 
 # Log file
-*.log
+#*.log
 
 # BlueJ files
 *.ctxt
@@ -28,7 +28,7 @@ target/
 /HuskyBenchmark.iml
 temp/
 
-logs/
+#logs/
 
 ExtendedHelper/
 /api/

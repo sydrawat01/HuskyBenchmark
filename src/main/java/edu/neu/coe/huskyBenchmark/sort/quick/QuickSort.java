@@ -93,7 +93,7 @@ public abstract class QuickSort<X extends Comparable<X>> extends SortWithHelper<
      */
     protected boolean terminator(X[] xs, int from, int to, int depth) {
         @SuppressWarnings("UnnecessaryLocalVariable") int lo = from;
-        if (to <= lo + getHelper().getCutoff()) {
+        if (to <= lo + getHelper().cutoff()) {
             insertionSort.sort(xs, from, to);
             return true;
         }

@@ -58,7 +58,7 @@ public class MergeSortBenchmark {
 
     public static void main(String[] args) throws IOException {
         int runs = 100;
-        for (int i=7; i<15; i++) {
+        for (int i=7; i<19; i++) {
             int n = (int) Math.pow(2, i);
             new MergeSortBenchmark(n, runs).getStats(n);
         }

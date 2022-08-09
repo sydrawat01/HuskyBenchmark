@@ -17,30 +17,6 @@ public class ShellSortBenchMark {
     }
 
 
-
-    private void calculateCompares(int n,int h) throws IOException {
-        final Config config = Config.load(getClass());
-        ComparisonSortHelper<Integer> helper = HelperFactory.create("ShellSort", n, config);
-        helper.init(n);
-
-        Integer[] xs = helper.random(Integer.class, r -> r.nextInt(1000000));
-        Arrays.sort(xs, Collections.reverseOrder());
-        // Arrays.sort(xs,0,xs.length);
-        // run timing benchmarking
-        runBenchmarks(n, runs, xs);
-        // finish timing benchmarking
-        helper.preProcess(xs);
-        SortWithHelper<Integer> sorter = new ShellSort<Integer>(h, helper);
-        sorter.preProcess(xs);
-        Integer[] ys = sorter.sort(xs);
-        sorter.postProcess(ys);
-        StatPack statPack = helper.getInstrumenter().getStatPack();
-        int hits = (int) statPack.getStatistics(Instrumenter.HITS).mean();
-        int compares = (int) statPack.getStatistics(Instrumenter.COMPARES).mean();
-        System.out.println("Hits for random " + n + " Array Size: " + hits);
-        System.out.println("Compares for random " + n + " Array Size: " + compares);
-
-    }
         private void getStats(int n,int h,int value) throws IOException {
         final Config config = Config.load(getClass());
         ComparisonSortHelper<Integer> helper = HelperFactory.create("ShellSort", n, config);

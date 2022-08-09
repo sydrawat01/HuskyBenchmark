@@ -104,7 +104,8 @@ public class ShellSort<X extends Comparable<X>> extends SortWithHelper<X> {
                     while (h <= N / 3) h = h * 3 + 1;
                     break;
                 default:
-                    throw new RuntimeException("invalid m value: " + m);
+                   h=m;
+
             }
         }
 
@@ -138,7 +139,8 @@ public class ShellSort<X extends Comparable<X>> extends SortWithHelper<X> {
                         h = h / 3;
                         return h;
                     default:
-                        throw new RuntimeException("invalid m value: " + m);
+                        h = h / 3;
+                        return h;
                 }
             } else {
                 started = true;

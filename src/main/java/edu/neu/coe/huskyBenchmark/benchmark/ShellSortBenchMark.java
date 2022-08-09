@@ -103,10 +103,10 @@ public class ShellSortBenchMark {
 
     public static void main(String[] args) throws IOException {
         int runs = 1000;
-//        for (int i=7; i<15; i++) {
-//            int n = (int) Math.pow(2, i);
-//            new ShellSortBenchMark(n, runs).getStats(n);
-//        }
+        for (int i=7; i<15; i++) {
+            int n = (int) Math.pow(2, i);
+            new ShellSortBenchMark(n, runs).getStats(n,3,3);git
+        }
 
         int n=5000;
         while(n<=30000)

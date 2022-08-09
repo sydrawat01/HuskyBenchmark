@@ -105,7 +105,7 @@ public class ShellSortBenchMark {
         int runs = 1000;
         for (int i=7; i<15; i++) {
             int n = (int) Math.pow(2, i);
-            new ShellSortBenchMark(n, runs).getStats(n,3,3);git
+            new ShellSortBenchMark(n, runs).getStats(n,3,3);
         }
 
         int n=5000;

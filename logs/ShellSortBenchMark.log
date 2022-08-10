@@ -1,0 +1,300 @@
+/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54080:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/sumeetsunildeshpande/PSA_Project/HuskyBenchmark/target/classes:/Users/sumeetsunildeshpande/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/sumeetsunildeshpande/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sumeetsunildeshpande/.m2/repository/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar:/Users/sumeetsunildeshpande/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/sumeetsunildeshpande/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar edu.neu.coe.huskyBenchmark.benchmark.ShellSortBenchMark
+2022-08-09 17:06:35 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 17:06:35 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 17:06:35 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 17:06:35 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 17:06:35 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 17:06:35 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 17:06:35 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 17:06:35 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 17:06:35 DEBUG Config - Config.get(helper, cutoff) = 0
+ShellSort Benchmark: N=5000
+============================================================
+2022-08-09 17:06:35 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:36 INFO  TimeLogger - Raw time per run (mSec):  .73
+Hits for Random 5000 Array Size and Gap is 1:37621392
+Compares for Random 5000 Array Size and Gap is 1:6273560
+ShellSort Benchmark: N=5000
+============================================================
+2022-08-09 17:06:36 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:37 INFO  TimeLogger - Raw time per run (mSec):  .70
+Hits for Random 5000 Array Size and Gap is 4:9940434
+Compares for Random 5000 Array Size and Gap is 4:1663385
+ShellSort Benchmark: N=5000
+============================================================
+2022-08-09 17:06:37 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:38 INFO  TimeLogger - Raw time per run (mSec):  .70
+Hits for Random 5000 Array Size and Gap is 13:3448128
+Compares for Random 5000 Array Size and Gap is 13:584636
+ShellSort Benchmark: N=5000
+============================================================
+2022-08-09 17:06:38 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:39 INFO  TimeLogger - Raw time per run (mSec):  .71
+Hits for Random 5000 Array Size and Gap is 40:1328160
+Compares for Random 5000 Array Size and Gap is 40:234546
+ShellSort Benchmark: N=5000
+============================================================
+2022-08-09 17:06:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:39 INFO  TimeLogger - Raw time per run (mSec):  .71
+Hits for Random 5000 Array Size and Gap is 121:692958
+Compares for Random 5000 Array Size and Gap is 121:131735
+ShellSort Benchmark: N=5000
+============================================================
+2022-08-09 17:06:39 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:40 INFO  TimeLogger - Raw time per run (mSec):  .73
+Hits for Random 5000 Array Size and Gap is 364:515280
+Compares for Random 5000 Array Size and Gap is 364:104868
+ShellSort Benchmark: N=5000
+============================================================
+2022-08-09 17:06:40 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:41 INFO  TimeLogger - Raw time per run (mSec):  .73
+Hits for Random 5000 Array Size and Gap is 1093:504200
+Compares for Random 5000 Array Size and Gap is 1093:105042
+ShellSort Benchmark: N=5000
+============================================================
+2022-08-09 17:06:41 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:41 INFO  TimeLogger - Raw time per run (mSec):  .71
+Hits for Random 5000 Array Size and Gap is 3280:479728
+Compares for Random 5000 Array Size and Gap is 3280:101896
+ShellSort Benchmark: N=10000
+============================================================
+2022-08-09 17:06:41 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:43 INFO  TimeLogger - Raw time per run (mSec):  1.69
+Hits for Random 10000 Array Size and Gap is 1:147725712
+Compares for Random 10000 Array Size and Gap is 1:24627616
+ShellSort Benchmark: N=10000
+============================================================
+2022-08-09 17:06:43 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:45 INFO  TimeLogger - Raw time per run (mSec):  1.64
+Hits for Random 10000 Array Size and Gap is 4:39213440
+Compares for Random 10000 Array Size and Gap is 4:6548882
+ShellSort Benchmark: N=10000
+============================================================
+2022-08-09 17:06:45 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:47 INFO  TimeLogger - Raw time per run (mSec):  1.68
+Hits for Random 10000 Array Size and Gap is 13:12717290
+Compares for Random 10000 Array Size and Gap is 13:2139477
+ShellSort Benchmark: N=10000
+============================================================
+2022-08-09 17:06:47 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:48 INFO  TimeLogger - Raw time per run (mSec):  1.68
+Hits for Random 10000 Array Size and Gap is 40:4778638
+Compares for Random 10000 Array Size and Gap is 40:822933
+ShellSort Benchmark: N=10000
+============================================================
+2022-08-09 17:06:48 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:50 INFO  TimeLogger - Raw time per run (mSec):  1.65
+Hits for Random 10000 Array Size and Gap is 121:2188876
+Compares for Random 10000 Array Size and Gap is 121:397670
+ShellSort Benchmark: N=10000
+============================================================
+2022-08-09 17:06:50 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:52 INFO  TimeLogger - Raw time per run (mSec):  1.65
+Hits for Random 10000 Array Size and Gap is 364:1474688
+Compares for Random 10000 Array Size and Gap is 364:284586
+ShellSort Benchmark: N=10000
+============================================================
+2022-08-09 17:06:52 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:54 INFO  TimeLogger - Raw time per run (mSec):  1.67
+Hits for Random 10000 Array Size and Gap is 1093:1168672
+Compares for Random 10000 Array Size and Gap is 1093:238656
+ShellSort Benchmark: N=10000
+============================================================
+2022-08-09 17:06:54 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:55 INFO  TimeLogger - Raw time per run (mSec):  1.71
+Hits for Random 10000 Array Size and Gap is 3280:1184372
+Compares for Random 10000 Array Size and Gap is 3280:244578
+ShellSort Benchmark: N=15000
+============================================================
+2022-08-09 17:06:55 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:06:58 INFO  TimeLogger - Raw time per run (mSec):  2.74
+Hits for Random 15000 Array Size and Gap is 1:336042754
+Compares for Random 15000 Array Size and Gap is 1:56017117
+ShellSort Benchmark: N=15000
+============================================================
+2022-08-09 17:06:58 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:01 INFO  TimeLogger - Raw time per run (mSec):  2.73
+Hits for Random 15000 Array Size and Gap is 4:88917466
+Compares for Random 15000 Array Size and Gap is 4:14839555
+ShellSort Benchmark: N=15000
+============================================================
+2022-08-09 17:07:01 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:04 INFO  TimeLogger - Raw time per run (mSec):  2.84
+Hits for Random 15000 Array Size and Gap is 13:27842684
+Compares for Random 15000 Array Size and Gap is 13:4670372
+ShellSort Benchmark: N=15000
+============================================================
+2022-08-09 17:07:04 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:07 INFO  TimeLogger - Raw time per run (mSec):  2.75
+Hits for Random 15000 Array Size and Gap is 40:10167102
+Compares for Random 15000 Array Size and Gap is 40:1734309
+ShellSort Benchmark: N=15000
+============================================================
+2022-08-09 17:07:07 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:10 INFO  TimeLogger - Raw time per run (mSec):  2.81
+Hits for Random 15000 Array Size and Gap is 121:4353500
+Compares for Random 15000 Array Size and Gap is 121:775092
+ShellSort Benchmark: N=15000
+============================================================
+2022-08-09 17:07:10 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:13 INFO  TimeLogger - Raw time per run (mSec):  2.82
+Hits for Random 15000 Array Size and Gap is 364:2557940
+Compares for Random 15000 Array Size and Gap is 364:485038
+ShellSort Benchmark: N=15000
+============================================================
+2022-08-09 17:07:13 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:16 INFO  TimeLogger - Raw time per run (mSec):  2.80
+Hits for Random 15000 Array Size and Gap is 1093:2178510
+Compares for Random 15000 Array Size and Gap is 1093:429945
+ShellSort Benchmark: N=15000
+============================================================
+2022-08-09 17:07:16 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:18 INFO  TimeLogger - Raw time per run (mSec):  2.85
+Hits for Random 15000 Array Size and Gap is 3280:1886570
+Compares for Random 15000 Array Size and Gap is 3280:387519
+ShellSort Benchmark: N=20000
+============================================================
+2022-08-09 17:07:19 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:23 INFO  TimeLogger - Raw time per run (mSec):  4.24
+Hits for Random 20000 Array Size and Gap is 1:601261900
+Compares for Random 20000 Array Size and Gap is 1:100223644
+ShellSort Benchmark: N=20000
+============================================================
+2022-08-09 17:07:23 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:27 INFO  TimeLogger - Raw time per run (mSec):  3.97
+Hits for Random 20000 Array Size and Gap is 4:154126634
+Compares for Random 20000 Array Size and Gap is 4:25714413
+ShellSort Benchmark: N=20000
+============================================================
+2022-08-09 17:07:28 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:32 INFO  TimeLogger - Raw time per run (mSec):  4.04
+Hits for Random 20000 Array Size and Gap is 13:50283144
+Compares for Random 20000 Array Size and Gap is 13:8420446
+ShellSort Benchmark: N=20000
+============================================================
+2022-08-09 17:07:32 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:36 INFO  TimeLogger - Raw time per run (mSec):  3.98
+Hits for Random 20000 Array Size and Gap is 40:17524146
+Compares for Random 20000 Array Size and Gap is 40:2973827
+ShellSort Benchmark: N=20000
+============================================================
+2022-08-09 17:07:36 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:40 INFO  TimeLogger - Raw time per run (mSec):  4.08
+Hits for Random 20000 Array Size and Gap is 121:7275450
+Compares for Random 20000 Array Size and Gap is 121:1278703
+ShellSort Benchmark: N=20000
+============================================================
+2022-08-09 17:07:40 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:44 INFO  TimeLogger - Raw time per run (mSec):  4.09
+Hits for Random 20000 Array Size and Gap is 364:3946120
+Compares for Random 20000 Array Size and Gap is 364:736322
+ShellSort Benchmark: N=20000
+============================================================
+2022-08-09 17:07:44 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:48 INFO  TimeLogger - Raw time per run (mSec):  4.00
+Hits for Random 20000 Array Size and Gap is 1093:2984326
+Compares for Random 20000 Array Size and Gap is 1093:587467
+ShellSort Benchmark: N=20000
+============================================================
+2022-08-09 17:07:48 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:52 INFO  TimeLogger - Raw time per run (mSec):  3.94
+Hits for Random 20000 Array Size and Gap is 3280:2583810
+Compares for Random 20000 Array Size and Gap is 3280:529751
+ShellSort Benchmark: N=25000
+============================================================
+2022-08-09 17:07:52 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:07:58 INFO  TimeLogger - Raw time per run (mSec):  5.32
+Hits for Random 25000 Array Size and Gap is 1:939884414
+Compares for Random 25000 Array Size and Gap is 1:156664063
+ShellSort Benchmark: N=25000
+============================================================
+2022-08-09 17:07:59 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:04 INFO  TimeLogger - Raw time per run (mSec):  5.24
+Hits for Random 25000 Array Size and Gap is 4:244981410
+Compares for Random 25000 Array Size and Gap is 4:40863541
+ShellSort Benchmark: N=25000
+============================================================
+2022-08-09 17:08:04 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:09 INFO  TimeLogger - Raw time per run (mSec):  5.19
+Hits for Random 25000 Array Size and Gap is 13:76372730
+Compares for Random 25000 Array Size and Gap is 13:12778699
+ShellSort Benchmark: N=25000
+============================================================
+2022-08-09 17:08:10 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:15 INFO  TimeLogger - Raw time per run (mSec):  5.12
+Hits for Random 25000 Array Size and Gap is 40:26876338
+Compares for Random 25000 Array Size and Gap is 40:4545871
+ShellSort Benchmark: N=25000
+============================================================
+2022-08-09 17:08:15 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:20 INFO  TimeLogger - Raw time per run (mSec):  5.31
+Hits for Random 25000 Array Size and Gap is 121:10682810
+Compares for Random 25000 Array Size and Gap is 121:1863261
+ShellSort Benchmark: N=25000
+============================================================
+2022-08-09 17:08:20 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:25 INFO  TimeLogger - Raw time per run (mSec):  5.09
+Hits for Random 25000 Array Size and Gap is 364:5705944
+Compares for Random 25000 Array Size and Gap is 364:1049604
+ShellSort Benchmark: N=25000
+============================================================
+2022-08-09 17:08:25 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:31 INFO  TimeLogger - Raw time per run (mSec):  5.28
+Hits for Random 25000 Array Size and Gap is 1093:4014444
+Compares for Random 25000 Array Size and Gap is 1093:782282
+ShellSort Benchmark: N=25000
+============================================================
+2022-08-09 17:08:31 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:36 INFO  TimeLogger - Raw time per run (mSec):  5.23
+Hits for Random 25000 Array Size and Gap is 3280:3541344
+Compares for Random 25000 Array Size and Gap is 3280:715562
+ShellSort Benchmark: N=30000
+============================================================
+2022-08-09 17:08:36 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:42 INFO  TimeLogger - Raw time per run (mSec):  6.40
+Hits for Random 30000 Array Size and Gap is 1:1346279278
+Compares for Random 30000 Array Size and Gap is 1:224399873
+ShellSort Benchmark: N=30000
+============================================================
+2022-08-09 17:08:44 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:51 INFO  TimeLogger - Raw time per run (mSec):  6.49
+Hits for Random 30000 Array Size and Gap is 4:345299750
+Compares for Random 30000 Array Size and Gap is 4:57589929
+ShellSort Benchmark: N=30000
+============================================================
+2022-08-09 17:08:51 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:08:57 INFO  TimeLogger - Raw time per run (mSec):  6.48
+Hits for Random 30000 Array Size and Gap is 13:109811588
+Compares for Random 30000 Array Size and Gap is 13:18361852
+ShellSort Benchmark: N=30000
+============================================================
+2022-08-09 17:08:58 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:09:04 INFO  TimeLogger - Raw time per run (mSec):  6.51
+Hits for Random 30000 Array Size and Gap is 40:38370050
+Compares for Random 30000 Array Size and Gap is 40:6474799
+ShellSort Benchmark: N=30000
+============================================================
+2022-08-09 17:09:04 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:09:11 INFO  TimeLogger - Raw time per run (mSec):  6.50
+Hits for Random 30000 Array Size and Gap is 121:14870694
+Compares for Random 30000 Array Size and Gap is 121:2577899
+ShellSort Benchmark: N=30000
+============================================================
+2022-08-09 17:09:11 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:09:18 INFO  TimeLogger - Raw time per run (mSec):  6.78
+Hits for Random 30000 Array Size and Gap is 364:7899254
+Compares for Random 30000 Array Size and Gap is 364:1435103
+ShellSort Benchmark: N=30000
+============================================================
+2022-08-09 17:09:18 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:09:24 INFO  TimeLogger - Raw time per run (mSec):  6.70
+Hits for Random 30000 Array Size and Gap is 1093:5596674
+Compares for Random 30000 Array Size and Gap is 1093:1069223
+ShellSort Benchmark: N=30000
+============================================================
+2022-08-09 17:09:24 INFO  Benchmark - Begin run: Shell Sort (Random) with 1,000 runs
+2022-08-09 17:09:31 INFO  TimeLogger - Raw time per run (mSec):  6.57
+Hits for Random 30000 Array Size and Gap is 3280:4501166
+Compares for Random 30000 Array Size and Gap is 3280:901767
+
+Process finished with exit code 0

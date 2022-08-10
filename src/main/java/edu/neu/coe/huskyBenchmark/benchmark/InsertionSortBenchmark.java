@@ -56,8 +56,8 @@ public class InsertionSortBenchmark {
     };
 
     public static void main(String[] args) throws IOException {
-        int runs = 100;
-        for (int i=7; i<15; i++) {
+        int runs = 1000;
+        for (int i=7; i<16; i++) {
             int N = (int) Utilities.power2(i);
             new InsertionSortBenchmark(N, runs).getStats();
         }

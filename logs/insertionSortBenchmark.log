@@ -1,52 +1,66 @@
-/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50529:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/sid/Documents/nerd-stuff/HuskyBenchmark/target/classes:/Users/sid/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/sid/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sid/.m2/repository/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar:/Users/sid/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar edu.neu.coe.huskyBenchmark.benchmark.InsertionSortBenchmark
-2022-07-27 20:58:29 DEBUG Config - Config.get(helper, instrument) = true
-2022-07-27 20:58:29 DEBUG Config - Config.get(helper, seed) = null
-2022-07-27 20:58:29 DEBUG Config - Config.get(instrumenting, copies) = false
-2022-07-27 20:58:29 DEBUG Config - Config.get(instrumenting, swaps) = true
-2022-07-27 20:58:29 DEBUG Config - Config.get(instrumenting, compares) = true
-2022-07-27 20:58:29 DEBUG Config - Config.get(instrumenting, inversions) = 0
-2022-07-27 20:58:29 DEBUG Config - Config.get(instrumenting, fixes) = false
-2022-07-27 20:58:29 DEBUG Config - Config.get(instrumenting, hits) = true
-2022-07-27 20:58:29 DEBUG Config - Config.get(helper, cutoff) = null
+/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54708:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/sumeetsunildeshpande/PSA_Project/HuskyBenchmark/target/classes:/Users/sumeetsunildeshpande/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/sumeetsunildeshpande/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sumeetsunildeshpande/.m2/repository/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar:/Users/sumeetsunildeshpande/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/sumeetsunildeshpande/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar edu.neu.coe.huskyBenchmark.benchmark.InsertionSortBenchmark
+2022-08-09 19:28:55 DEBUG Config - Config.get(helper, instrument) = true
+2022-08-09 19:28:55 DEBUG Config - Config.get(helper, seed) = null
+2022-08-09 19:28:55 DEBUG Config - Config.get(instrumenting, copies) = false
+2022-08-09 19:28:55 DEBUG Config - Config.get(instrumenting, swaps) = true
+2022-08-09 19:28:55 DEBUG Config - Config.get(instrumenting, compares) = true
+2022-08-09 19:28:55 DEBUG Config - Config.get(instrumenting, inversions) = 0
+2022-08-09 19:28:55 DEBUG Config - Config.get(instrumenting, fixes) = false
+2022-08-09 19:28:55 DEBUG Config - Config.get(instrumenting, hits) = true
+2022-08-09 19:28:55 DEBUG Config - Config.get(helper, cutoff) = 0
+============================================================
 InsertionSort Benchmark: N=128
 ============================================================
-2022-07-27 20:58:29 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
-2022-07-27 20:58:29 INFO  TimeLogger - Raw time per run (mSec):  .23
-Hits: 15892
+2022-08-09 19:28:55 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:28:55 INFO  TimeLogger - Raw time per run (mSec):  .03
+2022-08-09 19:28:55 INFO  InsertionSortBenchmark - Total Hits: 16848
+============================================================
 InsertionSort Benchmark: N=256
 ============================================================
-2022-07-27 20:58:29 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
-2022-07-27 20:58:29 INFO  TimeLogger - Raw time per run (mSec):  .14
-Hits: 67348
+2022-08-09 19:28:55 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:28:55 INFO  TimeLogger - Raw time per run (mSec):  .06
+2022-08-09 19:28:55 INFO  InsertionSortBenchmark - Total Hits: 68910
+============================================================
 InsertionSort Benchmark: N=512
 ============================================================
-2022-07-27 20:58:29 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
-2022-07-27 20:58:30 INFO  TimeLogger - Raw time per run (mSec):  1.33
-Hits: 272594
+2022-08-09 19:28:55 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:28:56 INFO  TimeLogger - Raw time per run (mSec):  .22
+2022-08-09 19:28:56 INFO  InsertionSortBenchmark - Total Hits: 260288
+============================================================
 InsertionSort Benchmark: N=1024
 ============================================================
-2022-07-27 20:58:30 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
-2022-07-27 20:58:30 INFO  TimeLogger - Raw time per run (mSec):  2.80
-Hits: 1034320
+2022-08-09 19:28:56 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:28:57 INFO  TimeLogger - Raw time per run (mSec):  .90
+2022-08-09 19:28:57 INFO  InsertionSortBenchmark - Total Hits: 1046364
+============================================================
 InsertionSort Benchmark: N=2048
 ============================================================
-2022-07-27 20:58:30 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
-2022-07-27 20:58:31 INFO  TimeLogger - Raw time per run (mSec):  13.88
-Hits: 4198528
+2022-08-09 19:28:57 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:29:01 INFO  TimeLogger - Raw time per run (mSec):  4.30
+2022-08-09 19:29:01 INFO  InsertionSortBenchmark - Total Hits: 4135626
+============================================================
 InsertionSort Benchmark: N=4096
 ============================================================
-2022-07-27 20:58:32 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
-2022-07-27 20:58:34 INFO  TimeLogger - Raw time per run (mSec):  23.67
-Hits: 16816458
+2022-08-09 19:29:01 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:29:18 INFO  TimeLogger - Raw time per run (mSec):  16.38
+2022-08-09 19:29:18 INFO  InsertionSortBenchmark - Total Hits: 16895392
+============================================================
 InsertionSort Benchmark: N=8192
 ============================================================
-2022-07-27 20:58:34 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
-2022-07-27 20:58:46 INFO  TimeLogger - Raw time per run (mSec):  102.47
-Hits: 66904842
+2022-08-09 19:29:18 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:30:23 INFO  TimeLogger - Raw time per run (mSec):  64.61
+2022-08-09 19:30:23 INFO  InsertionSortBenchmark - Total Hits: 67388144
+============================================================
 InsertionSort Benchmark: N=16384
 ============================================================
-2022-07-27 20:58:46 INFO  Benchmark - Begin run: Insertion Sort (Random) with 100 runs
-2022-07-27 20:59:29 INFO  TimeLogger - Raw time per run (mSec):  396.88
-Hits: 269120148
+2022-08-09 19:30:23 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:34:41 INFO  TimeLogger - Raw time per run (mSec):  254.77
+2022-08-09 19:34:42 INFO  InsertionSortBenchmark - Total Hits: 267453436
+============================================================
+InsertionSort Benchmark: N=32768
+============================================================
+2022-08-09 19:34:42 INFO  Benchmark - Begin run: Insertion Sort (Random) with 1,000 runs
+2022-08-09 19:52:40 INFO  TimeLogger - Raw time per run (mSec):  1066.19
+2022-08-09 19:52:41 INFO  InsertionSortBenchmark - Total Hits: 1073606938
 
 Process finished with exit code 0

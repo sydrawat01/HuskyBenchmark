@@ -3,7 +3,7 @@
  */
 package edu.neu.coe.huskyBenchmark.util;
 
-import org.junit.Ignore;
+import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
 
@@ -13,8 +13,7 @@ public class BenchmarkTest {
     int run = 0;
     int post = 0;
 
-    // TODO figure out why this sometimes fails
-    @Ignore
+    @Test
     public void testWaitPeriods() throws Exception {
         int nRuns = 2;
         int warmups = 2;
@@ -48,8 +47,7 @@ public class BenchmarkTest {
         }
     }
 
-    // TODO figure out why this sometimes fails
-    @Ignore
+    @Test
     public void getWarmupRuns() {
         assertEquals(2, Benchmark.getWarmupRuns(0));
         assertEquals(2, Benchmark.getWarmupRuns(20));
